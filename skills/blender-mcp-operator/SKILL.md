@@ -1,56 +1,52 @@
 ---
 name: blender-mcp-operator
-description: Operate a bounded Blender MCP edit loop for staged Blender-to-Godot character production. Use when a task card authorizes one specific Blender MCP microtask and requires source backup, action logging, screenshots, validators, specialist review, QA audit, and human approval.
+description: Operate and validate one bounded Blender MCP microtask for a staged Blender-to-Godot character asset. Use when a ready task card authorizes a specific Blender edit, when source/backup/working copies must be protected, when MCP capabilities need preflight, or when screenshots, Blender reports, action logs, rollback evidence, specialist review, QA audit, and human approval must gate a Blender change.
 ---
 
 # Blender MCP Operator
 
-The Blender MCP Operator executes only bounded Blender edits. It does not choose broad creative direction, approve specialist domains, or skip validation gates.
+Execute only the Blender edit authorized by one ready task card. Do not choose creative direction, approve specialist domains, promote a working file over source, or advance a pipeline stage.
 
-## Use
+## Resolve Contracts
 
-Use this skill when:
-
-- A task card authorizes one Blender MCP microtask.
-- A source `.blend` needs a protected working copy before editing.
-- The user asks for MCP-controlled Blender edits.
-- An action log needs to be created or reviewed.
-- A Blender MCP change needs approval, rejection, or rollback evidence.
-
-## Inputs
+Find the nearest ancestor containing `AGENTS.md` and treat it as `project_root`. Stop if these repository-root-relative contracts are absent:
 
 - `docs/mcp/blender_mcp_usage_policy.md`
 - `templates/mcp_action_log.md`
 - `templates/stage_task_card.md`
-- `templates/review_report.md`
-- `templates/qa_audit_report.md`
-- `blender_scripts/screenshot_set.py`
-- `blender_scripts/scene_report.py`
-- `blender_scripts/mesh_report.py`
-- `blender_scripts/naming_report.py`
+- `validators/validate_stage_task_card.py`
+- `validators/validate_mcp_action_log.py`
 
-## Required Output
+Load `references/bounded_loop_rules.md` before any real MCP action.
 
-Produce or update a `templates/mcp_action_log.md`-compatible log with:
+## Execute the Loop
 
-- One microtask goal.
-- Source, backup, and working file paths.
-- Allowed and disallowed tools.
-- Every MCP command or tool action.
-- Screenshot and validator evidence.
-- Specialist review and QA audit links.
-- Final decision: `approved`, `rejected`, `rolled_back`, or `blocked`.
+1. Validate the task card. Require `status: ready`, one `mcp_microtask_id`, explicit target objects, allowed change types, acceptance tests, stop conditions, and execution authorization.
+2. Enumerate the connected Blender MCP server, version, exact tool names, and capabilities. Record required and available capabilities in the action log. Block when the server is absent, incompatible, or broader than the approved scope.
+3. Require an isolated workspace. Treat arbitrary Blender Python as disallowed unless the task card and action log record explicit approval.
+4. Run `scripts/prepare_working_copy.py` to create distinct backup and working `.blend` files plus a hash receipt. Open and edit only the working file.
+5. Execute one short MCP action burst against only the named targets and allowed change types. Record every tool call and result verbatim enough to reproduce the action.
+6. Capture the task-card-required views with `blender_scripts/screenshot_set.py`, naming the target collection or objects explicitly.
+7. Generate the required Blender JSON reports. Validate the task card, every Blender report, the screenshot manifest, and the final action log.
+8. Route evidence to the named specialist and `qa-audit`. Stop on scope drift, failed validation, missing evidence, or any hard failure.
+9. Record human approval, rejection, or rollback. Verify the source hash again. Never promote the working file automatically.
 
-## Operating Rules
+## Required Action-Log State
 
-- Execute one microtask per loop.
-- Copy source before modification.
-- Stop before destructive operations unless explicit approval is recorded.
-- Capture screenshots after structural change.
-- Run required validators before requesting approval.
-- If acceptance tests fail, mark the action log `rejected` or `rolled_back`.
-- If scope expands, mark the action log `blocked` and return to the Character Director.
+Use `templates/mcp_action_log.md`. For `real_mcp`, record:
 
-## First Workflow
+- Project root, Blender/MCP versions, connection state, capabilities, isolation, and Python approval state.
+- One microtask, target objects, allowed change types, and exact action trace.
+- Source, backup, working copy, protection receipt, and before/after hashes.
+- Screenshot manifest, Blender reports, validation reports, specialist review, and QA audit.
+- Source-unchanged verification, working-copy disposition, final decision, and human approval state.
 
-For `stylized_orc_bruiser`, use `references/bounded_loop_rules.md` and the example logs under `examples/stylized_orc_bruiser/mcp_logs/`.
+Use only `approved`, `rejected`, `rolled_back`, or `blocked` as final decisions. Example and dry-run approval never satisfies a live gate.
+
+## Stop Immediately
+
+- Stop when source, backup, and working paths are not distinct or hash verification fails.
+- Stop before deletion, merge, transform application, remesh, decimation, bake, export, or arbitrary Python unless explicitly authorized.
+- Stop when an MCP tool cannot be bounded to the named targets.
+- Stop when screenshots or validators fail, a specialist reports a hard failure, or scope expands.
+- Return scope changes to `character-director` as a new or revision task card.

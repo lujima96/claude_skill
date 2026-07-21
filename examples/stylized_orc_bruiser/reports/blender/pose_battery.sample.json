@@ -1,12 +1,15 @@
 {
   "metadata": {
     "asset_id": "stylized_orc_bruiser",
-    "created_at": "2026-07-21",
+    "created_at": "2026-07-21T00:00:00+00:00",
+    "blender_version": "sample_only",
     "read_only": true,
+    "source_read_only": true,
+    "writes_artifacts": true,
     "report_type": "pose_battery",
-    "script_version": "0.1.0",
+    "script_version": "0.2.0",
     "source_file": "examples/stylized_orc_bruiser/source/stylized_orc_bruiser_blockout.blend",
-    "stage_id": "manual_blockout"
+    "stage_id": "blockout"
   },
   "summary": {
     "armature_count": 0,

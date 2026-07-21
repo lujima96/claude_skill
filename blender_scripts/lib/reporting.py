@@ -9,12 +9,30 @@ from __future__ import annotations
 
 import argparse
 import json
-from datetime import date
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
 
-SCRIPT_VERSION = "0.1.0"
+SCRIPT_VERSION = "0.2.0"
+
+CANONICAL_STAGE_IDS = (
+    "concept_interpretation",
+    "reference_gathering",
+    "proportion_planning",
+    "blockout",
+    "primary_forms",
+    "secondary_anatomy",
+    "tertiary_detail",
+    "clothing_hardsurface_hair",
+    "retopology",
+    "uvs_and_baking",
+    "texturing_materials",
+    "rigging_skinning",
+    "deformation_testing",
+    "optimization_lods",
+    "export_godot_validation",
+)
 
 
 def build_parser(description: str) -> argparse.ArgumentParser:
@@ -33,8 +51,14 @@ def build_parser(description: str) -> argparse.ArgumentParser:
     )
     parser.add_argument(
         "--stage-id",
-        default="manual_blockout",
+        choices=CANONICAL_STAGE_IDS,
+        default="blockout",
         help="Pipeline stage ID to include in the report.",
+    )
+    parser.add_argument(
+        "--overwrite",
+        action="store_true",
+        help="Replace an existing report artifact. Refused by default.",
     )
     return parser
 
@@ -52,16 +76,25 @@ def base_report(
     asset_id: str,
     stage_id: str,
     source_file: str,
+    blender_version: str = "unknown",
+    source_read_only: bool = True,
+    writes_artifacts: bool = True,
 ) -> dict[str, Any]:
     return {
         "metadata": {
             "report_type": report_type,
             "asset_id": asset_id,
             "stage_id": stage_id,
-            "created_at": date.today().isoformat(),
+            "created_at": datetime.now(timezone.utc).isoformat(),
             "script_version": SCRIPT_VERSION,
+            "blender_version": blender_version,
             "source_file": source_file,
-            "read_only": True,
+            # Retain `read_only` for report-schema compatibility. It means the
+            # source .blend is not saved or overwritten, not that no evidence
+            # artifacts are written.
+            "read_only": source_read_only,
+            "source_read_only": source_read_only,
+            "writes_artifacts": writes_artifacts,
         },
         "summary": {},
         "warnings": [],
@@ -151,11 +184,18 @@ def render_markdown(report: dict[str, Any]) -> str:
     return "\n".join(lines) + "\n"
 
 
-def write_report(report: dict[str, Any], out: Path | None, output_format: str) -> None:
+def write_report(
+    report: dict[str, Any],
+    out: Path | None,
+    output_format: str,
+    *,
+    overwrite: bool = False,
+) -> None:
     rendered = render_markdown(report) if output_format == "markdown" else render_json(report)
     if out:
         out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(rendered, encoding="utf-8")
+        mode = "w" if overwrite else "x"
+        with out.open(mode, encoding="utf-8") as handle:
+            handle.write(rendered)
     else:
         print(rendered)
-

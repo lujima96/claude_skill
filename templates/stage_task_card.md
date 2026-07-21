@@ -60,6 +60,11 @@
 
 - `assigned_specialist`:
 - `microtasks`:
+- `mcp_microtask_id`: none unless Blender MCP is allowed
+- `target_objects`: none unless Blender MCP is allowed
+- `allowed_change_types`: none unless Blender MCP is allowed
+- `execution_authorized_by`: none until authorized
+- `execution_authorized_at`: none until authorized
 - `risks`:
 - `questions_for_director`:
 

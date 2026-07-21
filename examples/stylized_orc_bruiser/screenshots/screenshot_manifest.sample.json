@@ -1,37 +1,52 @@
 {
   "asset_id": "stylized_orc_bruiser",
-  "stage_id": "manual_blockout",
+  "manifest_version": "0.2.0",
+  "stage_id": "blockout",
   "source_file": "examples/stylized_orc_bruiser/source/stylized_orc_bruiser_blockout.blend",
+  "blender_version": "sample_only",
+  "target_collection": "CHARACTER",
+  "target_objects": ["CHR_OrcBruiser_Blockout_Body"],
+  "target_bounds": "not_measured",
   "screenshots": [
     {
       "view": "front",
-      "path": "screenshots/stylized_orc_bruiser_manual_blockout_front.png",
+      "path": "screenshots/stylized_orc_bruiser_blockout_front.png",
       "status": "planned",
-      "required_for_review": true
+      "required_for_review": true,
+      "width": 768,
+      "height": 768
     },
     {
       "view": "side",
-      "path": "screenshots/stylized_orc_bruiser_manual_blockout_side.png",
+      "path": "screenshots/stylized_orc_bruiser_blockout_side.png",
       "status": "planned",
-      "required_for_review": true
+      "required_for_review": true,
+      "width": 768,
+      "height": 768
     },
     {
       "view": "back",
-      "path": "screenshots/stylized_orc_bruiser_manual_blockout_back.png",
+      "path": "screenshots/stylized_orc_bruiser_blockout_back.png",
       "status": "planned",
-      "required_for_review": true
+      "required_for_review": true,
+      "width": 768,
+      "height": 768
     },
     {
       "view": "three_quarter",
-      "path": "screenshots/stylized_orc_bruiser_manual_blockout_three_quarter.png",
+      "path": "screenshots/stylized_orc_bruiser_blockout_three_quarter.png",
       "status": "planned",
-      "required_for_review": true
+      "required_for_review": true,
+      "width": 768,
+      "height": 768
     },
     {
       "view": "gameplay_distance",
-      "path": "screenshots/stylized_orc_bruiser_manual_blockout_gameplay_distance.png",
+      "path": "screenshots/stylized_orc_bruiser_blockout_gameplay_distance.png",
       "status": "planned",
-      "required_for_review": true
+      "required_for_review": true,
+      "width": 768,
+      "height": 768
     }
   ]
 }

@@ -11,6 +11,20 @@
 - `status`: draft | executed | approved | rejected | rolled_back | blocked
 - `execution_mode`: real_mcp | dry_run | example
 
+## Environment Preflight
+
+- `project_root`:
+- `blender_version`:
+- `mcp_server`:
+- `mcp_server_version`:
+- `connection_status`: ready | unavailable | incompatible
+- `required_capabilities`:
+- `available_capabilities`:
+- `capability_preflight`: pass | fail
+- `isolated_workspace_verified`: yes | no
+- `arbitrary_python_requested`: yes | no
+- `arbitrary_python_approved_by`:
+
 ## Scope
 
 - `task_card`:
@@ -20,13 +34,21 @@
 - `disallowed_tools`:
 - `acceptance_tests`:
 - `stop_conditions`:
+- `target_objects`:
+- `allowed_change_types`:
 
 ## Source Protection
 
 - `source_file`:
 - `backup_file`:
 - `working_file`:
+- `source_protection_receipt`:
 - `backup_verified`: yes | no
+- `source_sha256_before`:
+- `backup_sha256`:
+- `working_sha256_before`:
+- `source_sha256_after`:
+- `source_unchanged_verified`: yes | no
 - `destructive_operations_requested`: yes | no
 - `destructive_operations_approved_by`:
 - `destructive_operations_approved_at`:
@@ -52,6 +74,7 @@
 - `blocked_stage_progression`: yes | no
 - `rollback_required`: yes | no
 - `rollback_artifact`:
+- `working_copy_disposition`: retained_for_review | discarded | promoted_by_human | not_applicable
 - `decision`: approved | rejected | rolled_back | blocked
 - `decision_reason`:
 - `human_approval_required`: yes | no

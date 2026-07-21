@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blender MCP Operator"
+  short_description: "Run one protected, validated Blender MCP edit"
+  default_prompt: "Use $blender-mcp-operator to execute one task-card-authorized Blender edit with protected source files and validated evidence."

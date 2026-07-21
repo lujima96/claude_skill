@@ -15,7 +15,7 @@ The framework is intentionally not a one-shot character generator. It is built a
 - Phase 6: core document validators implemented.
 - Phase 7: read-only Blender script pack implemented.
 - Phase 8: topology and rigging review specialists implemented.
-- Phase 9: bounded Blender MCP loop policy, action logs, and validator implemented.
+- Phase 9: bounded Blender MCP loop policy, hash-verified working copies, capability preflight, action logs, and evidence validators implemented.
 - Phase 10: materials, UV/bake, optimization skills and readiness validators implemented.
 - Phase 11: Godot adapter contracts, import probe, review skill, and validator implemented.
 - Phase 12: full stylized biped workflow completion gate implemented; example remains blocked until real production artifacts exist.

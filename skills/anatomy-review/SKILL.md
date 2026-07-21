@@ -42,7 +42,7 @@ Produce a `templates/review_report.md`-compatible report with:
 - Judge anatomy relative to the chosen style, not realism alone.
 - Do not approve detail when primary or secondary forms are unresolved.
 - Treat shoulder, elbow, wrist, hip, knee, ankle, neck, jaw, mouth, and eyelid risks as future deformation risks.
-- Route topology-specific issues to Topology Assistant once that skill exists.
+- Route topology-specific issues to `topology-review`.
 - If the problem belongs to an earlier stage, ask the Character Director for a revision task.
 
 ## First Workflow

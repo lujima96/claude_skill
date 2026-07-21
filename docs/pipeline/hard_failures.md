@@ -13,6 +13,9 @@ Hard failures block progression regardless of weighted QA score. A hard failure 
 - A specialist reports a critical issue inside the current stage scope.
 - Human approval is required but absent.
 - The stage attempts to skip topology, rigging, deformation, or Godot validation.
+- Blender MCP execution starts without a validated ready task card, compatible capability preflight, isolated workspace, or verified source-protection receipt.
+- Blender MCP evidence claims screenshots or reports that are missing, invalid, or inconsistent with the protected working file.
+- A Blender MCP loop changes the source `.blend` or operates outside its named targets and allowed change types.
 
 ## Concept and Reference Hard Failures
 

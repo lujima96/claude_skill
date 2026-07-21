@@ -19,6 +19,7 @@ def collect_report(asset_id: str, stage_id: str) -> dict:
         asset_id=asset_id,
         stage_id=stage_id,
         source_file=source_file,
+        blender_version=bpy.app.version_string,
     )
     mesh_objects = [obj for obj in bpy.data.objects if obj.type == "MESH"]
     totals = {
@@ -75,7 +76,7 @@ def main() -> int:
     parser = build_parser(__doc__ or "")
     args = parser.parse_args(blender_args(sys.argv))
     report = collect_report(args.asset_id, args.stage_id)
-    write_report(report, args.out, args.format)
+    write_report(report, args.out, args.format, overwrite=args.overwrite)
     return 0 if not report["hard_failures"] else 1
 
 

@@ -95,10 +95,14 @@ Route work to the smallest relevant specialist:
 - Reference requirements: Reference Librarian.
 - Style-family constraints and silhouette consistency: Style Keeper.
 - Proportions, landmarks, construction, body logic: Anatomy Reviewer.
-- Edge flow, loops, poles, mesh density, bake readiness: Topology Assistant.
-- Skeleton, weights, influences, blend shapes, pose tests: Rigging Assistant.
-- Godot import package, scene structure, materials, textures, animation, preview scene: Engine Export Assistant.
-- Aggregated score and progression decision: Asset QA Auditor.
+- Edge flow, loops, poles, and mesh density: `topology-review`.
+- UV layout, padding, overlap, and bake readiness: `uv-bake-review`.
+- Material, texture, and Godot texture-path checks: `materials-review`.
+- Skeleton, weights, influences, blend shapes, and pose tests: `rigging-review`.
+- LOD, budget, and package completeness: `optimization-review`.
+- Godot import, scene structure, animation, and preview scene: `godot-export-review`.
+- One task-card-authorized Blender microtask: `blender-mcp-operator`.
+- Aggregated score and progression decision: `qa-audit`.
 
 If a required specialist does not exist yet, produce the task card and mark the specialist as `pending_implementation`.
 

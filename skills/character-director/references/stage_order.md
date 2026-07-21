@@ -12,13 +12,13 @@ This reference defines the Director's default routing for the first workflow: st
 | 6 | `secondary_anatomy` | Approved primary forms | Secondary-form sculpt and anatomy review | Anatomy Reviewer |
 | 7 | `tertiary_detail` | Approved secondary anatomy | High-resolution detail pass | Anatomy Reviewer, Style Keeper |
 | 8 | `clothing_hardsurface_hair` | Approved body forms, costume refs | Costume, gear, hair plan or sculpt | Style Keeper, Anatomy Reviewer |
-| 9 | `retopology` | Approved high-resolution sculpt | Deformation-ready game mesh | Topology Assistant |
-| 10 | `uvs_and_baking` | Final game mesh, high-resolution source | UVs and baked maps | Topology Assistant |
-| 11 | `texturing_materials` | UVs, bakes, material IDs | Texture sets and material definitions | Style Keeper |
-| 12 | `rigging_skinning` | Game mesh, skeleton spec, facial spec | Rigged and weighted character | Rigging Assistant |
-| 13 | `deformation_testing` | Rigged character, pose library | Deformation report and corrective list | Rigging Assistant |
-| 14 | `optimization_lods` | Approved LOD0, platform budgets | LOD chain or Godot scene-variant policy | Topology Assistant, Engine Export Assistant |
-| 15 | `export_godot_validation` | Export package, textures, animations | Godot import package and validation log | Engine Export Assistant |
+| 9 | `retopology` | Approved high-resolution sculpt | Deformation-ready game mesh | Topology Reviewer |
+| 10 | `uvs_and_baking` | Final game mesh, high-resolution source | UVs and baked maps | UV Bake Reviewer |
+| 11 | `texturing_materials` | UVs, bakes, material IDs | Texture sets and material definitions | Materials Reviewer |
+| 12 | `rigging_skinning` | Game mesh, skeleton spec, facial spec | Rigged and weighted character | Rigging Reviewer |
+| 13 | `deformation_testing` | Rigged character, pose library | Deformation report and corrective list | Rigging Reviewer |
+| 14 | `optimization_lods` | Approved LOD0, platform budgets | LOD chain or Godot scene-variant policy | Optimization Reviewer |
+| 15 | `export_godot_validation` | Export package, textures, animations | Godot import package and validation log | Godot Export Reviewer |
 
 ## Stage Selection
 

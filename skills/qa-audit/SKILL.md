@@ -34,7 +34,7 @@ Produce a `templates/qa_audit_report.md`-compatible report with:
 - Hard-failure summary.
 - Weighted score when enough scoreable evidence exists.
 - Diagnosis.
-- Decision: `approve_next_stage`, `revise_current_stage`, or `block_progression`.
+- Decision: `approve_next_stage`, `revise_current_stage`, `return_to_previous_stage`, or `block_progression`.
 
 ## Audit Rules
 

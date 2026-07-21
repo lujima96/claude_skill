@@ -58,7 +58,7 @@ Score bands:
 
 ## Decision
 
-- `decision`: approve_next_stage | revise_current_stage | block_progression
+- `decision`: approve_next_stage | revise_current_stage | return_to_previous_stage | block_progression
 - `decision_reason`:
 - `next_stage`:
 - `approval_required_from`:

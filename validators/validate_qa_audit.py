@@ -44,7 +44,7 @@ REQUIRED_FIELDS = [
     "approval_required_from",
 ]
 
-VALID_DECISIONS = {"approve_next_stage", "revise_current_stage", "block_progression"}
+VALID_DECISIONS = {"approve_next_stage", "revise_current_stage", "return_to_previous_stage", "block_progression"}
 VALID_SCORE_BANDS = {"ship_candidate", "targeted_revision", "structural_rework"}
 
 
@@ -93,7 +93,7 @@ def validate(path: Path, repo_root: Path) -> tuple[list[CheckResult], list[Check
                 "decision_blocks_hard_failures",
                 "Audits with hard failures cannot approve the next stage",
                 "hard failures are present but decision approves progression",
-                "Use `block_progression` or fix the hard failures.",
+                "Use `block_progression`, `return_to_previous_stage`, or fix the hard failures.",
             )
         )
 
@@ -218,4 +218,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

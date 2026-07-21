@@ -10,12 +10,18 @@ Blender MCP is allowed only after the pipeline has a task card, approval gate, s
 - Do not issue broad instructions such as "finish the character", "fix the model", "make it better", or "complete the rig".
 - Every microtask must have a task card, acceptance tests, and stop conditions before MCP execution.
 - Source `.blend` files must be copied before modification.
+- Source, backup, and working files must be distinct, hash-verified, and created without overwriting existing files.
+- Resolve the project root from `AGENTS.md` before loading contracts or evidence paths.
+- Record the Blender version, MCP server/version, exact tool names, required capabilities, and available capabilities before execution.
+- Block real MCP work when capability preflight fails or the workspace is not isolated.
 - Every meaningful structural change must be followed by screenshots.
 - Relevant validators must run before the next modeling pass.
 - Every MCP command, tool result, warning, and decision must be recorded in an action log.
 - Destructive operations require explicit human approval before execution.
 - If an MCP command changes scope, stop the loop and request Director review.
 - If reports or screenshots are missing, the loop cannot be approved.
+- Example or dry-run logs cannot satisfy a live approval gate.
+- Never promote a working file over source automatically; record human-controlled disposition separately.
 
 ## Allowed MCP Work
 
@@ -37,14 +43,15 @@ Blender MCP is allowed only after the pipeline has a task card, approval gate, s
 
 1. Character Director selects one microtask.
 2. Specialist defines acceptance tests and hard-failure checks.
-3. Source file is copied to a working file.
-4. Blender MCP executes a short edit burst.
-5. Screenshot set is captured.
-6. Required Blender reports and document validators run.
-7. Specialist reviews output.
-8. QA Auditor scores result.
-9. Human approves, rejects, or requests revision.
-10. Action log is closed with the final decision.
+3. MCP connection and capabilities pass preflight.
+4. Source, backup, and working files are created with a verified hash receipt.
+5. Blender MCP executes a short edit burst against named targets.
+6. Screenshot set is captured with a temporary review rig and restored scene state.
+7. Required Blender reports and document validators run.
+8. Specialist reviews output.
+9. QA Auditor scores result.
+10. Human approves, rejects, or requests revision.
+11. Source hash is rechecked and the action log is closed.
 
 ## Approval Rules
 

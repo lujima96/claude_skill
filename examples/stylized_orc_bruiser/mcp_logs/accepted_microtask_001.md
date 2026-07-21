@@ -11,6 +11,20 @@
 - `status`: approved
 - `execution_mode`: example
 
+## Environment Preflight
+
+- `project_root`: `.`
+- `blender_version`: example_only
+- `mcp_server`: example_server
+- `mcp_server_version`: example_only
+- `connection_status`: ready
+- `required_capabilities`: create_object; rename_object; save_working_file
+- `available_capabilities`: create_object; rename_object; save_working_file
+- `capability_preflight`: pass
+- `isolated_workspace_verified`: yes
+- `arbitrary_python_requested`: no
+- `arbitrary_python_approved_by`: none
+
 ## Scope
 
 - `task_card`: `task_cards/blockout_camera_marker.example.md`
@@ -20,13 +34,21 @@
 - `disallowed_tools`: sculpt edits; mesh merge; delete objects; apply transforms; retopology; rigging; export
 - `acceptance_tests`: marker exists; marker is not parented to character mesh; marker does not alter character geometry; screenshots and naming report exist
 - `stop_conditions`: stop if source backup is missing, marker creation affects character geometry, screenshots fail, or naming report fails
+- `target_objects`: review collection only
+- `allowed_change_types`: create one empty; rename that empty
 
 ## Source Protection
 
 - `source_file`: `source/stylized_orc_bruiser_blockout.blend`
 - `backup_file`: `source/backups/stylized_orc_bruiser_blockout.before_blockout-review-camera-marker-001.blend`
 - `working_file`: `source/working/stylized_orc_bruiser_blockout.blockout-review-camera-marker-001.blend`
+- `source_protection_receipt`: `source/working/blockout-review-camera-marker-001.protection.example.json`
 - `backup_verified`: yes
+- `source_sha256_before`: example_sha256
+- `backup_sha256`: example_sha256
+- `working_sha256_before`: example_sha256
+- `source_sha256_after`: example_sha256
+- `source_unchanged_verified`: yes
 - `destructive_operations_requested`: no
 - `destructive_operations_approved_by`: none
 - `destructive_operations_approved_at`: none
@@ -56,6 +78,7 @@
 - `blocked_stage_progression`: no
 - `rollback_required`: no
 - `rollback_artifact`: none
+- `working_copy_disposition`: retained_for_review
 - `decision`: approved
 - `decision_reason`: The microtask stayed in scope, preserved the source file, produced review screenshots, and added only the requested review marker.
 - `human_approval_required`: yes

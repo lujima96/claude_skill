@@ -7,10 +7,13 @@ Validators are intentionally local and dependency-free where possible. They chec
 ## Current Validators
 
 - `validate_stage_handoff.py`: required handoff fields, valid stage IDs, source/target stage consistency, hard-failure gate state, human-review warning.
+- `validate_stage_task_card.py`: required task-card fields, canonical stage consistency, and bounded Blender MCP scope/authorization.
 - `validate_review_report.py`: required review fields, valid review type, valid decision, findings table shape, hard-failure decision consistency.
 - `validate_qa_audit.py`: required audit fields, valid stage IDs, hard-failure decision consistency, weighted score math, total score, score band.
 - `validate_manifest.py`: required manifest fields, Godot/GLB target sanity, latest stage validity, hard-failure gate state, referenced path existence.
 - `validate_mcp_action_log.py`: required MCP log fields, bounded microtask wording, backup checks, screenshot/review evidence, destructive approval, hard-failure decision consistency.
+- `validate_blender_report.py`: Blender JSON report schema, source-read-only metadata, summary consistency, and expected asset/stage/source matching.
+- `validate_screenshot_manifest.py`: required views, real PNG files, dimensions, source working file, and captured-status consistency.
 - `validate_uv_bake_readiness.py`: UV presence, overlap policy, disallowed overlaps, texel density, padding, bake pairing, required maps, and bake artifacts.
 - `validate_texture_readiness.py`: material slot budget, material naming, texture set presence, texture naming and size, channel packing, missing textures, and Godot texture paths.
 - `validate_lod_readiness.py`: LOD count, LOD naming, LOD polycount budget, material and texture memory status, package completeness, and GLB/glTF presence.
@@ -27,6 +30,7 @@ Exit codes:
 
 ```bash
 python3 validators/validate_stage_handoff.py examples/stylized_orc_bruiser/handoffs/anatomy_to_manual_blockout.md
+python3 validators/validate_stage_task_card.py examples/stylized_orc_bruiser/task_cards/concept_interpretation.md
 python3 validators/validate_review_report.py examples/stylized_orc_bruiser/reviews/anatomy_review.md
 python3 validators/validate_qa_audit.py examples/stylized_orc_bruiser/audit.md
 python3 validators/validate_manifest.py examples/stylized_orc_bruiser/asset_manifest.md
@@ -58,4 +62,4 @@ python3 validators/validate_godot_validation.py examples/stylized_orc_bruiser/re
 
 - The validators are strict about stage IDs. Phase 5 planning aliases are currently allowed: `style_lock`, `anatomy_blockout_planning`, and `manual_blockout`.
 - The QA audit validator checks score math even when the score is low because early-stage audits may approve progression for workflow readiness while asset-quality categories remain deferred.
-- Later validators should cover Blender report JSON and screenshot manifests directly.
+- Blender JSON reports and screenshot manifests are validated directly before a real MCP action log can pass.
