@@ -1,0 +1,13 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "mcp_skill_phase11_fixture"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": []
+    }
+  ],
+  "nodes": []
+}

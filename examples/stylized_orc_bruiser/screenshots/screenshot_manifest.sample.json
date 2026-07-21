@@ -1,0 +1,37 @@
+{
+  "asset_id": "stylized_orc_bruiser",
+  "stage_id": "manual_blockout",
+  "source_file": "examples/stylized_orc_bruiser/source/stylized_orc_bruiser_blockout.blend",
+  "screenshots": [
+    {
+      "view": "front",
+      "path": "screenshots/stylized_orc_bruiser_manual_blockout_front.png",
+      "status": "planned",
+      "required_for_review": true
+    },
+    {
+      "view": "side",
+      "path": "screenshots/stylized_orc_bruiser_manual_blockout_side.png",
+      "status": "planned",
+      "required_for_review": true
+    },
+    {
+      "view": "back",
+      "path": "screenshots/stylized_orc_bruiser_manual_blockout_back.png",
+      "status": "planned",
+      "required_for_review": true
+    },
+    {
+      "view": "three_quarter",
+      "path": "screenshots/stylized_orc_bruiser_manual_blockout_three_quarter.png",
+      "status": "planned",
+      "required_for_review": true
+    },
+    {
+      "view": "gameplay_distance",
+      "path": "screenshots/stylized_orc_bruiser_manual_blockout_gameplay_distance.png",
+      "status": "planned",
+      "required_for_review": true
+    }
+  ]
+}

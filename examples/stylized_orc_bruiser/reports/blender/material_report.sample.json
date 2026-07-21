@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "asset_id": "stylized_orc_bruiser",
+    "created_at": "2026-07-21",
+    "read_only": true,
+    "report_type": "material",
+    "script_version": "0.1.0",
+    "source_file": "examples/stylized_orc_bruiser/source/stylized_orc_bruiser_blockout.blend",
+    "stage_id": "manual_blockout"
+  },
+  "summary": {
+    "hard_failure_count": 0,
+    "image_count": 0,
+    "material_count": 4,
+    "missing_image_count": 0,
+    "status": "pass",
+    "warning_count": 0
+  },
+  "warnings": [],
+  "hard_failures": [],
+  "measurements": {
+    "missing_images": "none"
+  },
+  "items": [
+    {
+      "material": "MAT_OrcBruiser_Skin_Blockout",
+      "use_nodes": true,
+      "users": 1,
+      "image_node_count": 0,
+      "images": []
+    }
+  ]
+}
