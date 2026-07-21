@@ -1,0 +1,216 @@
+{
+  "metadata": {
+    "report_type": "screenshot_set",
+    "asset_id": "stylized_orc_bruiser",
+    "stage_id": "secondary_anatomy",
+    "created_at": "2026-07-21T18:10:47.273431+00:00",
+    "script_version": "0.2.0",
+    "blender_version": "5.2.0 LTS",
+    "source_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/secondary_anatomy/facial_mechanics/working/stylized_orc_bruiser.secondary-anatomy-facial-mechanics-001.working.blend",
+    "read_only": true,
+    "source_read_only": true,
+    "writes_artifacts": true
+  },
+  "summary": {
+    "screenshot_count": 5,
+    "captured_count": 5,
+    "manifest_path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/screenshots/secondary_anatomy_facial_mechanics_gate/stylized_orc_bruiser_secondary_anatomy_screenshot_manifest.json",
+    "dry_run": false,
+    "warning_count": 0,
+    "hard_failure_count": 0,
+    "status": "pass"
+  },
+  "warnings": [],
+  "hard_failures": [],
+  "measurements": {
+    "screenshot_manifest_status": "written",
+    "scene_state_restored": "yes",
+    "target_objects": [
+      "ORC_pelvis",
+      "ORC_abdomen",
+      "ORC_ribcage",
+      "ORC_neck",
+      "ORC_head_cranium",
+      "ORC_jaw",
+      "ORC_nose",
+      "ORC_brow_L",
+      "ORC_brow_R",
+      "ORC_tusk_L",
+      "ORC_tusk_R",
+      "ORC_ear_L",
+      "ORC_ear_R",
+      "ORC_shoulder_L",
+      "ORC_elbow_L",
+      "ORC_forearm_L",
+      "ORC_hand_L",
+      "ORC_bracer_L",
+      "ORC_shoulder_R",
+      "ORC_elbow_R",
+      "ORC_forearm_R",
+      "ORC_hand_R",
+      "ORC_bracer_R",
+      "ORC_thigh_L",
+      "ORC_knee_L",
+      "ORC_ankle_L",
+      "ORC_foot_L",
+      "ORC_thigh_R",
+      "ORC_knee_R",
+      "ORC_ankle_R",
+      "ORC_foot_R",
+      "ORC_belt",
+      "ORC_loincloth_front",
+      "ORC_shoulder_pad_L",
+      "ORC_eye_L",
+      "ORC_eye_R",
+      "ORC_mouth_mass",
+      "ORC_cheek_L",
+      "ORC_cheek_R",
+      "ORC_trapezius_L",
+      "ORC_trapezius_R",
+      "ORC_bicep_L",
+      "ORC_glute_L",
+      "ORC_calf_L",
+      "ORC_heel_L",
+      "ORC_bicep_R",
+      "ORC_glute_R",
+      "ORC_calf_R",
+      "ORC_heel_R",
+      "ORC_finger_mass_L",
+      "ORC_thumb_L",
+      "ORC_instep_L",
+      "ORC_toe_block_L",
+      "ORC_finger_mass_R",
+      "ORC_thumb_R",
+      "ORC_instep_R",
+      "ORC_toe_block_R",
+      "ORC_clavicle_L",
+      "ORC_clavicle_R",
+      "ORC_pectoral_L",
+      "ORC_pectoral_R",
+      "ORC_lat_L",
+      "ORC_lat_R"
+    ],
+    "hidden_non_target_meshes": [
+      "ORC_upperarm_L",
+      "ORC_upperarm_R",
+      "ORC_hip_L",
+      "ORC_hip_R",
+      "ORC_shin_L",
+      "ORC_shin_R"
+    ],
+    "target_bounds": {
+      "minimum": [
+        -1.116636,
+        -0.496203,
+        0.004433
+      ],
+      "maximum": [
+        1.100637,
+        0.416488,
+        2.2
+      ],
+      "center": [
+        -0.007999,
+        -0.039857,
+        1.102217
+      ]
+    }
+  },
+  "items": [
+    {
+      "view": "front",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/screenshots/secondary_anatomy_facial_mechanics_gate/stylized_orc_bruiser_secondary_anatomy_front.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 512,
+      "height": 512,
+      "bytes": 164937,
+      "camera_location": [
+        -0.007999,
+        -6.737868,
+        1.102217
+      ],
+      "camera_rotation_euler": [
+        1.570796,
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "view": "side",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/screenshots/secondary_anatomy_facial_mechanics_gate/stylized_orc_bruiser_secondary_anatomy_side.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 512,
+      "height": 512,
+      "bytes": 157494,
+      "camera_location": [
+        6.690012,
+        -0.039857,
+        1.102217
+      ],
+      "camera_rotation_euler": [
+        1.570796,
+        -0.0,
+        1.570796
+      ]
+    },
+    {
+      "view": "back",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/screenshots/secondary_anatomy_facial_mechanics_gate/stylized_orc_bruiser_secondary_anatomy_back.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 512,
+      "height": 512,
+      "bytes": 164376,
+      "camera_location": [
+        -0.007999,
+        6.658154,
+        1.102217
+      ],
+      "camera_rotation_euler": [
+        -1.570796,
+        3.141593,
+        -0.0
+      ]
+    },
+    {
+      "view": "three_quarter",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/screenshots/secondary_anatomy_facial_mechanics_gate/stylized_orc_bruiser_secondary_anatomy_three_quarter.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 512,
+      "height": 512,
+      "bytes": 164450,
+      "camera_location": [
+        4.728209,
+        -4.776066,
+        1.277862
+      ],
+      "camera_rotation_euler": [
+        1.544579,
+        -0.0,
+        0.785398
+      ]
+    },
+    {
+      "view": "gameplay_distance",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/screenshots/secondary_anatomy_facial_mechanics_gate/stylized_orc_bruiser_secondary_anatomy_gameplay_distance.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 512,
+      "height": 512,
+      "bytes": 156087,
+      "camera_location": [
+        -0.007999,
+        -12.096277,
+        1.365685
+      ],
+      "camera_rotation_euler": [
+        1.548947,
+        -0.0,
+        0.0
+      ]
+    }
+  ]
+}

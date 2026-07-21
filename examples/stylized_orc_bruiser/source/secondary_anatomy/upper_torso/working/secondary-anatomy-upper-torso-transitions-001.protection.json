@@ -1,0 +1,15 @@
+{
+  "receipt_version": "0.1.0",
+  "created_at": "2026-07-21T15:34:12.323798+00:00",
+  "asset_id": "stylized_orc_bruiser",
+  "microtask_id": "secondary-anatomy-upper-torso-transitions-001",
+  "source_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/primary_forms/extremities/revisions/working/stylized_orc_bruiser.primary-forms-footwear-readability-revision-001.working.blend",
+  "backup_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/secondary_anatomy/upper_torso/backups/stylized_orc_bruiser.secondary-anatomy-upper-torso-transitions-001.before.blend",
+  "working_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/secondary_anatomy/upper_torso/working/stylized_orc_bruiser.secondary-anatomy-upper-torso-transitions-001.working.blend",
+  "source_sha256_before": "69813e68c1ccad5cf7a56afba8a14a3853d1f73828e97a8c856019deae1e9559",
+  "backup_sha256": "69813e68c1ccad5cf7a56afba8a14a3853d1f73828e97a8c856019deae1e9559",
+  "working_sha256_before": "69813e68c1ccad5cf7a56afba8a14a3853d1f73828e97a8c856019deae1e9559",
+  "source_size_bytes": 154974,
+  "backup_verified": true,
+  "working_copy_verified": true
+}

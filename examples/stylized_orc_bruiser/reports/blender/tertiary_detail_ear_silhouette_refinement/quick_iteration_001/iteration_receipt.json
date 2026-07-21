@@ -1,0 +1,38 @@
+{
+  "added_objects": [],
+  "allowed_change_types": [
+    "vertex_positions"
+  ],
+  "asset_id": "stylized_orc_bruiser",
+  "backup_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/tertiary_detail/ear_silhouette/backups/stylized_orc_bruiser.tertiary-detail-ear-silhouette-refinement-001.before.blend",
+  "backup_sha256": "4035e74fc6a1cf6842717c71e96c5766382525de399924e6431ff5eb923817d0",
+  "changed_objects": [
+    "ORC_ear_L",
+    "ORC_ear_R"
+  ],
+  "created_at": "2026-07-21T21:21:40.608514+00:00",
+  "destructive_operations": false,
+  "evidence_tier": "quick_iteration",
+  "hard_failures": [],
+  "iteration_id": "ear-silhouette-iter-001",
+  "iteration_index": 1,
+  "material_changes": false,
+  "microtask_id": "tertiary-detail-ear-silhouette-refinement-001",
+  "missing_objects": [],
+  "protected_objects_checked": 73,
+  "receipt_version": "0.1.0",
+  "screenshot_manifest": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/screenshots/tertiary_detail_ear_silhouette_refinement/quick_iteration_001/stylized_orc_bruiser_tertiary_detail_screenshot_manifest.json",
+  "source_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/tertiary_detail/brow_wedge/working/stylized_orc_bruiser.tertiary-detail-brow-wedge-refinement-001.working.blend",
+  "source_sha256_after": "4035e74fc6a1cf6842717c71e96c5766382525de399924e6431ff5eb923817d0",
+  "source_sha256_before": "4035e74fc6a1cf6842717c71e96c5766382525de399924e6431ff5eb923817d0",
+  "stage_id": "tertiary_detail",
+  "target_objects": [
+    "ORC_ear_L",
+    "ORC_ear_R"
+  ],
+  "topology_count_changes": [],
+  "unexpected_changed_objects": [],
+  "working_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/tertiary_detail/ear_silhouette/working/stylized_orc_bruiser.tertiary-detail-ear-silhouette-refinement-001.working.blend",
+  "working_sha256_after": "e39a76de7e30a92edbcca86178dfbb482c05aeeb27a323372d4857acf42294b5",
+  "working_sha256_before": "4035e74fc6a1cf6842717c71e96c5766382525de399924e6431ff5eb923817d0"
+}

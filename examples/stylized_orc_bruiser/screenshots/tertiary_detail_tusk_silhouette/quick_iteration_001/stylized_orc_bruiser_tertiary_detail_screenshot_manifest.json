@@ -1,0 +1,81 @@
+{
+  "manifest_version": "0.2.0",
+  "asset_id": "stylized_orc_bruiser",
+  "stage_id": "tertiary_detail",
+  "source_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/tertiary_detail/tusk_silhouette/working/stylized_orc_bruiser.tertiary-detail-tusk-silhouette-001.working.blend",
+  "blender_version": "5.2.0 LTS",
+  "target_collection": "none",
+  "target_objects": [
+    "ORC_head_cranium",
+    "ORC_jaw",
+    "ORC_mouth_mass",
+    "ORC_nose",
+    "ORC_cheek_L",
+    "ORC_cheek_R",
+    "ORC_eye_L",
+    "ORC_eye_R",
+    "ORC_brow_L",
+    "ORC_brow_R",
+    "ORC_tusk_L",
+    "ORC_tusk_R",
+    "ORC_ear_L",
+    "ORC_ear_R"
+  ],
+  "target_bounds": {
+    "minimum": [
+      -0.473953,
+      -0.482579,
+      1.520179
+    ],
+    "maximum": [
+      0.473953,
+      0.29,
+      2.2
+    ],
+    "center": [
+      0.0,
+      -0.096289,
+      1.860089
+    ]
+  },
+  "screenshots": [
+    {
+      "view": "front",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/screenshots/tertiary_detail_tusk_silhouette/quick_iteration_001/stylized_orc_bruiser_tertiary_detail_front.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 512,
+      "height": 512,
+      "bytes": 156564,
+      "camera_location": [
+        0.0,
+        -2.959755,
+        1.860089
+      ],
+      "camera_rotation_euler": [
+        1.570796,
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "view": "three_quarter",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/screenshots/tertiary_detail_tusk_silhouette/quick_iteration_001/stylized_orc_bruiser_tertiary_detail_three_quarter.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 512,
+      "height": 512,
+      "bytes": 156372,
+      "camera_location": [
+        2.024776,
+        -2.121066,
+        1.914475
+      ],
+      "camera_rotation_euler": [
+        1.551806,
+        -0.0,
+        0.785398
+      ]
+    }
+  ]
+}

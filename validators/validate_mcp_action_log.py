@@ -20,7 +20,7 @@ from rules.markdown_fields import (
     render_validation_report,
 )
 
-VERSION = "0.1.0"
+VERSION = "0.2.0"
 
 REQUIRED_FIELDS = [
     "log_id",
@@ -84,10 +84,11 @@ REQUIRED_FIELDS = [
 
 VALID_STATUSES = {"draft", "executed", "approved", "rejected", "rolled_back", "blocked"}
 VALID_EXECUTION_MODES = {"real_mcp", "dry_run", "example"}
-VALID_DECISIONS = {"approved", "rejected", "rolled_back", "blocked"}
+VALID_DECISIONS = {"continue_iteration", "approved", "rejected", "rolled_back", "blocked"}
 VALID_CONNECTION_STATUSES = {"ready", "unavailable", "incompatible"}
 VALID_PREFLIGHT = {"pass", "fail"}
-VALID_DISPOSITIONS = {"retained_for_review", "discarded", "promoted_by_human", "not_applicable"}
+VALID_DISPOSITIONS = {"retained_for_iteration", "retained_for_review", "discarded", "promoted_by_human", "not_applicable"}
+VALID_EVIDENCE_TIERS = {"gate_review", "quick_iteration"}
 BROAD_GOAL_PHRASES = {
     "finish the character",
     "finish the whole character",
@@ -155,6 +156,19 @@ def validate(path: Path, repo_root: Path) -> tuple[list[CheckResult], list[Check
 
     add_required_field_checks(failures, fields, REQUIRED_FIELDS)
     add_stage_check(failures, fields, "stage_id")
+    evidence_tier = fields.get("evidence_tier", "gate_review") or "gate_review"
+    if evidence_tier not in VALID_EVIDENCE_TIERS:
+        failures.append(CheckResult("valid_evidence_tier", "`evidence_tier` must be known", evidence_tier, "Use `gate_review` or `quick_iteration`."))
+    if evidence_tier == "quick_iteration":
+        for field in ("iteration_id", "iteration_index", "iteration_receipt"):
+            if value_is_none(fields.get(field, "")):
+                failures.append(CheckResult("quick_iteration_contract", f"`{field}` is required for quick iteration", fields.get(field, ""), f"Record `{field}`."))
+        try:
+            iteration_index = int(fields.get("iteration_index", "0"))
+        except ValueError:
+            iteration_index = 0
+        if not 1 <= iteration_index <= 3:
+            failures.append(CheckResult("iteration_budget", "Quick iteration index must be 1-3", fields.get("iteration_index", ""), "Run gate_review after three iterations."))
 
     if fields.get("status") and fields["status"] not in VALID_STATUSES:
         failures.append(
@@ -265,19 +279,33 @@ def validate(path: Path, repo_root: Path) -> tuple[list[CheckResult], list[Check
             )
         )
 
-    for field in ["validation_reports", "specialist_review", "qa_audit"]:
-        if value_is_none(fields.get(field, "")):
-            failures.append(
-                CheckResult(
-                    "review_evidence_required",
-                    f"`{field}` is required before action log approval",
-                    f"`{field}` is `{fields.get(field, '')}`",
-                    f"Link the required `{field}` artifact.",
+    if evidence_tier == "gate_review":
+        for field in ["validation_reports", "specialist_review", "qa_audit"]:
+            if value_is_none(fields.get(field, "")):
+                failures.append(
+                    CheckResult(
+                        "review_evidence_required",
+                        f"`{field}` is required before action log approval",
+                        f"`{field}` is `{fields.get(field, '')}`",
+                        f"Link the required `{field}` artifact.",
+                    )
                 )
-            )
 
     hard_failures = fields.get("hard_failures_present", "").lower() == "yes"
     decision = fields.get("decision", "")
+    if evidence_tier == "quick_iteration":
+        if fields.get("destructive_operations_requested", "").lower() == "yes":
+            failures.append(CheckResult("quick_no_destructive", "Quick iteration cannot request destructive work", fields.get("allowed_change_types", ""), "Use gate_review with explicit approval."))
+        if decision == "approved":
+            failures.append(CheckResult("quick_cannot_approve", "Quick iteration cannot approve a task or stage", decision, "Use `continue_iteration` and complete a gate review later."))
+        if not hard_failures and decision not in {"continue_iteration", "rolled_back", "rejected", "blocked"}:
+            failures.append(CheckResult("quick_decision", "Passing quick iteration must continue or stop safely", decision, "Use `continue_iteration`, `rolled_back`, `rejected`, or `blocked`."))
+        if hard_failures and decision == "continue_iteration":
+            failures.append(CheckResult("quick_failure_stop", "Quick iteration with hard failures cannot continue", decision, "Rollback or block and escalate to gate_review."))
+        if fields.get("working_copy_disposition") == "promoted_by_human":
+            failures.append(CheckResult("quick_no_promotion", "Quick iteration cannot promote a working file", decision, "Retain it for iteration or review."))
+    elif decision == "continue_iteration":
+        failures.append(CheckResult("gate_decision", "Gate review cannot use continue_iteration", decision, "Record an approved, rejected, rolled_back, or blocked gate decision."))
     if hard_failures and decision == "approved":
         failures.append(
             CheckResult(
@@ -346,7 +374,11 @@ def validate(path: Path, repo_root: Path) -> tuple[list[CheckResult], list[Check
         if not (root / "AGENTS.md").is_file():
             failures.append(CheckResult("project_root_contract", "Project root must contain AGENTS.md", str(root), "Resolve the repository root before MCP execution."))
 
-        artifact_fields = ("task_card", "source_file", "backup_file", "working_file", "source_protection_receipt", "screenshots", "blender_reports", "validation_reports", "specialist_review", "qa_audit")
+        artifact_fields = (
+            ("task_card", "source_file", "backup_file", "working_file", "source_protection_receipt", "screenshots", "iteration_receipt")
+            if evidence_tier == "quick_iteration"
+            else ("task_card", "source_file", "backup_file", "working_file", "source_protection_receipt", "screenshots", "blender_reports", "validation_reports", "specialist_review", "qa_audit")
+        )
         resolved: dict[str, list[Path]] = {}
         for field in artifact_fields:
             values = list_values(fields.get(field, ""))
@@ -402,6 +434,9 @@ def validate(path: Path, repo_root: Path) -> tuple[list[CheckResult], list[Check
                     failures.append(CheckResult("task_ready", "Real MCP execution requires an authorized non-draft task card", str(task_fields.get("status")), "Move the task card to ready only after execution authorization."))
                 if task_fields.get("mcp_microtask_id") != fields.get("microtask_id"):
                     failures.append(CheckResult("microtask_match", "Task-card microtask ID must match the action log", f"task {task_fields.get('mcp_microtask_id')!r}, log {fields.get('microtask_id')!r}", "Use the task card that authorized this exact microtask."))
+                task_tier = task_fields.get("evidence_tier", "gate_review") or "gate_review"
+                if task_tier != evidence_tier:
+                    failures.append(CheckResult("evidence_tier_match", "Task and log evidence tiers must match", f"task {task_tier!r}, log {evidence_tier!r}", "Use the authorized task tier."))
             except Exception as exc:
                 failures.append(CheckResult("task_card_runtime", "Task-card validation failed to run", str(exc), "Run validate_stage_task_card.py directly."))
 
@@ -409,13 +444,14 @@ def validate(path: Path, repo_root: Path) -> tuple[list[CheckResult], list[Check
             if manifest_path.is_file():
                 try:
                     from validate_screenshot_manifest import DEFAULT_VIEWS, validate as validate_manifest
-                    manifest_failures, _, _, _ = validate_manifest(manifest_path, DEFAULT_VIEWS)
+                    required_views = {"front", "three_quarter"} if evidence_tier == "quick_iteration" else DEFAULT_VIEWS
+                    manifest_failures, _, _, _ = validate_manifest(manifest_path, required_views)
                     if manifest_failures:
                         failures.append(CheckResult("valid_screenshots", "Screenshot manifest must pass validation", ", ".join(item.rule_id for item in manifest_failures), "Regenerate and validate the screenshot set."))
                 except Exception as exc:
                     failures.append(CheckResult("screenshot_runtime", "Screenshot validation failed to run", str(exc), "Run validate_screenshot_manifest.py directly."))
 
-        for report_path in resolved.get("blender_reports", []):
+        for report_path in resolved.get("blender_reports", []) if evidence_tier == "gate_review" else []:
             if report_path.is_file() and report_path.suffix.lower() == ".json":
                 try:
                     from validate_blender_report import validate as validate_report
@@ -424,6 +460,20 @@ def validate(path: Path, repo_root: Path) -> tuple[list[CheckResult], list[Check
                         failures.append(CheckResult("valid_blender_report", "Blender reports must pass validation", f"{report_path}: {', '.join(item.rule_id for item in report_failures)}", "Regenerate and validate the Blender report."))
                 except Exception as exc:
                     failures.append(CheckResult("blender_report_runtime", "Blender-report validation failed to run", str(exc), "Run validate_blender_report.py directly."))
+        if evidence_tier == "quick_iteration":
+            for receipt_path in resolved.get("iteration_receipt", []):
+                if receipt_path.is_file():
+                    try:
+                        from validate_mcp_iteration_receipt import validate as validate_iteration_receipt
+                        receipt_failures, _, receipt, _ = validate_iteration_receipt(receipt_path)
+                        if receipt_failures:
+                            failures.append(CheckResult("valid_iteration_receipt", "Quick iteration receipt must pass validation", ", ".join(item.rule_id for item in receipt_failures), "Rollback or regenerate the receipt."))
+                        for field in ("asset_id", "stage_id", "microtask_id", "iteration_id"):
+                            log_field = "microtask_id" if field == "microtask_id" else field
+                            if str(receipt.get(field, "")) != clean_value(fields.get(log_field, "")):
+                                failures.append(CheckResult("iteration_receipt_match", f"Receipt `{field}` must match the action log", f"receipt {receipt.get(field)!r}, log {fields.get(log_field)!r}", "Use evidence from this iteration."))
+                    except Exception as exc:
+                        failures.append(CheckResult("iteration_receipt_runtime", "Iteration receipt validation failed to run", str(exc), "Run validate_mcp_iteration_receipt.py directly."))
 
     rows = parse_markdown_table(
         markdown,
@@ -450,7 +500,7 @@ def validate(path: Path, repo_root: Path) -> tuple[list[CheckResult], list[Check
             )
         )
 
-    return failures, warnings, fields, {"field_count": len(fields), "action_count": len(rows)}
+    return failures, warnings, fields, {"field_count": len(fields), "action_count": len(rows), "evidence_tier": evidence_tier}
 
 
 def main() -> int:

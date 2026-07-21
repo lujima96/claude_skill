@@ -43,6 +43,7 @@ Produce a `templates/qa_audit_report.md`-compatible report with:
 - Do not invent scores when evidence is absent. Mark categories as pending.
 - Use `structural_rework` when hard failures exist, even if score would be high.
 - Record the most important fixes in priority order.
+- Do not run or rewrite QA for a Blender MCP `quick_iteration`. Audit the accumulated task only at `gate_review`, rollback, scope escalation, or a stage decision.
 
 ## First Workflow
 

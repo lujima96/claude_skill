@@ -10,6 +10,9 @@
 - `created_at`:
 - `status`: draft | executed | approved | rejected | rolled_back | blocked
 - `execution_mode`: real_mcp | dry_run | example
+- `evidence_tier`: gate_review | quick_iteration
+- `iteration_id`: none for gate_review
+- `iteration_index`: 0 for gate_review
 
 ## Environment Preflight
 
@@ -62,6 +65,7 @@
 ## Evidence
 
 - `screenshots`:
+- `iteration_receipt`: none for gate_review
 - `blender_reports`:
 - `validation_reports`:
 - `specialist_review`:
@@ -74,8 +78,8 @@
 - `blocked_stage_progression`: yes | no
 - `rollback_required`: yes | no
 - `rollback_artifact`:
-- `working_copy_disposition`: retained_for_review | discarded | promoted_by_human | not_applicable
-- `decision`: approved | rejected | rolled_back | blocked
+- `working_copy_disposition`: retained_for_iteration | retained_for_review | discarded | promoted_by_human | not_applicable
+- `decision`: continue_iteration | approved | rejected | rolled_back | blocked
 - `decision_reason`:
 - `human_approval_required`: yes | no
 - `approved_by`:

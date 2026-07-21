@@ -1,0 +1,3817 @@
+{
+  "created_at": "2026-07-21T18:43:22.682890+00:00",
+  "materials": {
+    "MAT_ORC_brow_hair_blockout": {
+      "diffuse_color": [
+        0.035,
+        0.025,
+        0.018,
+        1.0
+      ],
+      "nodes": [
+        [
+          "Material Output",
+          "OUTPUT_MATERIAL",
+          [
+            [
+              "Displacement",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Thickness",
+              0.0
+            ]
+          ]
+        ],
+        [
+          "Principled BSDF",
+          "BSDF_PRINCIPLED",
+          [
+            [
+              "Base Color",
+              [
+                0.80000001,
+                0.80000001,
+                0.80000001,
+                1.0
+              ]
+            ],
+            [
+              "Metallic",
+              0.0
+            ],
+            [
+              "Roughness",
+              0.5
+            ],
+            [
+              "IOR",
+              1.5
+            ],
+            [
+              "Alpha",
+              1.0
+            ],
+            [
+              "Thin Wall",
+              false
+            ],
+            [
+              "Normal",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Weight",
+              0.0
+            ],
+            [
+              "Diffuse Roughness",
+              0.0
+            ],
+            [
+              "Subsurface Weight",
+              0.0
+            ],
+            [
+              "Subsurface Radius",
+              [
+                1.0,
+                0.2,
+                0.1
+              ]
+            ],
+            [
+              "Subsurface Scale",
+              0.004999999888241291
+            ],
+            [
+              "Subsurface IOR",
+              1.399999976158142
+            ],
+            [
+              "Subsurface Anisotropy",
+              0.0
+            ],
+            [
+              "Specular IOR Level",
+              0.5
+            ],
+            [
+              "Specular Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Anisotropic",
+              0.0
+            ],
+            [
+              "Anisotropic Rotation",
+              0.0
+            ],
+            [
+              "Tangent",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Transmission Weight",
+              0.0
+            ],
+            [
+              "Coat Weight",
+              0.0
+            ],
+            [
+              "Coat Roughness",
+              0.029999999329447746
+            ],
+            [
+              "Coat IOR",
+              1.5
+            ],
+            [
+              "Coat Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Coat Normal",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Sheen Weight",
+              0.0
+            ],
+            [
+              "Sheen Roughness",
+              0.5
+            ],
+            [
+              "Sheen Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Emission Color",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Emission Strength",
+              0.0
+            ],
+            [
+              "Thin Film Thickness",
+              0.0
+            ],
+            [
+              "Thin Film IOR",
+              1.3300000429153442
+            ]
+          ]
+        ]
+      ],
+      "use_nodes": true
+    },
+    "MAT_ORC_cloth_blockout": {
+      "diffuse_color": [
+        0.2,
+        0.055,
+        0.035,
+        1.0
+      ],
+      "nodes": [
+        [
+          "Material Output",
+          "OUTPUT_MATERIAL",
+          [
+            [
+              "Displacement",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Thickness",
+              0.0
+            ]
+          ]
+        ],
+        [
+          "Principled BSDF",
+          "BSDF_PRINCIPLED",
+          [
+            [
+              "Base Color",
+              [
+                0.80000001,
+                0.80000001,
+                0.80000001,
+                1.0
+              ]
+            ],
+            [
+              "Metallic",
+              0.0
+            ],
+            [
+              "Roughness",
+              0.5
+            ],
+            [
+              "IOR",
+              1.5
+            ],
+            [
+              "Alpha",
+              1.0
+            ],
+            [
+              "Thin Wall",
+              false
+            ],
+            [
+              "Normal",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Weight",
+              0.0
+            ],
+            [
+              "Diffuse Roughness",
+              0.0
+            ],
+            [
+              "Subsurface Weight",
+              0.0
+            ],
+            [
+              "Subsurface Radius",
+              [
+                1.0,
+                0.2,
+                0.1
+              ]
+            ],
+            [
+              "Subsurface Scale",
+              0.004999999888241291
+            ],
+            [
+              "Subsurface IOR",
+              1.399999976158142
+            ],
+            [
+              "Subsurface Anisotropy",
+              0.0
+            ],
+            [
+              "Specular IOR Level",
+              0.5
+            ],
+            [
+              "Specular Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Anisotropic",
+              0.0
+            ],
+            [
+              "Anisotropic Rotation",
+              0.0
+            ],
+            [
+              "Tangent",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Transmission Weight",
+              0.0
+            ],
+            [
+              "Coat Weight",
+              0.0
+            ],
+            [
+              "Coat Roughness",
+              0.029999999329447746
+            ],
+            [
+              "Coat IOR",
+              1.5
+            ],
+            [
+              "Coat Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Coat Normal",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Sheen Weight",
+              0.0
+            ],
+            [
+              "Sheen Roughness",
+              0.5
+            ],
+            [
+              "Sheen Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Emission Color",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Emission Strength",
+              0.0
+            ],
+            [
+              "Thin Film Thickness",
+              0.0
+            ],
+            [
+              "Thin Film IOR",
+              1.3300000429153442
+            ]
+          ]
+        ]
+      ],
+      "use_nodes": true
+    },
+    "MAT_ORC_eye_blockout": {
+      "diffuse_color": [
+        0.62,
+        0.74000001,
+        0.23999999,
+        1.0
+      ],
+      "nodes": [
+        [
+          "Material Output",
+          "OUTPUT_MATERIAL",
+          [
+            [
+              "Displacement",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Thickness",
+              0.0
+            ]
+          ]
+        ],
+        [
+          "Principled BSDF",
+          "BSDF_PRINCIPLED",
+          [
+            [
+              "Base Color",
+              [
+                0.62,
+                0.74000001,
+                0.23999999,
+                1.0
+              ]
+            ],
+            [
+              "Metallic",
+              0.0
+            ],
+            [
+              "Roughness",
+              0.41999998688697815
+            ],
+            [
+              "IOR",
+              1.5
+            ],
+            [
+              "Alpha",
+              1.0
+            ],
+            [
+              "Thin Wall",
+              false
+            ],
+            [
+              "Normal",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Weight",
+              0.0
+            ],
+            [
+              "Diffuse Roughness",
+              0.0
+            ],
+            [
+              "Subsurface Weight",
+              0.0
+            ],
+            [
+              "Subsurface Radius",
+              [
+                1.0,
+                0.2,
+                0.1
+              ]
+            ],
+            [
+              "Subsurface Scale",
+              0.004999999888241291
+            ],
+            [
+              "Subsurface IOR",
+              1.399999976158142
+            ],
+            [
+              "Subsurface Anisotropy",
+              0.0
+            ],
+            [
+              "Specular IOR Level",
+              0.5
+            ],
+            [
+              "Specular Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Anisotropic",
+              0.0
+            ],
+            [
+              "Anisotropic Rotation",
+              0.0
+            ],
+            [
+              "Tangent",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Transmission Weight",
+              0.0
+            ],
+            [
+              "Coat Weight",
+              0.0
+            ],
+            [
+              "Coat Roughness",
+              0.029999999329447746
+            ],
+            [
+              "Coat IOR",
+              1.5
+            ],
+            [
+              "Coat Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Coat Normal",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Sheen Weight",
+              0.0
+            ],
+            [
+              "Sheen Roughness",
+              0.5
+            ],
+            [
+              "Sheen Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Emission Color",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Emission Strength",
+              0.0
+            ],
+            [
+              "Thin Film Thickness",
+              0.0
+            ],
+            [
+              "Thin Film IOR",
+              1.3300000429153442
+            ]
+          ]
+        ]
+      ],
+      "use_nodes": true
+    },
+    "MAT_ORC_gear_blockout": {
+      "diffuse_color": [
+        0.12,
+        0.14,
+        0.13,
+        1.0
+      ],
+      "nodes": [
+        [
+          "Material Output",
+          "OUTPUT_MATERIAL",
+          [
+            [
+              "Displacement",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Thickness",
+              0.0
+            ]
+          ]
+        ],
+        [
+          "Principled BSDF",
+          "BSDF_PRINCIPLED",
+          [
+            [
+              "Base Color",
+              [
+                0.80000001,
+                0.80000001,
+                0.80000001,
+                1.0
+              ]
+            ],
+            [
+              "Metallic",
+              0.0
+            ],
+            [
+              "Roughness",
+              0.5
+            ],
+            [
+              "IOR",
+              1.5
+            ],
+            [
+              "Alpha",
+              1.0
+            ],
+            [
+              "Thin Wall",
+              false
+            ],
+            [
+              "Normal",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Weight",
+              0.0
+            ],
+            [
+              "Diffuse Roughness",
+              0.0
+            ],
+            [
+              "Subsurface Weight",
+              0.0
+            ],
+            [
+              "Subsurface Radius",
+              [
+                1.0,
+                0.2,
+                0.1
+              ]
+            ],
+            [
+              "Subsurface Scale",
+              0.004999999888241291
+            ],
+            [
+              "Subsurface IOR",
+              1.399999976158142
+            ],
+            [
+              "Subsurface Anisotropy",
+              0.0
+            ],
+            [
+              "Specular IOR Level",
+              0.5
+            ],
+            [
+              "Specular Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Anisotropic",
+              0.0
+            ],
+            [
+              "Anisotropic Rotation",
+              0.0
+            ],
+            [
+              "Tangent",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Transmission Weight",
+              0.0
+            ],
+            [
+              "Coat Weight",
+              0.0
+            ],
+            [
+              "Coat Roughness",
+              0.029999999329447746
+            ],
+            [
+              "Coat IOR",
+              1.5
+            ],
+            [
+              "Coat Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Coat Normal",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Sheen Weight",
+              0.0
+            ],
+            [
+              "Sheen Roughness",
+              0.5
+            ],
+            [
+              "Sheen Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Emission Color",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Emission Strength",
+              0.0
+            ],
+            [
+              "Thin Film Thickness",
+              0.0
+            ],
+            [
+              "Thin Film IOR",
+              1.3300000429153442
+            ]
+          ]
+        ]
+      ],
+      "use_nodes": true
+    },
+    "MAT_ORC_skin_blockout": {
+      "diffuse_color": [
+        0.18000001,
+        0.41999999,
+        0.12,
+        1.0
+      ],
+      "nodes": [
+        [
+          "Material Output",
+          "OUTPUT_MATERIAL",
+          [
+            [
+              "Displacement",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Thickness",
+              0.0
+            ]
+          ]
+        ],
+        [
+          "Principled BSDF",
+          "BSDF_PRINCIPLED",
+          [
+            [
+              "Base Color",
+              [
+                0.80000001,
+                0.80000001,
+                0.80000001,
+                1.0
+              ]
+            ],
+            [
+              "Metallic",
+              0.0
+            ],
+            [
+              "Roughness",
+              0.5
+            ],
+            [
+              "IOR",
+              1.5
+            ],
+            [
+              "Alpha",
+              1.0
+            ],
+            [
+              "Thin Wall",
+              false
+            ],
+            [
+              "Normal",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Weight",
+              0.0
+            ],
+            [
+              "Diffuse Roughness",
+              0.0
+            ],
+            [
+              "Subsurface Weight",
+              0.0
+            ],
+            [
+              "Subsurface Radius",
+              [
+                1.0,
+                0.2,
+                0.1
+              ]
+            ],
+            [
+              "Subsurface Scale",
+              0.004999999888241291
+            ],
+            [
+              "Subsurface IOR",
+              1.399999976158142
+            ],
+            [
+              "Subsurface Anisotropy",
+              0.0
+            ],
+            [
+              "Specular IOR Level",
+              0.5
+            ],
+            [
+              "Specular Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Anisotropic",
+              0.0
+            ],
+            [
+              "Anisotropic Rotation",
+              0.0
+            ],
+            [
+              "Tangent",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Transmission Weight",
+              0.0
+            ],
+            [
+              "Coat Weight",
+              0.0
+            ],
+            [
+              "Coat Roughness",
+              0.029999999329447746
+            ],
+            [
+              "Coat IOR",
+              1.5
+            ],
+            [
+              "Coat Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Coat Normal",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Sheen Weight",
+              0.0
+            ],
+            [
+              "Sheen Roughness",
+              0.5
+            ],
+            [
+              "Sheen Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Emission Color",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Emission Strength",
+              0.0
+            ],
+            [
+              "Thin Film Thickness",
+              0.0
+            ],
+            [
+              "Thin Film IOR",
+              1.3300000429153442
+            ]
+          ]
+        ]
+      ],
+      "use_nodes": true
+    },
+    "MAT_ORC_tusk_blockout": {
+      "diffuse_color": [
+        0.72000003,
+        0.63999999,
+        0.41999999,
+        1.0
+      ],
+      "nodes": [
+        [
+          "Material Output",
+          "OUTPUT_MATERIAL",
+          [
+            [
+              "Displacement",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Thickness",
+              0.0
+            ]
+          ]
+        ],
+        [
+          "Principled BSDF",
+          "BSDF_PRINCIPLED",
+          [
+            [
+              "Base Color",
+              [
+                0.80000001,
+                0.80000001,
+                0.80000001,
+                1.0
+              ]
+            ],
+            [
+              "Metallic",
+              0.0
+            ],
+            [
+              "Roughness",
+              0.5
+            ],
+            [
+              "IOR",
+              1.5
+            ],
+            [
+              "Alpha",
+              1.0
+            ],
+            [
+              "Thin Wall",
+              false
+            ],
+            [
+              "Normal",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Weight",
+              0.0
+            ],
+            [
+              "Diffuse Roughness",
+              0.0
+            ],
+            [
+              "Subsurface Weight",
+              0.0
+            ],
+            [
+              "Subsurface Radius",
+              [
+                1.0,
+                0.2,
+                0.1
+              ]
+            ],
+            [
+              "Subsurface Scale",
+              0.004999999888241291
+            ],
+            [
+              "Subsurface IOR",
+              1.399999976158142
+            ],
+            [
+              "Subsurface Anisotropy",
+              0.0
+            ],
+            [
+              "Specular IOR Level",
+              0.5
+            ],
+            [
+              "Specular Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Anisotropic",
+              0.0
+            ],
+            [
+              "Anisotropic Rotation",
+              0.0
+            ],
+            [
+              "Tangent",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Transmission Weight",
+              0.0
+            ],
+            [
+              "Coat Weight",
+              0.0
+            ],
+            [
+              "Coat Roughness",
+              0.029999999329447746
+            ],
+            [
+              "Coat IOR",
+              1.5
+            ],
+            [
+              "Coat Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Coat Normal",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Sheen Weight",
+              0.0
+            ],
+            [
+              "Sheen Roughness",
+              0.5
+            ],
+            [
+              "Sheen Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Emission Color",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Emission Strength",
+              0.0
+            ],
+            [
+              "Thin Film Thickness",
+              0.0
+            ],
+            [
+              "Thin Film IOR",
+              1.3300000429153442
+            ]
+          ]
+        ]
+      ],
+      "use_nodes": true
+    }
+  },
+  "objects": {
+    "Camera": {
+      "collections": [
+        "Collection"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [],
+      "matrix_world": [
+        0.6859206557,
+        -0.3240134716,
+        0.6515582204,
+        7.3588914871,
+        0.727676332,
+        0.3054208457,
+        -0.6141703725,
+        -6.9257907867,
+        0.0,
+        0.8953956366,
+        0.4452714026,
+        4.9583091736,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": null,
+      "type": "CAMERA"
+    },
+    "Light": {
+      "collections": [
+        "Collection"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [],
+      "matrix_world": [
+        -0.2908646464,
+        -0.7711008191,
+        0.5663931966,
+        4.0762453079,
+        0.9551711679,
+        -0.1998833567,
+        0.2183911949,
+        1.0054539442,
+        -0.0551890582,
+        0.6045247316,
+        0.7946722507,
+        5.9038619995,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": null,
+      "type": "LIGHT"
+    },
+    "ORC_REVIEW_camera": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [],
+      "matrix_world": [
+        0.8595359325,
+        -0.0905569494,
+        0.5029885173,
+        4.4000000954,
+        0.5110753775,
+        0.1523004174,
+        -0.8459352851,
+        -7.4000000954,
+        -4.43e-08,
+        0.9841768146,
+        0.1771891117,
+        2.6500000954,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": null,
+      "type": "CAMERA"
+    },
+    "ORC_REVIEW_fill": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [],
+      "matrix_world": [
+        0.4472135603,
+        -0.3727080226,
+        0.8130736351,
+        4.0,
+        0.8944272399,
+        0.1863538325,
+        -0.4065368474,
+        -2.0,
+        1.428e-07,
+        0.9090439677,
+        0.4167001545,
+        3.2000000477,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": null,
+      "type": "LIGHT"
+    },
+    "ORC_REVIEW_key": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [],
+      "matrix_world": [
+        0.7640299797,
+        0.3655592799,
+        -0.531624496,
+        -3.7999999523,
+        -0.6451807618,
+        0.4328991771,
+        -0.6295554638,
+        -4.5,
+        -2.15e-08,
+        0.8239931464,
+        0.5665997863,
+        5.1999998093,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": null,
+      "type": "LIGHT"
+    },
+    "ORC_REVIEW_rim": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [],
+      "matrix_world": [
+        -1.0,
+        -1.477e-07,
+        7.51e-08,
+        0.0,
+        1.51e-07,
+        -0.6259455681,
+        0.779866755,
+        3.7999999523,
+        -6.82e-08,
+        0.779866755,
+        0.6259455681,
+        4.1999998093,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": null,
+      "type": "LIGHT"
+    },
+    "ORC_abdomen": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.3600000143,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.2898233235,
+        -0.0104698492,
+        0.0250000004,
+        0.0,
+        0.0101208538,
+        0.2998172641,
+        1.1699999571,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_ankle_L": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.1099999994,
+        0.0,
+        0.0,
+        -0.3400000036,
+        0.0,
+        0.125,
+        0.0,
+        0.0149999997,
+        0.0,
+        0.0,
+        0.1099999994,
+        0.125,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_ankle_R": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.1099999994,
+        0.0,
+        0.0,
+        0.3400000036,
+        0.0,
+        0.125,
+        0.0,
+        0.0149999997,
+        0.0,
+        0.0,
+        0.1099999994,
+        0.125,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_belt": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_cloth_blockout"
+      ],
+      "matrix_world": [
+        0.5088453293,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3000000119,
+        0.0,
+        -0.0049999999,
+        0.0,
+        0.0,
+        0.093343541,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "0d39d9426ebda0882181c2407ae875d2e8c3d88aa2c8c785fe9a7c8e4746ea82",
+        "edges": 12,
+        "faces": 6,
+        "vertices": 8
+      },
+      "type": "MESH"
+    },
+    "ORC_bicep_L": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        -2.39e-08,
+        -0.1332931221,
+        -0.0917285979,
+        -0.6899999976,
+        -0.1600000113,
+        -2.24e-08,
+        2.46e-08,
+        -0.0350000001,
+        -1.97e-08,
+        0.0687964484,
+        -0.1777241677,
+        1.2599999905,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_bicep_R": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        -2.39e-08,
+        0.1332931221,
+        0.0917285979,
+        0.6899999976,
+        0.1600000113,
+        -2.24e-08,
+        2.46e-08,
+        -0.0350000001,
+        1.97e-08,
+        0.0687964484,
+        -0.1777241677,
+        1.2599999905,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_bracer_L": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_gear_blockout"
+      ],
+      "matrix_world": [
+        0.2198828012,
+        -0.0482547581,
+        -0.0086253947,
+        -0.8199999928,
+        0.0548229441,
+        0.1935392618,
+        -0.0021505526,
+        -0.0049999999,
+        0.0158464089,
+        0.0,
+        0.1271250546,
+        0.8899999857,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "89eb75c3ec4da43fd090edbad7e7d9210a99da5e86649d3773fd6cdaf659f7cd",
+        "edges": 12,
+        "faces": 6,
+        "vertices": 8
+      },
+      "type": "MESH"
+    },
+    "ORC_bracer_R": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_gear_blockout"
+      ],
+      "matrix_world": [
+        0.2229605764,
+        0.0489301942,
+        0.0087461257,
+        0.8199999928,
+        -0.0555903204,
+        0.1962482929,
+        -0.0021806543,
+        -0.0049999999,
+        -0.0160682164,
+        0.0,
+        0.128904447,
+        0.8899999857,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "89eb75c3ec4da43fd090edbad7e7d9210a99da5e86649d3773fd6cdaf659f7cd",
+        "edges": 12,
+        "faces": 6,
+        "vertices": 8
+      },
+      "type": "MESH"
+    },
+    "ORC_brow_L": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_brow_hair_blockout"
+      ],
+      "matrix_world": [
+        0.1095525399,
+        0.0112614185,
+        0.001624657,
+        -0.1449999958,
+        -0.0232861117,
+        0.052980803,
+        0.0076434095,
+        -0.2549999952,
+        0.0,
+        -0.0095506497,
+        0.0443163514,
+        1.9550000429,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "514047b3479d99e2025d97512baa37da0c8fc7247e694926ef33c4d0e4d805f5",
+        "edges": 12,
+        "faces": 6,
+        "vertices": 8
+      },
+      "type": "MESH"
+    },
+    "ORC_brow_R": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_brow_hair_blockout"
+      ],
+      "matrix_world": [
+        0.1095525399,
+        -0.0112614185,
+        -0.001624657,
+        0.1449999958,
+        0.0232861117,
+        0.052980803,
+        0.0076434095,
+        -0.2549999952,
+        0.0,
+        -0.0095506497,
+        0.0443163514,
+        1.9550000429,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "514047b3479d99e2025d97512baa37da0c8fc7247e694926ef33c4d0e4d805f5",
+        "edges": 12,
+        "faces": 6,
+        "vertices": 8
+      },
+      "type": "MESH"
+    },
+    "ORC_calf_L": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.1550000012,
+        0.0,
+        0.0,
+        -0.3300000131,
+        0.0,
+        0.150000006,
+        0.0,
+        0.075000003,
+        0.0,
+        0.0,
+        0.1899999976,
+        0.2849999964,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_calf_R": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.1550000012,
+        0.0,
+        0.0,
+        0.3300000131,
+        0.0,
+        0.150000006,
+        0.0,
+        0.075000003,
+        0.0,
+        0.0,
+        0.1899999976,
+        0.2849999964,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_cheek_L": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.1329538375,
+        0.0109754885,
+        -0.0166092832,
+        -0.2069999874,
+        -0.0139740128,
+        0.104424797,
+        0.0017457061,
+        -0.224999994,
+        0.0187883694,
+        0.0,
+        0.1188321635,
+        1.8049999475,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "9b73d6f3a5ec639338495f1aee54787a4c023aa5d783a1039dac8057707ea487",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_cheek_R": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.1329538375,
+        -0.0109754885,
+        0.0166092832,
+        0.2069999874,
+        0.0139740128,
+        0.104424797,
+        0.0017457061,
+        -0.224999994,
+        -0.0187883694,
+        0.0,
+        0.1188321635,
+        1.8049999475,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "2e31e8824ee1066db6b76c754e6959fd3ce8013bd06c487b3ae2ba593d5cac3d",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_clavicle_L": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.24261567,
+        0.0,
+        0.0076545207,
+        -0.2450000048,
+        0.0,
+        0.075000003,
+        0.0,
+        -0.2450000048,
+        -0.0340974107,
+        0.0,
+        0.0544647425,
+        1.5850000381,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "4bb897f9b357bb739ecfbc1a76bb1b4094044bcd12ba9d70b1e22eac62e80215",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_clavicle_R": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.24261567,
+        0.0,
+        -0.0076545207,
+        0.2450000048,
+        0.0,
+        0.075000003,
+        0.0,
+        -0.2450000048,
+        0.0340974107,
+        0.0,
+        0.0544647425,
+        1.5850000381,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "4bb897f9b357bb739ecfbc1a76bb1b4094044bcd12ba9d70b1e22eac62e80215",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_ear_L": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        -0.1104315296,
+        0.2143468857,
+        -0.9704948068,
+        -0.3600000143,
+        -0.9938836694,
+        -0.0238163974,
+        0.1078327745,
+        0.0049999999,
+        -1.065e-07,
+        0.9764671326,
+        0.2156659961,
+        1.9200000763,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "a84b0c1452c1c4f07cc5b6da8fdea75062a635848f5fb10b0bf7ab338a600499",
+        "edges": 30,
+        "faces": 12,
+        "vertices": 20
+      },
+      "type": "MESH"
+    },
+    "ORC_ear_R": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        -0.1104315296,
+        -0.2143468857,
+        0.9704948068,
+        0.3600000143,
+        0.9938836694,
+        -0.0238163974,
+        0.1078327745,
+        0.0049999999,
+        1.065e-07,
+        0.9764671326,
+        0.2156659961,
+        1.9200000763,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "a84b0c1452c1c4f07cc5b6da8fdea75062a635848f5fb10b0bf7ab338a600499",
+        "edges": 30,
+        "faces": 12,
+        "vertices": 20
+      },
+      "type": "MESH"
+    },
+    "ORC_elbow_L": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.1700000018,
+        0.0,
+        0.0,
+        -0.7699999809,
+        0.0,
+        0.1599999964,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1550000012,
+        1.0900000334,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_elbow_R": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.1700000018,
+        0.0,
+        0.0,
+        0.7699999809,
+        0.0,
+        0.1599999964,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1550000012,
+        1.0900000334,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_eye_L": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_eye_blockout"
+      ],
+      "matrix_world": [
+        0.0719999969,
+        0.0,
+        0.0,
+        -0.1150000021,
+        0.0,
+        0.0520000011,
+        0.0,
+        -0.2919999957,
+        0.0,
+        0.0,
+        0.0700000003,
+        1.9149999619,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_eye_R": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_eye_blockout"
+      ],
+      "matrix_world": [
+        0.0719999969,
+        0.0,
+        0.0,
+        0.1150000021,
+        0.0,
+        0.0520000011,
+        0.0,
+        -0.2919999957,
+        0.0,
+        0.0,
+        0.0700000003,
+        1.9149999619,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_finger_mass_L": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.1449999958,
+        0.0,
+        0.0,
+        -0.8799999952,
+        0.0,
+        0.1150000021,
+        0.0,
+        -0.0549999997,
+        0.0,
+        0.0,
+        0.1400000006,
+        0.5299999714,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_finger_mass_R": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.1449999958,
+        0.0,
+        0.0,
+        0.8799999952,
+        0.0,
+        0.1150000021,
+        0.0,
+        -0.0549999997,
+        0.0,
+        0.0,
+        0.1400000006,
+        0.5299999714,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_foot_L": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_brow_hair_blockout"
+      ],
+      "matrix_world": [
+        0.1800000072,
+        0.0,
+        0.0,
+        -0.3400000036,
+        0.0,
+        0.25,
+        0.0,
+        -0.0799999982,
+        0.0,
+        0.0,
+        0.075000003,
+        0.0799999982,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "0d39d9426ebda0882181c2407ae875d2e8c3d88aa2c8c785fe9a7c8e4746ea82",
+        "edges": 12,
+        "faces": 6,
+        "vertices": 8
+      },
+      "type": "MESH"
+    },
+    "ORC_foot_R": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_brow_hair_blockout"
+      ],
+      "matrix_world": [
+        0.1800000072,
+        0.0,
+        0.0,
+        0.3400000036,
+        0.0,
+        0.25,
+        0.0,
+        -0.0799999982,
+        0.0,
+        0.0,
+        0.075000003,
+        0.0799999982,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "0d39d9426ebda0882181c2407ae875d2e8c3d88aa2c8c785fe9a7c8e4746ea82",
+        "edges": 12,
+        "faces": 6,
+        "vertices": 8
+      },
+      "type": "MESH"
+    },
+    "ORC_forearm_L": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.1916598976,
+        -0.8706014752,
+        -0.2655992508,
+        -0.8100000024,
+        -1.0221871138,
+        -0.1632377207,
+        -0.0497996993,
+        -0.0074999998,
+        -1.29e-07,
+        0.2486094385,
+        -0.9627965689,
+        0.9149999619,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "4aa53180d85d4b5c2808c4e922c496e2abd6e0421718c792302e694c2d5828be",
+        "edges": 36,
+        "faces": 14,
+        "vertices": 24
+      },
+      "type": "MESH"
+    },
+    "ORC_forearm_R": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.1916598976,
+        0.8706014752,
+        0.2655992508,
+        0.8100000024,
+        1.0221871138,
+        -0.1632377207,
+        -0.0497996993,
+        -0.0074999998,
+        1.29e-07,
+        0.2486094385,
+        -0.9627965689,
+        0.9149999619,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "4aa53180d85d4b5c2808c4e922c496e2abd6e0421718c792302e694c2d5828be",
+        "edges": 36,
+        "faces": 14,
+        "vertices": 24
+      },
+      "type": "MESH"
+    },
+    "ORC_glute_L": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.2399999946,
+        0.0,
+        0.0,
+        -0.2300000042,
+        0.0,
+        0.1700000018,
+        0.0,
+        0.1899999976,
+        0.0,
+        0.0,
+        0.2199999988,
+        0.8700000048,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_glute_R": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.2399999946,
+        0.0,
+        0.0,
+        0.2300000042,
+        0.0,
+        0.1700000018,
+        0.0,
+        0.1899999976,
+        0.0,
+        0.0,
+        0.2199999988,
+        0.8700000048,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_hand_L": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.1700000018,
+        0.0,
+        0.0,
+        -0.8799999952,
+        0.0,
+        0.1400000006,
+        0.0,
+        -0.0399999991,
+        0.0,
+        0.0,
+        0.1700000018,
+        0.6650000215,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_hand_R": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.1700000018,
+        0.0,
+        0.0,
+        0.8799999952,
+        0.0,
+        0.1400000006,
+        0.0,
+        -0.0399999991,
+        0.0,
+        0.0,
+        0.1700000018,
+        0.6650000215,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_head_cranium": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.3100000024,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.275000006,
+        0.0,
+        0.0149999997,
+        0.0,
+        0.0,
+        0.3199999928,
+        1.8799999952,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_heel_L": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_brow_hair_blockout"
+      ],
+      "matrix_world": [
+        0.1350000054,
+        0.0,
+        0.0,
+        -0.3400000036,
+        0.0,
+        0.1599999964,
+        0.0,
+        0.125,
+        0.0,
+        0.0,
+        0.0850000009,
+        0.0900000036,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_heel_R": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_brow_hair_blockout"
+      ],
+      "matrix_world": [
+        0.1350000054,
+        0.0,
+        0.0,
+        0.3400000036,
+        0.0,
+        0.1599999964,
+        0.0,
+        0.125,
+        0.0,
+        0.0,
+        0.0850000009,
+        0.0900000036,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_hip_L": {
+      "collections": [
+        "ORC_RETIRED_CONSTRUCTION"
+      ],
+      "hide_render": true,
+      "hide_viewport": true,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_hip_R": {
+      "collections": [
+        "ORC_RETIRED_CONSTRUCTION"
+      ],
+      "hide_render": true,
+      "hide_viewport": true,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_instep_L": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_gear_blockout"
+      ],
+      "matrix_world": [
+        0.1599999964,
+        0.0,
+        0.0,
+        -0.3400000036,
+        0.0,
+        0.1760665774,
+        0.0176724941,
+        -0.1700000018,
+        0.0,
+        -0.0374241062,
+        0.0831425488,
+        0.125,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_instep_R": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_gear_blockout"
+      ],
+      "matrix_world": [
+        0.1599999964,
+        0.0,
+        0.0,
+        0.3400000036,
+        0.0,
+        0.1760665774,
+        0.0176724941,
+        -0.1700000018,
+        0.0,
+        -0.0374241062,
+        0.0831425488,
+        0.125,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_jaw": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.349999994,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.2848263979,
+        0.0071543967,
+        -0.1199999973,
+        0.0,
+        -0.0099463565,
+        0.2048751265,
+        1.7350000143,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_knee_L": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.174999997,
+        0.0,
+        0.0,
+        -0.3199999928,
+        0.0,
+        0.1850000024,
+        0.0,
+        -0.0450000018,
+        0.0,
+        0.0,
+        0.150000006,
+        0.4300000072,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_knee_R": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.174999997,
+        0.0,
+        0.0,
+        0.3199999928,
+        0.0,
+        0.1850000024,
+        0.0,
+        -0.0450000018,
+        0.0,
+        0.0,
+        0.150000006,
+        0.4300000072,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_lat_L": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.0992546156,
+        0.0133057041,
+        0.0026733847,
+        -0.4900000095,
+        -0.0121869352,
+        0.1083662584,
+        0.0217729714,
+        0.1049999967,
+        0.0,
+        -0.0134056285,
+        0.1786583066,
+        1.3350000381,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "1e2de605edd98429c7ef562072f77a339d5b6e272df75633959f9842de3b6c40",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_lat_R": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.0992546156,
+        -0.0133057041,
+        -0.0026733847,
+        0.4900000095,
+        0.0121869352,
+        0.1083662584,
+        0.0217729714,
+        0.1049999967,
+        0.0,
+        -0.0134056285,
+        0.1786583066,
+        1.3350000381,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "6debfe98d83035bc1584285b751af2491b1ed4544c2b7109d71240e40ab0c225",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_loincloth_front": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_cloth_blockout"
+      ],
+      "matrix_world": [
+        0.2550542057,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0548660234,
+        0.0181366801,
+        -0.275000006,
+        0.0,
+        -0.0038366059,
+        0.2593666315,
+        0.7900000215,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "0d39d9426ebda0882181c2407ae875d2e8c3d88aa2c8c785fe9a7c8e4746ea82",
+        "edges": 12,
+        "faces": 6,
+        "vertices": 8
+      },
+      "type": "MESH"
+    },
+    "ORC_mouth_mass": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.224999994,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0850000009,
+        0.0,
+        -0.3350000083,
+        0.0,
+        0.0,
+        0.0599999987,
+        1.7400000095,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_neck": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        1.0800000429,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.2200000286,
+        0.0,
+        0.0350000001,
+        0.0,
+        0.0,
+        1.0800000429,
+        1.5900000334,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "e43585957c6d3b51fd59f64c2686145c3141ccde1362dfd0041ca6a9c3efed8f",
+        "edges": 36,
+        "faces": 14,
+        "vertices": 24
+      },
+      "type": "MESH"
+    },
+    "ORC_nose": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.1099999994,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1295053065,
+        0.0091513516,
+        -0.2949999869,
+        0.0,
+        -0.0113302451,
+        0.1046004444,
+        1.8550000191,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_pectoral_L": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.259010613,
+        -0.0002736827,
+        0.0078332666,
+        -0.2700000107,
+        0.0,
+        0.0599177703,
+        0.0047102366,
+        -0.2549999952,
+        -0.0226604901,
+        -0.0031282082,
+        0.0895346552,
+        1.4550000429,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "29d214a846f82812fbba894e181cc9dd383c083b629bb13c31a8e604d1710827",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_pectoral_R": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.259010613,
+        0.0002736827,
+        -0.0078332666,
+        0.2700000107,
+        0.0,
+        0.0599177703,
+        0.0047102366,
+        -0.2549999952,
+        0.0226604901,
+        -0.0031282082,
+        0.0895346552,
+        1.4550000429,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "3bce3e68281e341956993406f4ad17408b43ac2efdbf2c009704ae15e64e1269",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_pelvis": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.4399999976,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3495203257,
+        -0.0151774278,
+        0.0450000018,
+        0.0,
+        0.0183175858,
+        0.2896025479,
+        0.9250000119,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_ribcage": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.6000000238,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3595066369,
+        0.0219811015,
+        0.0350000001,
+        0.0,
+        -0.0188409463,
+        0.4194243848,
+        1.4049999714,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_shin_L": {
+      "collections": [
+        "ORC_RETIRED_CONSTRUCTION"
+      ],
+      "hide_render": true,
+      "hide_viewport": true,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "0e9f3e2e4f8ce2fdabd87e332e80e52fb5060825845982d0f8eef13d3137ac9c",
+        "edges": 36,
+        "faces": 14,
+        "vertices": 24
+      },
+      "type": "MESH"
+    },
+    "ORC_shin_R": {
+      "collections": [
+        "ORC_RETIRED_CONSTRUCTION"
+      ],
+      "hide_render": true,
+      "hide_viewport": true,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "0e9f3e2e4f8ce2fdabd87e332e80e52fb5060825845982d0f8eef13d3137ac9c",
+        "edges": 36,
+        "faces": 14,
+        "vertices": 24
+      },
+      "type": "MESH"
+    },
+    "ORC_shoulder_L": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.2849999964,
+        0.0,
+        0.0,
+        -0.5600000024,
+        0.0,
+        0.3199999928,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.2700000107,
+        1.4800000191,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_shoulder_R": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.2849999964,
+        0.0,
+        0.0,
+        0.5600000024,
+        0.0,
+        0.3199999928,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.2700000107,
+        1.4800000191,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_shoulder_pad_L": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_gear_blockout"
+      ],
+      "matrix_world": [
+        0.3275177181,
+        0.0590403825,
+        -0.0225228369,
+        -0.7075546384,
+        -0.0577502027,
+        0.3348346353,
+        0.0039713834,
+        0.0149999857,
+        0.0706899762,
+        0.0,
+        0.1075962409,
+        1.6671767235,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "fef61d458bf215a99505166705ddf4f30f7d9ec4ab26b334bb8a210f7ba5de51",
+        "edges": 12,
+        "faces": 6,
+        "vertices": 8
+      },
+      "type": "MESH"
+    },
+    "ORC_thigh_L": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.0871976763,
+        -0.9322149754,
+        -0.1772424728,
+        -0.2800000012,
+        -1.0463730097,
+        -0.0776844621,
+        -0.0147702731,
+        0.0074999998,
+        8.65e-08,
+        0.1656509787,
+        -1.0043737888,
+        0.6599999666,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "8ff3a4a1da7d6738061a7d61af90352ebb7a791a3f5724775393af15a5755781",
+        "edges": 36,
+        "faces": 14,
+        "vertices": 24
+      },
+      "type": "MESH"
+    },
+    "ORC_thigh_R": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.0871976763,
+        0.9322149754,
+        0.1772424728,
+        0.2800000012,
+        1.0463730097,
+        -0.0776844621,
+        -0.0147702731,
+        0.0074999998,
+        -8.65e-08,
+        0.1656509787,
+        -1.0043737888,
+        0.6599999666,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "8ff3a4a1da7d6738061a7d61af90352ebb7a791a3f5724775393af15a5755781",
+        "edges": 36,
+        "faces": 14,
+        "vertices": 24
+      },
+      "type": "MESH"
+    },
+    "ORC_thumb_L": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.0713292435,
+        0.0256924611,
+        -0.0070673074,
+        -0.7699999809,
+        -0.0231762752,
+        0.0790732577,
+        -0.0217509344,
+        -0.1049999967,
+        0.0,
+        0.0176724941,
+        0.1075962409,
+        0.625,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_thumb_R": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.0713292435,
+        -0.0256924611,
+        0.0070673074,
+        0.7699999809,
+        0.0231762752,
+        0.0790732577,
+        -0.0217509344,
+        -0.1049999967,
+        0.0,
+        0.0176724941,
+        0.1075962409,
+        0.625,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "36f4e09d7b28830026142921ea905ec04d55ecf4aa70644431146faa1c5063bf",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_toe_block_L": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_gear_blockout"
+      ],
+      "matrix_world": [
+        0.1798903644,
+        0.0045369342,
+        0.0,
+        -0.3400000036,
+        -0.0062819095,
+        0.1299208105,
+        0.0,
+        -0.3600000143,
+        0.0,
+        0.0,
+        0.0549999997,
+        0.0649999976,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "0d39d9426ebda0882181c2407ae875d2e8c3d88aa2c8c785fe9a7c8e4746ea82",
+        "edges": 12,
+        "faces": 6,
+        "vertices": 8
+      },
+      "type": "MESH"
+    },
+    "ORC_toe_block_R": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_gear_blockout"
+      ],
+      "matrix_world": [
+        0.1798903644,
+        -0.0045369342,
+        0.0,
+        0.3400000036,
+        0.0062819095,
+        0.1299208105,
+        0.0,
+        -0.3600000143,
+        0.0,
+        0.0,
+        0.0549999997,
+        0.0649999976,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "0d39d9426ebda0882181c2407ae875d2e8c3d88aa2c8c785fe9a7c8e4746ea82",
+        "edges": 12,
+        "faces": 6,
+        "vertices": 8
+      },
+      "type": "MESH"
+    },
+    "ORC_trapezius_L": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.2950910926,
+        0.0689093396,
+        -0.0173916295,
+        -0.2549999952,
+        -0.0846160129,
+        0.2403154224,
+        0.0049869693,
+        0.0450000018,
+        0.0431436636,
+        0.0,
+        0.1287348419,
+        1.5850000381,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "79af0568324359f491b5ef690c8808ca1578eb24f1906be9f120b4ef5a6ed07a",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_trapezius_R": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        0.2950910926,
+        -0.0689093396,
+        0.0173916295,
+        0.2549999952,
+        0.0846160129,
+        0.2403154224,
+        0.0049869693,
+        0.0450000018,
+        -0.0431436636,
+        0.0,
+        0.1287348419,
+        1.5850000381,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "05c32128c8686d9c2a9b08c2acd50c33c9706b0845f6404dfedcfd03919c05a8",
+        "edges": 240,
+        "faces": 128,
+        "vertices": 114
+      },
+      "type": "MESH"
+    },
+    "ORC_tusk_L": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_tusk_blockout"
+      ],
+      "matrix_world": [
+        1.1194462776,
+        0.3209696412,
+        -0.1903115809,
+        -0.1950000077,
+        -0.3731487691,
+        0.9629088044,
+        -0.5709348321,
+        -0.3569999933,
+        -4.7e-08,
+        0.6018180847,
+        1.0149949789,
+        1.7899999619,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "e3b265e45f13eb7ef5be641aa449845d9d193cc567ce9316a68e468bc3e9dac2",
+        "edges": 30,
+        "faces": 12,
+        "vertices": 20
+      },
+      "type": "MESH"
+    },
+    "ORC_tusk_R": {
+      "collections": [
+        "ORC_BLOCKOUT"
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "materials": [
+        "MAT_ORC_tusk_blockout"
+      ],
+      "matrix_world": [
+        1.1194462776,
+        -0.3209696412,
+        0.1903115809,
+        0.1950000077,
+        0.3731487691,
+        0.9629088044,
+        -0.5709348321,
+        -0.3569999933,
+        4.7e-08,
+        0.6018180847,
+        1.0149949789,
+        1.7899999619,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "49ddd819c8e6bd6ff9eabf0a99102775695f45497d75f7ca490cbfcf0c74d212",
+        "edges": 30,
+        "faces": 12,
+        "vertices": 20
+      },
+      "type": "MESH"
+    },
+    "ORC_upperarm_L": {
+      "collections": [
+        "ORC_RETIRED_CONSTRUCTION"
+      ],
+      "hide_render": true,
+      "hide_viewport": true,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "650b1b23974cc75f8e39215b8709ee042152401537a9a147e09725bc0ae3aacc",
+        "edges": 36,
+        "faces": 14,
+        "vertices": 24
+      },
+      "type": "MESH"
+    },
+    "ORC_upperarm_R": {
+      "collections": [
+        "ORC_RETIRED_CONSTRUCTION"
+      ],
+      "hide_render": true,
+      "hide_viewport": true,
+      "materials": [
+        "MAT_ORC_skin_blockout"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": {
+        "coordinate_sha256": "650b1b23974cc75f8e39215b8709ee042152401537a9a147e09725bc0ae3aacc",
+        "edges": 36,
+        "faces": 14,
+        "vertices": 24
+      },
+      "type": "MESH"
+    }
+  },
+  "snapshot_version": "0.1.0",
+  "working_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/tertiary_detail/brow_wedge/working/stylized_orc_bruiser.tertiary-detail-brow-wedge-refinement-001.working.blend",
+  "working_sha256": "15d9fff637507873da2370d262c7a87c4084e8c3889715d009eb0bc4c70eb446"
+}

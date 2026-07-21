@@ -1,0 +1,573 @@
+{
+  "metadata": {
+    "report_type": "scene",
+    "asset_id": "stylized_orc_bruiser",
+    "stage_id": "secondary_anatomy",
+    "created_at": "2026-07-21T16:58:54.527616+00:00",
+    "script_version": "0.2.0",
+    "blender_version": "5.2.0 LTS",
+    "source_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/secondary_anatomy/shoulder_pauldron/working/stylized_orc_bruiser.secondary-anatomy-shoulder-pauldron-clearance-001.working.blend",
+    "read_only": true,
+    "source_read_only": true,
+    "writes_artifacts": true
+  },
+  "summary": {
+    "scene_name": "Scene",
+    "object_count": 75,
+    "collection_count": 3,
+    "mesh_count": 69,
+    "armature_count": 0,
+    "camera_count": 2,
+    "light_count": 4,
+    "frame_start": 1,
+    "frame_end": 250,
+    "render_engine": "BLENDER_EEVEE",
+    "unit_system": "METRIC",
+    "scale_length": 1.0,
+    "warning_count": 1,
+    "hard_failure_count": 0,
+    "status": "warning"
+  },
+  "warnings": [
+    {
+      "rule_id": "no_armature",
+      "message": "Scene contains no armature yet.",
+      "evidence": ""
+    }
+  ],
+  "hard_failures": [],
+  "measurements": {
+    "object_type_counts": {
+      "CAMERA": 2,
+      "LIGHT": 4,
+      "MESH": 69
+    }
+  },
+  "items": [
+    {
+      "name": "Camera",
+      "type": "CAMERA",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "Light",
+      "type": "LIGHT",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_abdomen",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_ankle_L",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_ankle_R",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_belt",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_bicep_L",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_bicep_R",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_bracer_L",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_bracer_R",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_brow_L",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_brow_R",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_calf_L",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_calf_R",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_cheek_L",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_cheek_R",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_clavicle_L",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_clavicle_R",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_ear_L",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_ear_R",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_elbow_L",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_elbow_R",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_eye_L",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_eye_R",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_finger_mass_L",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_finger_mass_R",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_foot_L",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_foot_R",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_forearm_L",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_forearm_R",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_glute_L",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_glute_R",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_hand_L",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_hand_R",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_head_cranium",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_heel_L",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_heel_R",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_hip_L",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": false,
+      "hide_render": true
+    },
+    {
+      "name": "ORC_hip_R",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": false,
+      "hide_render": true
+    },
+    {
+      "name": "ORC_instep_L",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_instep_R",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_jaw",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_knee_L",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_knee_R",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_lat_L",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_lat_R",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_loincloth_front",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_mouth_mass",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_neck",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_nose",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_pectoral_L",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_pectoral_R",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_pelvis",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_REVIEW_camera",
+      "type": "CAMERA",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_REVIEW_fill",
+      "type": "LIGHT",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_REVIEW_key",
+      "type": "LIGHT",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_REVIEW_rim",
+      "type": "LIGHT",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_ribcage",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_shin_L",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": false,
+      "hide_render": true
+    },
+    {
+      "name": "ORC_shin_R",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": false,
+      "hide_render": true
+    },
+    {
+      "name": "ORC_shoulder_L",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_shoulder_pad_L",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_shoulder_R",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_thigh_L",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_thigh_R",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_thumb_L",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_thumb_R",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_toe_block_L",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_toe_block_R",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_trapezius_L",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_trapezius_R",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_tusk_L",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_tusk_R",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": true,
+      "hide_render": false
+    },
+    {
+      "name": "ORC_upperarm_L",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": false,
+      "hide_render": true
+    },
+    {
+      "name": "ORC_upperarm_R",
+      "type": "MESH",
+      "collection_count": 1,
+      "visible_viewport": false,
+      "hide_render": true
+    }
+  ]
+}

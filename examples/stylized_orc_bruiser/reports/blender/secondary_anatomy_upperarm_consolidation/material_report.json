@@ -1,0 +1,71 @@
+{
+  "hard_failures": [],
+  "items": [
+    {
+      "image_node_count": 0,
+      "images": [],
+      "material": "MAT_ORC_brow_hair_blockout",
+      "use_nodes": true,
+      "users": 6
+    },
+    {
+      "image_node_count": 0,
+      "images": [],
+      "material": "MAT_ORC_cloth_blockout",
+      "use_nodes": true,
+      "users": 2
+    },
+    {
+      "image_node_count": 0,
+      "images": [],
+      "material": "MAT_ORC_eye_blockout",
+      "use_nodes": true,
+      "users": 2
+    },
+    {
+      "image_node_count": 0,
+      "images": [],
+      "material": "MAT_ORC_gear_blockout",
+      "use_nodes": true,
+      "users": 7
+    },
+    {
+      "image_node_count": 0,
+      "images": [],
+      "material": "MAT_ORC_skin_blockout",
+      "use_nodes": true,
+      "users": 50
+    },
+    {
+      "image_node_count": 0,
+      "images": [],
+      "material": "MAT_ORC_tusk_blockout",
+      "use_nodes": true,
+      "users": 2
+    }
+  ],
+  "measurements": {
+    "missing_images": "none"
+  },
+  "metadata": {
+    "asset_id": "stylized_orc_bruiser",
+    "blender_version": "5.2.0 LTS",
+    "created_at": "2026-07-21T15:55:09.369185+00:00",
+    "read_only": true,
+    "report_type": "material",
+    "script_version": "0.2.0",
+    "source_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/secondary_anatomy/consolidation/working/stylized_orc_bruiser.secondary-anatomy-upperarm-consolidation-001.working.blend",
+    "source_read_only": true,
+    "stage_id": "secondary_anatomy",
+    "writes_artifacts": true
+  },
+  "summary": {
+    "hard_failure_count": 0,
+    "image_count": 2,
+    "material_count": 6,
+    "missing_image_count": 0,
+    "status": "pass",
+    "warning_count": 0
+  },
+  "warnings": []
+}

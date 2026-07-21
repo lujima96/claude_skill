@@ -1,0 +1,44 @@
+{
+  "added_objects": [],
+  "allowed_change_types": [
+    "transform"
+  ],
+  "asset_id": "stylized_orc_bruiser",
+  "backup_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/secondary_anatomy/facial_mechanics/backups/stylized_orc_bruiser.secondary-anatomy-facial-mechanics-001.before.blend",
+  "backup_sha256": "4403c6f7e771c48097ccb6e49fce57f37fcc2accf0300c3daeab7d9b3c949e82",
+  "changed_objects": [
+    "ORC_cheek_L",
+    "ORC_cheek_R",
+    "ORC_mouth_mass",
+    "ORC_tusk_L",
+    "ORC_tusk_R"
+  ],
+  "created_at": "2026-07-21T17:09:00.115077+00:00",
+  "destructive_operations": false,
+  "evidence_tier": "quick_iteration",
+  "hard_failures": [],
+  "iteration_id": "facial-mechanics-iter-001",
+  "iteration_index": 1,
+  "material_changes": false,
+  "microtask_id": "secondary-anatomy-facial-mechanics-001",
+  "missing_objects": [],
+  "protected_objects_checked": 70,
+  "receipt_version": "0.1.0",
+  "screenshot_manifest": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/screenshots/secondary_anatomy_facial_mechanics/quick_iteration_001/stylized_orc_bruiser_secondary_anatomy_screenshot_manifest.json",
+  "source_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/secondary_anatomy/shoulder_pauldron/working/stylized_orc_bruiser.secondary-anatomy-shoulder-pauldron-clearance-001.working.blend",
+  "source_sha256_after": "4403c6f7e771c48097ccb6e49fce57f37fcc2accf0300c3daeab7d9b3c949e82",
+  "source_sha256_before": "4403c6f7e771c48097ccb6e49fce57f37fcc2accf0300c3daeab7d9b3c949e82",
+  "stage_id": "secondary_anatomy",
+  "target_objects": [
+    "ORC_cheek_L",
+    "ORC_cheek_R",
+    "ORC_mouth_mass",
+    "ORC_tusk_L",
+    "ORC_tusk_R"
+  ],
+  "topology_count_changes": [],
+  "unexpected_changed_objects": [],
+  "working_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/secondary_anatomy/facial_mechanics/working/stylized_orc_bruiser.secondary-anatomy-facial-mechanics-001.working.blend",
+  "working_sha256_after": "7c7608bcf9b0f1966a96aae2966d7dd8a475bb9829c1401483acf369f672c041",
+  "working_sha256_before": "4403c6f7e771c48097ccb6e49fce57f37fcc2accf0300c3daeab7d9b3c949e82"
+}

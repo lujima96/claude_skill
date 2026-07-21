@@ -1,0 +1,186 @@
+{
+  "hard_failures": [],
+  "items": [
+    {
+      "bytes": 163421,
+      "camera_location": [
+        0.001937,
+        -6.634701,
+        1.085
+      ],
+      "camera_rotation_euler": [
+        1.570796,
+        -0.0,
+        0.0
+      ],
+      "height": 512,
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/screenshots/blockout_manual_approved/stylized_orc_bruiser_blockout_front.png",
+      "required_for_review": true,
+      "status": "captured",
+      "view": "front",
+      "width": 512
+    },
+    {
+      "bytes": 155243,
+      "camera_location": [
+        6.639916,
+        0.003278,
+        1.085
+      ],
+      "camera_rotation_euler": [
+        1.570796,
+        -0.0,
+        1.570796
+      ],
+      "height": 512,
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/screenshots/blockout_manual_approved/stylized_orc_bruiser_blockout_side.png",
+      "required_for_review": true,
+      "status": "captured",
+      "view": "side",
+      "width": 512
+    },
+    {
+      "bytes": 163501,
+      "camera_location": [
+        0.001937,
+        6.641258,
+        1.085
+      ],
+      "camera_rotation_euler": [
+        -1.570796,
+        3.141593,
+        -0.0
+      ],
+      "height": 512,
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/screenshots/blockout_manual_approved/stylized_orc_bruiser_blockout_back.png",
+      "required_for_review": true,
+      "status": "captured",
+      "view": "back",
+      "width": 512
+    },
+    {
+      "bytes": 162730,
+      "camera_location": [
+        4.695697,
+        -4.690482,
+        1.2586
+      ],
+      "camera_rotation_euler": [
+        1.54465,
+        -0.0,
+        0.785398
+      ],
+      "height": 512,
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/screenshots/blockout_manual_approved/stylized_orc_bruiser_blockout_three_quarter.png",
+      "required_for_review": true,
+      "status": "captured",
+      "view": "three_quarter",
+      "width": 512
+    },
+    {
+      "bytes": 155235,
+      "camera_location": [
+        0.001937,
+        -11.945086,
+        1.3454
+      ],
+      "camera_rotation_euler": [
+        1.549006,
+        -0.0,
+        0.0
+      ],
+      "height": 512,
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/screenshots/blockout_manual_approved/stylized_orc_bruiser_blockout_gameplay_distance.png",
+      "required_for_review": true,
+      "status": "captured",
+      "view": "gameplay_distance",
+      "width": 512
+    }
+  ],
+  "measurements": {
+    "hidden_non_target_meshes": [],
+    "scene_state_restored": "yes",
+    "screenshot_manifest_status": "written",
+    "target_bounds": {
+      "center": [
+        0.001937,
+        0.003278,
+        1.085
+      ],
+      "maximum": [
+        1.100637,
+        0.411556,
+        2.17
+      ],
+      "minimum": [
+        -1.096763,
+        -0.405,
+        0.0
+      ]
+    },
+    "target_objects": [
+      "ORC_pelvis",
+      "ORC_abdomen",
+      "ORC_ribcage",
+      "ORC_neck",
+      "ORC_head_cranium",
+      "ORC_jaw",
+      "ORC_nose",
+      "ORC_brow_L",
+      "ORC_brow_R",
+      "ORC_tusk_L",
+      "ORC_tusk_R",
+      "ORC_ear_L",
+      "ORC_ear_R",
+      "ORC_shoulder_L",
+      "ORC_upperarm_L",
+      "ORC_elbow_L",
+      "ORC_forearm_L",
+      "ORC_hand_L",
+      "ORC_bracer_L",
+      "ORC_shoulder_R",
+      "ORC_upperarm_R",
+      "ORC_elbow_R",
+      "ORC_forearm_R",
+      "ORC_hand_R",
+      "ORC_bracer_R",
+      "ORC_hip_L",
+      "ORC_thigh_L",
+      "ORC_knee_L",
+      "ORC_shin_L",
+      "ORC_ankle_L",
+      "ORC_foot_L",
+      "ORC_hip_R",
+      "ORC_thigh_R",
+      "ORC_knee_R",
+      "ORC_shin_R",
+      "ORC_ankle_R",
+      "ORC_foot_R",
+      "ORC_belt",
+      "ORC_loincloth_front",
+      "ORC_shoulder_pad_L"
+    ]
+  },
+  "metadata": {
+    "asset_id": "stylized_orc_bruiser",
+    "blender_version": "5.2.0 LTS",
+    "created_at": "2026-07-21T14:33:10.133513+00:00",
+    "read_only": true,
+    "report_type": "screenshot_set",
+    "script_version": "0.2.0",
+    "source_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/approved/stylized_orc_bruiser_blockout.approved.blend",
+    "source_read_only": true,
+    "stage_id": "blockout",
+    "writes_artifacts": true
+  },
+  "summary": {
+    "captured_count": 5,
+    "dry_run": false,
+    "hard_failure_count": 0,
+    "manifest_path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/screenshots/blockout_manual_approved/stylized_orc_bruiser_blockout_screenshot_manifest.json",
+    "screenshot_count": 5,
+    "status": "pass",
+    "warning_count": 0
+  },
+  "warnings": []
+}

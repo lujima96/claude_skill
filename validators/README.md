@@ -12,6 +12,7 @@ Validators are intentionally local and dependency-free where possible. They chec
 - `validate_qa_audit.py`: required audit fields, valid stage IDs, hard-failure decision consistency, weighted score math, total score, score band.
 - `validate_manifest.py`: required manifest fields, Godot/GLB target sanity, latest stage validity, hard-failure gate state, referenced path existence.
 - `validate_mcp_action_log.py`: required MCP log fields, bounded microtask wording, backup checks, screenshot/review evidence, destructive approval, hard-failure decision consistency.
+- `validate_mcp_iteration_receipt.py`: quick-iteration target budget, safe change types, scene drift, topology/material protection, hashes, and two-view evidence.
 - `validate_blender_report.py`: Blender JSON report schema, source-read-only metadata, summary consistency, and expected asset/stage/source matching.
 - `validate_screenshot_manifest.py`: required views, real PNG files, dimensions, source working file, and captured-status consistency.
 - `validate_uv_bake_readiness.py`: UV presence, overlap policy, disallowed overlaps, texel density, padding, bake pairing, required maps, and bake artifacts.
@@ -35,6 +36,7 @@ python3 validators/validate_review_report.py examples/stylized_orc_bruiser/revie
 python3 validators/validate_qa_audit.py examples/stylized_orc_bruiser/audit.md
 python3 validators/validate_manifest.py examples/stylized_orc_bruiser/asset_manifest.md
 python3 validators/validate_mcp_action_log.py examples/stylized_orc_bruiser/mcp_logs/accepted_microtask_001.md
+python3 validators/validate_mcp_iteration_receipt.py path/to/iteration_receipt.json
 python3 validators/validate_uv_bake_readiness.py validators/examples/passing/good_uv_bake_readiness.md
 python3 validators/validate_texture_readiness.py validators/examples/passing/good_material_texture_readiness.md
 python3 validators/validate_lod_readiness.py validators/examples/passing/good_optimization_readiness.md

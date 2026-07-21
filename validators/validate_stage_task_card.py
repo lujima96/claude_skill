@@ -17,7 +17,7 @@ from rules.markdown_fields import (
     render_validation_report,
 )
 
-VERSION = "0.1.0"
+VERSION = "0.2.0"
 REQUIRED_FIELDS = [
     "task_id", "asset_id", "stage_id", "stage_name", "created_by", "created_at", "status",
     "goal", "current_stage", "allowed_tools", "disallowed_tools", "known_constraints",
@@ -27,6 +27,8 @@ REQUIRED_FIELDS = [
     "assigned_specialist", "microtasks", "blocking_issues",
 ]
 VALID_STATUSES = {"draft", "ready", "in_progress", "review", "approved", "blocked"}
+VALID_EVIDENCE_TIERS = {"gate_review", "quick_iteration"}
+QUICK_SAFE_CHANGE_TYPES = {"transform", "visibility", "collection_membership", "vertex_positions"}
 
 
 def none_value(value: str) -> bool:
@@ -62,8 +64,33 @@ def validate(path: Path, repo_root: Path):
             for field in ("execution_authorized_by", "execution_authorized_at"):
                 if none_value(fields.get(field, "")):
                     failures.append(CheckResult("execution_authorization", f"`{field}` is required before MCP execution", fields.get(field, ""), f"Record `{field}` before changing Blender."))
+        evidence_tier = fields.get("evidence_tier", "gate_review") or "gate_review"
+        if evidence_tier not in VALID_EVIDENCE_TIERS:
+            failures.append(CheckResult("valid_evidence_tier", "`evidence_tier` must be known", evidence_tier, "Use `gate_review` or `quick_iteration`."))
+        if "evidence_tier" not in fields:
+            warnings.append(CheckResult("legacy_gate_tier", "MCP task omits `evidence_tier` and defaults to gate_review", fields.get("task_id", ""), "Add the explicit evidence tier when revising this task.", "warning"))
+        if evidence_tier == "quick_iteration":
+            for field in ("iteration_budget", "iteration_views"):
+                if none_value(fields.get(field, "")):
+                    failures.append(CheckResult("quick_iteration_contract", f"`{field}` is required for quick iteration", fields.get(field, ""), f"Define `{field}`."))
+            try:
+                budget = int(fields.get("iteration_budget", "0"))
+            except ValueError:
+                budget = 0
+            if not 1 <= budget <= 3:
+                failures.append(CheckResult("iteration_budget", "Quick iteration budget must be 1-3", fields.get("iteration_budget", ""), "Use a maximum of three iterations before gate review."))
+            targets = parse_list_value(fields.get("target_objects", ""))
+            if not 1 <= len(set(targets)) <= 6:
+                failures.append(CheckResult("target_budget", "Quick iteration requires 1-6 unique targets", fields.get("target_objects", ""), "Reduce the regional target allowlist."))
+            change_types = set(parse_list_value(fields.get("allowed_change_types", "")))
+            unsafe = sorted(change_types - QUICK_SAFE_CHANGE_TYPES)
+            if unsafe:
+                failures.append(CheckResult("quick_safe_changes", "Quick iteration contains unsafe change types", ", ".join(unsafe), "Use only transform, visibility, collection_membership, or vertex_positions; otherwise use gate_review."))
+            views = set(parse_list_value(fields.get("iteration_views", "")))
+            if not {"front", "three_quarter"}.issubset(views):
+                failures.append(CheckResult("quick_views", "Quick iteration requires front and three_quarter views", fields.get("iteration_views", ""), "Add both quick preview views."))
 
-    return failures, warnings, fields, {"field_count": len(fields), "mcp_task": is_mcp}
+    return failures, warnings, fields, {"field_count": len(fields), "mcp_task": is_mcp, "evidence_tier": fields.get("evidence_tier", "gate_review") if is_mcp else "not_applicable"}
 
 
 def main() -> int:

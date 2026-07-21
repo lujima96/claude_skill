@@ -1,0 +1,36 @@
+{
+  "added_objects": [],
+  "allowed_change_types": [
+    "transform"
+  ],
+  "asset_id": "stylized_orc_bruiser",
+  "backup_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/secondary_anatomy/shoulder_pauldron/backups/stylized_orc_bruiser.secondary-anatomy-shoulder-pauldron-clearance-001.before.blend",
+  "backup_sha256": "c8ff9a2e61ed5e737bea21e2fa4d4c498275bcbb0735e073c481cdc02004c02b",
+  "changed_objects": [
+    "ORC_shoulder_pad_L"
+  ],
+  "created_at": "2026-07-21T16:54:03.671048+00:00",
+  "destructive_operations": false,
+  "evidence_tier": "quick_iteration",
+  "hard_failures": [],
+  "iteration_id": "shoulder-pauldron-clearance-iter-001",
+  "iteration_index": 1,
+  "material_changes": false,
+  "microtask_id": "secondary-anatomy-shoulder-pauldron-clearance-001",
+  "missing_objects": [],
+  "protected_objects_checked": 74,
+  "receipt_version": "0.1.0",
+  "screenshot_manifest": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/screenshots/secondary_anatomy_shoulder_pauldron_clearance/quick_iteration_001/stylized_orc_bruiser_secondary_anatomy_screenshot_manifest.json",
+  "source_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/secondary_anatomy/consolidation/working/stylized_orc_bruiser.secondary-anatomy-shin-calf-consolidation-001.working.blend",
+  "source_sha256_after": "c8ff9a2e61ed5e737bea21e2fa4d4c498275bcbb0735e073c481cdc02004c02b",
+  "source_sha256_before": "c8ff9a2e61ed5e737bea21e2fa4d4c498275bcbb0735e073c481cdc02004c02b",
+  "stage_id": "secondary_anatomy",
+  "target_objects": [
+    "ORC_shoulder_pad_L"
+  ],
+  "topology_count_changes": [],
+  "unexpected_changed_objects": [],
+  "working_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/secondary_anatomy/shoulder_pauldron/working/stylized_orc_bruiser.secondary-anatomy-shoulder-pauldron-clearance-001.working.blend",
+  "working_sha256_after": "4403c6f7e771c48097ccb6e49fce57f37fcc2accf0300c3daeab7d9b3c949e82",
+  "working_sha256_before": "c8ff9a2e61ed5e737bea21e2fa4d4c498275bcbb0735e073c481cdc02004c02b"
+}

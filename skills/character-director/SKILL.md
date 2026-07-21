@@ -88,6 +88,8 @@ Every stage task card must include:
 
 Use `templates/stage_task_card.md` as the format. Keep the task bounded to the current stage. Do not mix topology, materials, rigging, or export concerns into earlier stages except as constraints for future readiness.
 
+For Blender MCP tasks, also select `evidence_tier`, `iteration_budget`, and `iteration_views`. Keep one bounded regional task `in_progress` across no more than three passing quick iterations. Do not create a new task card, specialist report, QA audit, or manifest entry for each quick iteration; require them at the gate review.
+
 ## Routing
 
 Route work to the smallest relevant specialist:
@@ -103,6 +105,8 @@ Route work to the smallest relevant specialist:
 - Godot import, scene structure, animation, and preview scene: `godot-export-review`.
 - One task-card-authorized Blender microtask: `blender-mcp-operator`.
 - Aggregated score and progression decision: `qa-audit`.
+
+Route quick iterations only to `blender-mcp-operator`. Route formal specialist review and `qa-audit` when the task reaches `gate_review`, the user asks for review, visual uncertainty appears, or scope changes.
 
 If a required specialist does not exist yet, produce the task card and mark the specialist as `pending_implementation`.
 

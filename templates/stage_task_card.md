@@ -61,6 +61,9 @@
 - `assigned_specialist`:
 - `microtasks`:
 - `mcp_microtask_id`: none unless Blender MCP is allowed
+- `evidence_tier`: gate_review | quick_iteration
+- `iteration_budget`: 1 for gate_review; 1-3 for quick_iteration
+- `iteration_views`: front; three_quarter for quick_iteration, or the full required view set for gate_review
 - `target_objects`: none unless Blender MCP is allowed
 - `allowed_change_types`: none unless Blender MCP is allowed
 - `execution_authorized_by`: none until authorized

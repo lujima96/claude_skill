@@ -44,6 +44,7 @@ Produce a `templates/review_report.md`-compatible report with:
 - Treat shoulder, elbow, wrist, hip, knee, ankle, neck, jaw, mouth, and eyelid risks as future deformation risks.
 - Route topology-specific issues to `topology-review`.
 - If the problem belongs to an earlier stage, ask the Character Director for a revision task.
+- During a validated Blender MCP `quick_iteration`, do not create a formal review report unless screenshots reveal a structural risk. Produce the formal anatomy report at `gate_review` after the regional iteration bundle.
 
 ## First Workflow
 

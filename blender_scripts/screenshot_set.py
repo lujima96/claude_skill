@@ -119,6 +119,17 @@ def _camera_position(view: str, center, distance: float, height: float):
     return center + Vector((0, -max(distance * 0.55, 1.0), height * 0.25))
 
 
+def _set_review_render_engine(scene) -> str:
+    """Select Eevee across Blender versions without assuming one enum name."""
+    for engine in ("BLENDER_EEVEE_NEXT", "BLENDER_EEVEE"):
+        try:
+            scene.render.engine = engine
+            return engine
+        except (TypeError, ValueError):
+            continue
+    raise RuntimeError("No supported Eevee render engine is available.")
+
+
 def _write_json(path: Path, value: object, overwrite: bool) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     mode = "w" if overwrite else "x"
@@ -209,7 +220,7 @@ def collect_report(
             for obj in state["hide_render"]:
                 obj.hide_render = True
             scene.camera = camera
-            scene.render.engine = "BLENDER_EEVEE_NEXT"
+            _set_review_render_engine(scene)
             scene.render.resolution_x = resolution
             scene.render.resolution_y = resolution
             scene.render.resolution_percentage = 100

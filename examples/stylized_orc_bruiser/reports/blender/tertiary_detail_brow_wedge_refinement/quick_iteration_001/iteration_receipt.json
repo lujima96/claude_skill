@@ -1,0 +1,38 @@
+{
+  "added_objects": [],
+  "allowed_change_types": [
+    "vertex_positions"
+  ],
+  "asset_id": "stylized_orc_bruiser",
+  "backup_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/tertiary_detail/brow_wedge/backups/stylized_orc_bruiser.tertiary-detail-brow-wedge-refinement-001.before.blend",
+  "backup_sha256": "15d9fff637507873da2370d262c7a87c4084e8c3889715d009eb0bc4c70eb446",
+  "changed_objects": [
+    "ORC_brow_L",
+    "ORC_brow_R"
+  ],
+  "created_at": "2026-07-21T18:44:13.483463+00:00",
+  "destructive_operations": false,
+  "evidence_tier": "quick_iteration",
+  "hard_failures": [],
+  "iteration_id": "brow-wedge-iter-001",
+  "iteration_index": 1,
+  "material_changes": false,
+  "microtask_id": "tertiary-detail-brow-wedge-refinement-001",
+  "missing_objects": [],
+  "protected_objects_checked": 73,
+  "receipt_version": "0.1.0",
+  "screenshot_manifest": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/screenshots/tertiary_detail_brow_wedge_refinement/quick_iteration_001/stylized_orc_bruiser_tertiary_detail_screenshot_manifest.json",
+  "source_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/tertiary_detail/tusk_silhouette/working/stylized_orc_bruiser.tertiary-detail-tusk-silhouette-001.working.blend",
+  "source_sha256_after": "15d9fff637507873da2370d262c7a87c4084e8c3889715d009eb0bc4c70eb446",
+  "source_sha256_before": "15d9fff637507873da2370d262c7a87c4084e8c3889715d009eb0bc4c70eb446",
+  "stage_id": "tertiary_detail",
+  "target_objects": [
+    "ORC_brow_L",
+    "ORC_brow_R"
+  ],
+  "topology_count_changes": [],
+  "unexpected_changed_objects": [],
+  "working_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/tertiary_detail/brow_wedge/working/stylized_orc_bruiser.tertiary-detail-brow-wedge-refinement-001.working.blend",
+  "working_sha256_after": "4035e74fc6a1cf6842717c71e96c5766382525de399924e6431ff5eb923817d0",
+  "working_sha256_before": "15d9fff637507873da2370d262c7a87c4084e8c3889715d009eb0bc4c70eb446"
+}

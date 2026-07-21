@@ -1,0 +1,15 @@
+{
+  "receipt_version": "0.1.0",
+  "created_at": "2026-07-21T16:32:25.517097+00:00",
+  "asset_id": "stylized_orc_bruiser",
+  "microtask_id": "secondary-anatomy-shin-calf-consolidation-001",
+  "source_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/secondary_anatomy/consolidation/working/stylized_orc_bruiser.secondary-anatomy-pelvis-hip-consolidation-001.working.blend",
+  "backup_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/secondary_anatomy/consolidation/backups/stylized_orc_bruiser.secondary-anatomy-shin-calf-consolidation-001.before.blend",
+  "working_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/secondary_anatomy/consolidation/working/stylized_orc_bruiser.secondary-anatomy-shin-calf-consolidation-001.working.blend",
+  "source_sha256_before": "fb8547d699b8d6d98e12ad9edff90610f13e814a576f7fefb14cae4f7bf3064a",
+  "backup_sha256": "fb8547d699b8d6d98e12ad9edff90610f13e814a576f7fefb14cae4f7bf3064a",
+  "working_sha256_before": "fb8547d699b8d6d98e12ad9edff90610f13e814a576f7fefb14cae4f7bf3064a",
+  "source_size_bytes": 158320,
+  "backup_verified": true,
+  "working_copy_verified": true
+}

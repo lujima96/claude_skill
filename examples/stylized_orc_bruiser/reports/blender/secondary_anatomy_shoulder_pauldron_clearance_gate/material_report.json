@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "report_type": "material",
+    "asset_id": "stylized_orc_bruiser",
+    "stage_id": "secondary_anatomy",
+    "created_at": "2026-07-21T16:58:54.558050+00:00",
+    "script_version": "0.2.0",
+    "blender_version": "5.2.0 LTS",
+    "source_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/secondary_anatomy/shoulder_pauldron/working/stylized_orc_bruiser.secondary-anatomy-shoulder-pauldron-clearance-001.working.blend",
+    "read_only": true,
+    "source_read_only": true,
+    "writes_artifacts": true
+  },
+  "summary": {
+    "material_count": 6,
+    "image_count": 2,
+    "missing_image_count": 0,
+    "warning_count": 0,
+    "hard_failure_count": 0,
+    "status": "pass"
+  },
+  "warnings": [],
+  "hard_failures": [],
+  "measurements": {
+    "missing_images": "none"
+  },
+  "items": [
+    {
+      "material": "MAT_ORC_brow_hair_blockout",
+      "use_nodes": true,
+      "users": 6,
+      "image_node_count": 0,
+      "images": []
+    },
+    {
+      "material": "MAT_ORC_cloth_blockout",
+      "use_nodes": true,
+      "users": 2,
+      "image_node_count": 0,
+      "images": []
+    },
+    {
+      "material": "MAT_ORC_eye_blockout",
+      "use_nodes": true,
+      "users": 2,
+      "image_node_count": 0,
+      "images": []
+    },
+    {
+      "material": "MAT_ORC_gear_blockout",
+      "use_nodes": true,
+      "users": 7,
+      "image_node_count": 0,
+      "images": []
+    },
+    {
+      "material": "MAT_ORC_skin_blockout",
+      "use_nodes": true,
+      "users": 50,
+      "image_node_count": 0,
+      "images": []
+    },
+    {
+      "material": "MAT_ORC_tusk_blockout",
+      "use_nodes": true,
+      "users": 2,
+      "image_node_count": 0,
+      "images": []
+    }
+  ]
+}

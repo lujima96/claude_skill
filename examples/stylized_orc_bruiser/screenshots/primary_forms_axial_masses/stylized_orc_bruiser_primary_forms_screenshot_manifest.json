@@ -1,0 +1,171 @@
+{
+  "manifest_version": "0.2.0",
+  "asset_id": "stylized_orc_bruiser",
+  "stage_id": "primary_forms",
+  "source_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/primary_forms/working/stylized_orc_bruiser.primary-forms-axial-masses-001.working.blend",
+  "blender_version": "5.2.0 LTS",
+  "target_collection": "ORC_BLOCKOUT",
+  "target_objects": [
+    "ORC_pelvis",
+    "ORC_abdomen",
+    "ORC_ribcage",
+    "ORC_neck",
+    "ORC_head_cranium",
+    "ORC_jaw",
+    "ORC_nose",
+    "ORC_brow_L",
+    "ORC_brow_R",
+    "ORC_tusk_L",
+    "ORC_tusk_R",
+    "ORC_ear_L",
+    "ORC_ear_R",
+    "ORC_shoulder_L",
+    "ORC_upperarm_L",
+    "ORC_elbow_L",
+    "ORC_forearm_L",
+    "ORC_hand_L",
+    "ORC_bracer_L",
+    "ORC_shoulder_R",
+    "ORC_upperarm_R",
+    "ORC_elbow_R",
+    "ORC_forearm_R",
+    "ORC_hand_R",
+    "ORC_bracer_R",
+    "ORC_hip_L",
+    "ORC_thigh_L",
+    "ORC_knee_L",
+    "ORC_shin_L",
+    "ORC_ankle_L",
+    "ORC_foot_L",
+    "ORC_hip_R",
+    "ORC_thigh_R",
+    "ORC_knee_R",
+    "ORC_shin_R",
+    "ORC_ankle_R",
+    "ORC_foot_R",
+    "ORC_belt",
+    "ORC_loincloth_front",
+    "ORC_shoulder_pad_L",
+    "ORC_eye_L",
+    "ORC_eye_R",
+    "ORC_mouth_mass",
+    "ORC_cheek_L",
+    "ORC_cheek_R",
+    "ORC_trapezius_L",
+    "ORC_trapezius_R"
+  ],
+  "target_bounds": {
+    "minimum": [
+      -1.096763,
+      -0.433657,
+      0.0
+    ],
+    "maximum": [
+      1.100637,
+      0.416488,
+      2.2
+    ],
+    "center": [
+      0.001937,
+      -0.008584,
+      1.1
+    ]
+  },
+  "screenshots": [
+    {
+      "view": "front",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/screenshots/primary_forms_axial_masses/stylized_orc_bruiser_primary_forms_front.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 512,
+      "height": 512,
+      "bytes": 163265,
+      "camera_location": [
+        0.001937,
+        -6.654418,
+        1.1
+      ],
+      "camera_rotation_euler": [
+        1.570796,
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "view": "side",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/screenshots/primary_forms_axial_masses/stylized_orc_bruiser_primary_forms_side.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 512,
+      "height": 512,
+      "bytes": 156423,
+      "camera_location": [
+        6.64777,
+        -0.008584,
+        1.1
+      ],
+      "camera_rotation_euler": [
+        1.570796,
+        -0.0,
+        1.570796
+      ]
+    },
+    {
+      "view": "back",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/screenshots/primary_forms_axial_masses/stylized_orc_bruiser_primary_forms_back.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 512,
+      "height": 512,
+      "bytes": 163742,
+      "camera_location": [
+        0.001937,
+        6.637249,
+        1.1
+      ],
+      "camera_rotation_euler": [
+        -1.570796,
+        3.141593,
+        -0.0
+      ]
+    },
+    {
+      "view": "three_quarter",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/screenshots/primary_forms_axial_masses/stylized_orc_bruiser_primary_forms_three_quarter.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 512,
+      "height": 512,
+      "bytes": 162496,
+      "camera_location": [
+        4.701251,
+        -4.707899,
+        1.276
+      ],
+      "camera_rotation_euler": [
+        1.54432,
+        -0.0,
+        0.785398
+      ]
+    },
+    {
+      "view": "gameplay_distance",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/screenshots/primary_forms_axial_masses/stylized_orc_bruiser_primary_forms_gameplay_distance.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 512,
+      "height": 512,
+      "bytes": 155027,
+      "camera_location": [
+        0.001937,
+        -11.971085,
+        1.364
+      ],
+      "camera_rotation_euler": [
+        1.548731,
+        -0.0,
+        0.0
+      ]
+    }
+  ]
+}

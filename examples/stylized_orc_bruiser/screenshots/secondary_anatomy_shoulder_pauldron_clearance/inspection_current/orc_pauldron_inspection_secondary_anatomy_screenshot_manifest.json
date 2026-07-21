@@ -1,0 +1,70 @@
+{
+  "manifest_version": "0.2.0",
+  "asset_id": "orc_pauldron_inspection",
+  "stage_id": "secondary_anatomy",
+  "source_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/secondary_anatomy/shoulder_pauldron/working/stylized_orc_bruiser.secondary-anatomy-shoulder-pauldron-clearance-001.working.blend",
+  "blender_version": "5.2.0 LTS",
+  "target_collection": "none",
+  "target_objects": [
+    "ORC_shoulder_pad_L",
+    "ORC_shoulder_L",
+    "ORC_clavicle_L"
+  ],
+  "target_bounds": {
+    "minimum": [
+      -1.116636,
+      -0.381556,
+      1.21
+    ],
+    "maximum": [
+      0.00527,
+      0.411556,
+      1.845463
+    ],
+    "center": [
+      -0.555683,
+      0.015,
+      1.527731
+    ]
+  },
+  "screenshots": [
+    {
+      "view": "front",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/screenshots/secondary_anatomy_shoulder_pauldron_clearance/inspection_current/orc_pauldron_inspection_secondary_anatomy_front.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 512,
+      "height": 512,
+      "bytes": 153709,
+      "camera_location": [
+        -0.555683,
+        -3.37409,
+        1.527731
+      ],
+      "camera_rotation_euler": [
+        1.570796,
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "view": "three_quarter",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/screenshots/secondary_anatomy_shoulder_pauldron_clearance/inspection_current/orc_pauldron_inspection_secondary_anatomy_three_quarter.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 512,
+      "height": 512,
+      "bytes": 153166,
+      "camera_location": [
+        1.840766,
+        -2.381449,
+        1.578568
+      ],
+      "camera_rotation_euler": [
+        1.555797,
+        0.0,
+        0.785398
+      ]
+    }
+  ]
+}
