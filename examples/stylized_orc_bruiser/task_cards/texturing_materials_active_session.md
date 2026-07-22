@@ -1,0 +1,22 @@
+# Texturing and Materials Active Session Task Card
+
+- `schema_version`: 0.3
+- `task_id`: stylized_orc_bruiser-texturing-materials-session-001
+- `asset_id`: stylized_orc_bruiser
+- `stage_id`: texturing_materials
+- `stage_name`: Texturing and materials
+- `status`: approved
+- `goal`: Establish readable Godot-compatible body, skin, gear, and baked-detail materials from the approved UV and bake outputs.
+- `previous_stage`: uvs_and_baking
+- `next_stage`: rigging_skinning
+- `allowed_tools`: Blender MCP Python; protected deterministic material scripts; viewport preview
+- `disallowed_tools`: rigging; export; unreviewed geometry changes
+- `authorized_collections`: ORC_BLOCKOUT
+- `required_outputs`: protected textured working `.blend`; material validation; checkpoint bundle
+- `input_checkpoint`: `examples/stylized_orc_bruiser/checkpoints/uvs_and_baking_001`
+- `baked_inputs`: `ORC_BODY_NORMAL_1024.png`; `ORC_BODY_AO_1024.png`
+- `deferred_notes`: bracers and belt slightly large; may be revised later
+- `approved_revision`: reduce belt, loincloth, both bracers, and shoulder pad proportions during the first material inspection cleanup.
+- `requires_human_approval`: yes
+- `execution_authorized_by`: repository user
+- `execution_authorized_at`: 2026-07-22

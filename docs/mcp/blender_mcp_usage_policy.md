@@ -1,78 +1,39 @@
 # Blender MCP Usage Policy
 
-## Purpose
+## Authorization
 
-Blender MCP is allowed only after the pipeline has a task card, approval gate, specialist acceptance tests, and validator path. It is not a replacement for the Character Director or specialist reviews.
+Blender MCP operates only inside a validated current-stage task card. New Blender stages use schema `0.3` with `workflow_mode: active_session`; unchanged `evidence_tier` cards remain valid.
 
-## Operating Rules
+The stage card is the authorization envelope. Each runtime journal record supplies the exact targets and normalized operations, so routine regional requests do not require new cards.
 
-- One MCP task may contain up to three quick iterations inside one bounded regional microtask, followed by one full gate review.
-- Do not issue broad instructions such as "finish the character", "fix the model", "make it better", or "complete the rig".
-- Every microtask must have a task card, acceptance tests, and stop conditions before MCP execution.
-- Source `.blend` files must be copied before modification.
-- Source, backup, and working files must be distinct, hash-verified, and created without overwriting existing files.
-- Resolve the project root from `AGENTS.md` before loading contracts or evidence paths.
-- Record the Blender version, MCP server/version, exact tool names, required capabilities, and available capabilities before execution.
-- Block real MCP work when capability preflight fails or the workspace is not isolated.
-- Every meaningful structural change must be followed by screenshots. Quick iterations require front and three-quarter previews; gate reviews require the full task-card set.
-- Relevant validators must run before the next modeling pass.
-- Every MCP command, tool result, warning, and decision must be recorded in an action log. Quick iterations may use a compact log plus a validated scene-delta receipt.
-- Destructive operations require explicit human approval before execution.
-- If an MCP command changes scope, stop the loop and request Director review.
-- If reports or screenshots are missing, the loop cannot be approved.
-- Example or dry-run logs cannot satisfy a live approval gate.
-- Never promote a working file over source automatically; record human-controlled disposition separately.
+## Active-Session Fast Path
 
-## Allowed MCP Work
+- Protect one source, backup, and working file once per session. Keep paths distinct, non-overwriting, and hash verified.
+- Cache the server, version, capabilities, filepath, and working hash. Refresh only after reconnect, identity mismatch, capability/version change, or tool error.
+- Batch related work into one execution against no more than six exact objects in authorized collections.
+- Allow only absolute transforms, visibility, collection membership, and topology-preserving vertex-position updates.
+- Require a clean expected working file before editing. Fingerprint, edit, validate drift and acceptance, then save only on success.
+- Reject additions, deletions, renames, topology or material changes, non-target changes, unauthorized target-field changes, and unexpected vertex changes. Reload the last saved working file after in-memory failure.
+- Append one hash-chained JSONL iteration record and capture one relevant-angle viewport preview. If viewport capture is unavailable, allow exactly one 512px Eevee preview render.
+- Do not create per-edit Markdown logs, report bundles, specialist reviews, QA audits, validation summaries, manifest entries, working copies, or persistent multi-view renders.
+- Reopen the protected baseline and replay accepted absolute journal operations for rollback recovery.
+- Never promote a working file over source automatically.
 
-- Rename or organize objects when the naming contract is clear.
-- Move, scale, or adjust a small set of blockout forms for a specific accepted proportion issue.
-- Add a simple marker, camera, light, or collection required for review.
-- Apply one local topology, rigging, or material correction when a specialist has defined exact acceptance tests.
-- Export or screenshot only when the export or screenshot command is explicitly allowed by the task card.
+## Checkpoints
 
-## Quick Iteration Mode
+Trigger a checkpoint on explicit request, stage transition, scope expansion, structural/destructive work, uncertainty, drift, evidence failure, or tool failure. Edit count alone is not a trigger.
 
-Quick iteration exists to reduce repeated evidence work without weakening rollback or drift detection.
+Reuse the same task card and session. In one Blender call, capture the persistent front, side, back, three-quarter, and gameplay-distance views plus scene, mesh, material, and naming reports. Then create one aggregated action log referencing the journal, one relevant specialist review, one QA audit, and one validation report. Require human approval for disposition and any stage decision.
 
-- Reuse one verified working copy and backup for no more than three iterations in one task.
-- Limit the task to one anatomical region and at most six exact target objects.
-- Allow only transforms, visibility, collection membership, and vertex-position changes with unchanged topology counts.
-- Capture a deterministic before/after scene fingerprint and reject missing, added, renamed, topology-changed, or unexpected objects.
-- Capture front and three-quarter previews and validate their manifest.
-- Defer Blender report bundles, specialist review, QA audit, asset-manifest updates, and human approval to the gate review.
-- Never use quick iteration to approve progression or promote a working file.
+## Immediate Blocks
 
-## Disallowed MCP Work
+- Missing or invalid stage envelope, runtime receipt, protection, preflight, isolation, preview, or journal chain.
+- Wrong or dirty Blender file, or source/backup/working hash mismatch.
+- More than six targets, unauthorized collections, unsupported operations, scope expansion, or deterministic drift.
+- Arbitrary Blender Python outside the explicitly approved isolated runner context.
+- Destructive or structural operations without checkpoint authorization.
+- Stage progression without required specialist, QA, validation, handoff, and human approval.
 
-- Broad sculpting, retopology, rigging, texturing, or animation without a bounded task card.
-- Any hidden destructive cleanup.
-- Deleting source assets without explicit approval.
-- Applying transforms, merging meshes, decimating, remeshing, baking, or exporting over source files unless the task card specifically allows it.
-- Adding, deleting, renaming, changing topology counts, editing materials, rigging, exporting, or performing destructive work in quick iteration mode.
-- Advancing a stage without specialist review, QA audit, and human approval.
+## Legacy Compatibility
 
-## Required Loop
-
-1. Character Director selects one bounded regional microtask and its evidence tier.
-2. Specialist defines acceptance tests and hard-failure checks.
-3. MCP connection and capabilities pass preflight.
-4. Source, backup, and working files are created with a verified hash receipt.
-5. Blender MCP executes a short edit burst against named targets.
-6. Quick iterations capture two views plus a scene-delta receipt; the gate captures the full screenshot set and restores scene state.
-7. Required validators run for the selected tier.
-8. At the gate, Blender reports run and the specialist reviews output.
-9. At the gate, QA Auditor scores result.
-10. Human approves, rejects, or requests revision at the gate.
-11. Source hash is rechecked and the action log is closed.
-
-## Approval Rules
-
-- `approved`: all required artifacts exist, validators pass, no hard failures, human approval recorded.
-- `rejected`: output is reviewable but fails acceptance or style/anatomy/topology/rigging requirements.
-- `rolled_back`: output is discarded and source backup is retained.
-- `blocked`: required evidence is missing or MCP attempted to exceed scope.
-
-## Server Policy
-
-Use the approved Blender MCP server for the workspace. The policy is server-agnostic: official or community servers must both obey the same task-card, backup, screenshot, validation, review, audit, and approval gates.
+Legacy `quick_iteration` and `gate_review` cards keep their existing target and iteration budgets, scene-delta receipts, screenshot manifests, and Markdown action logs. Quick iterations cannot approve or promote a stage. Do not migrate or rewrite historical evidence solely to use active sessions.

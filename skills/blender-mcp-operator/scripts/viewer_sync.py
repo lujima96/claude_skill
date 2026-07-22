@@ -15,7 +15,12 @@ def sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
-def sync_viewer(expected_working_file: str | Path) -> dict:
+def sync_viewer(
+    expected_working_file: str | Path,
+    expected_sha256: str | None = None,
+    *,
+    recovery_reload: bool = False,
+) -> dict:
     import bpy
 
     expected = Path(expected_working_file).resolve(strict=True)
@@ -30,16 +35,19 @@ def sync_viewer(expected_working_file: str | Path) -> dict:
             "Blender is displaying a different file; refusing to discard or replace it during viewer sync"
         )
 
-    expected_hash = sha256(expected)
-    bpy.ops.wm.open_mainfile(filepath=str(expected))
-    reloaded = Path(bpy.data.filepath).resolve()
-    if reloaded != expected:
-        raise RuntimeError("Blender did not reload the expected working file")
-    if bpy.data.is_dirty:
-        raise RuntimeError("Blender remained dirty after reloading the validated working file")
     actual_hash = sha256(expected)
-    if actual_hash != expected_hash:
-        raise RuntimeError("working file changed during viewer sync")
+    if expected_sha256 and actual_hash != expected_sha256:
+        raise RuntimeError("working file hash does not match the validated edit result")
+    reloaded = False
+    if bpy.data.is_dirty:
+        if not recovery_reload:
+            raise RuntimeError("Blender is dirty; reload is allowed only for explicit recovery")
+        bpy.ops.wm.open_mainfile(filepath=str(expected))
+        reloaded = True
+        if Path(bpy.data.filepath).resolve() != expected or bpy.data.is_dirty:
+            raise RuntimeError("Blender recovery reload did not restore the clean working file")
+        if sha256(expected) != actual_hash:
+            raise RuntimeError("working file changed during viewer recovery")
 
     return {
         "viewer_sync": "pass",
@@ -47,4 +55,5 @@ def sync_viewer(expected_working_file: str | Path) -> dict:
         "working_sha256": actual_hash,
         "blender_filepath": bpy.data.filepath,
         "is_dirty": bool(bpy.data.is_dirty),
+        "reloaded": reloaded,
     }

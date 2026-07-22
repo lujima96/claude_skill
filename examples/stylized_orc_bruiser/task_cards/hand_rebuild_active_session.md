@@ -1,0 +1,22 @@
+# Hand Rebuild Active Session Task Card
+
+- `schema_version`: 0.3
+- `workflow_mode`: active_session
+- `task_id`: stylized_orc_bruiser-hand-rebuild-session-001
+- `asset_id`: stylized_orc_bruiser
+- `stage_id`: secondary_anatomy
+- `revision_of`: chest_shoulder_consolidation
+- `status`: approved
+- `goal`: Replace the staggered bead-chain fingers with palm-led stylized hands using tapered segmented fingers, natural wrist transitions, existing thumbs, and distinct left/right poses.
+- `source_baseline`: `examples/stylized_orc_bruiser/source/mcp_sessions/chest-shoulder-consolidation-session-001/working/stylized_orc_bruiser.chest-shoulder-consolidation-session-001.working.blend`
+- `source_baseline_sha256`: `fd6c38e8cf12624781ec96852f30f4655eb835ba5e879ea68ac8fa44f096dec5`
+- `manual_changes_preserved`: yes; live Blender state saved before protection
+- `authorized_collections`: `ORC_BLOCKOUT`, `ORC_HIGH_SOURCE_TMP`
+- `safe_change_types`: `absolute_transform`, `vertex_positions`, `visibility`, `collection_membership`
+- `max_targets_per_edit`: 6
+- `viewport_preview_policy`: one hand-focused preview after each accepted structural batch; full-character preview at checkpoint
+- `checkpoint_triggers`: palm/finger structural replacement, topology change, drift, evidence failure, or completed hand rebuild
+- `required_outputs`: protected working file, session journal, hand checkpoint bundle, updated GLB
+- `requires_human_approval`: yes
+- `execution_authorized_by`: repository user
+- `execution_authorized_at`: 2026-07-22

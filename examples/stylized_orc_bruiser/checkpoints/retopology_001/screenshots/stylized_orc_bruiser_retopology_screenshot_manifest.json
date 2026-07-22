@@ -1,0 +1,162 @@
+{
+  "manifest_version": "0.2.0",
+  "asset_id": "stylized_orc_bruiser",
+  "stage_id": "retopology",
+  "source_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/mcp_sessions/retopology-session-001/working/stylized_orc_bruiser.retopology-session-001.working.blend",
+  "blender_version": "5.2.0 LTS",
+  "target_collection": "ORC_BLOCKOUT",
+  "target_objects": [
+    "ORC_BODY_RETOPO_CORE",
+    "ORC_head_cranium",
+    "ORC_jaw",
+    "ORC_nose",
+    "ORC_brow_L",
+    "ORC_brow_R",
+    "ORC_tusk_L",
+    "ORC_tusk_R",
+    "ORC_ear_L",
+    "ORC_ear_R",
+    "ORC_ARM_RETOPO_L",
+    "ORC_bracer_L",
+    "ORC_ARM_RETOPO_R",
+    "ORC_bracer_R",
+    "ORC_LEG_RETOPO_L",
+    "ORC_LEG_RETOPO_R",
+    "ORC_belt",
+    "ORC_loincloth_front",
+    "ORC_shoulder_pad_L",
+    "ORC_eye_L",
+    "ORC_eye_R",
+    "ORC_mouth_mass",
+    "ORC_cheek_L",
+    "ORC_cheek_R",
+    "ORC_trapezius_L",
+    "ORC_trapezius_R",
+    "ORC_glute_L",
+    "ORC_heel_L",
+    "ORC_glute_R",
+    "ORC_heel_R",
+    "ORC_thumb_L",
+    "ORC_instep_L",
+    "ORC_thumb_R",
+    "ORC_instep_R",
+    "ORC_clavicle_L",
+    "ORC_clavicle_R",
+    "ORC_lat_L",
+    "ORC_lat_R"
+  ],
+  "target_bounds": {
+    "minimum": [
+      -1.182331,
+      -0.534516,
+      -0.125249
+    ],
+    "maximum": [
+      1.182331,
+      0.440712,
+      2.2
+    ],
+    "center": [
+      0.0,
+      -0.046902,
+      1.037376
+    ]
+  },
+  "screenshots": [
+    {
+      "view": "front",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/checkpoints/retopology_001/screenshots/stylized_orc_bruiser_retopology_front.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 768,
+      "height": 768,
+      "bytes": 355418,
+      "camera_location": [
+        0.0,
+        -7.190152,
+        1.037376
+      ],
+      "camera_rotation_euler": [
+        1.570796,
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "view": "side",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/checkpoints/retopology_001/screenshots/stylized_orc_bruiser_retopology_side.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 768,
+      "height": 768,
+      "bytes": 344167,
+      "camera_location": [
+        7.14325,
+        -0.046902,
+        1.037376
+      ],
+      "camera_rotation_euler": [
+        1.570796,
+        -0.0,
+        1.570796
+      ]
+    },
+    {
+      "view": "back",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/checkpoints/retopology_001/screenshots/stylized_orc_bruiser_retopology_back.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 768,
+      "height": 768,
+      "bytes": 356596,
+      "camera_location": [
+        0.0,
+        7.096347,
+        1.037376
+      ],
+      "camera_rotation_euler": [
+        -1.570796,
+        3.141593,
+        -0.0
+      ]
+    },
+    {
+      "view": "three_quarter",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/checkpoints/retopology_001/screenshots/stylized_orc_bruiser_retopology_three_quarter.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 768,
+      "height": 768,
+      "bytes": 354027,
+      "camera_location": [
+        5.05104,
+        -5.097942,
+        1.223396
+      ],
+      "camera_rotation_euler": [
+        1.544761,
+        -0.0,
+        0.785398
+      ]
+    },
+    {
+      "view": "gameplay_distance",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/checkpoints/retopology_001/screenshots/stylized_orc_bruiser_retopology_gameplay_distance.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 768,
+      "height": 768,
+      "bytes": 341936,
+      "camera_location": [
+        0.0,
+        -12.904752,
+        1.316406
+      ],
+      "camera_rotation_euler": [
+        1.549099,
+        -0.0,
+        0.0
+      ]
+    }
+  ]
+}

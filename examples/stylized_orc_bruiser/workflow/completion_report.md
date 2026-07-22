@@ -36,14 +36,14 @@
 - `godot_validation_report`: `reports/godot_validation_report.md`
 - `godot_preview_screenshot`: none
 - `hard_failures_present`: yes
-- `missing_stage_artifacts`: blockout, sculpt, clothing/hardsurface/hair, retopo mesh, UVs, textures, rig, pose battery, LODs, GLB/glTF package, Godot import, preview screenshot
+- `missing_stage_artifacts`: completed tertiary-detail handoff, clothing/hardsurface/hair, retopo mesh, UVs, textures, rig, pose battery, LODs, GLB/glTF package, Godot import, preview screenshot
 - `missing_reviews`: deformation testing final review
 - `missing_validations`: real Blender report outputs; UV/bake pass; texture pass; LOD pass; Godot validation pass
 
 ## Decision
 
 - `decision`: blocked
-- `decision_reason`: The workflow framework is present, but the asset is not complete because production Blender and Godot artifacts are missing.
-- `required_next_actions`: run the real Blender production pass beginning at blockout; fill each stage task card and handoff; rerun validators; complete Godot import validation
+- `decision_reason`: Real Blender production evidence exists through tertiary detail, but the asset is incomplete because downstream topology, rigging, texture, optimization, export, and Godot artifacts are missing.
+- `required_next_actions`: finish the active tertiary-detail stage; complete remaining production stages and handoffs; rerun validators; complete Godot import validation
 - `approved_by`: none
 - `approved_at`: none

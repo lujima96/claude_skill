@@ -1,0 +1,21 @@
+# Secondary Anatomy Refinement Revision Active Session Task Card
+
+- `schema_version`: 0.3
+- `workflow_mode`: active_session
+- `task_id`: stylized_orc_bruiser-secondary-anatomy-refinement-revision-session-001
+- `asset_id`: stylized_orc_bruiser
+- `stage_id`: secondary_anatomy
+- `revision_of`: export_godot_validation
+- `status`: approved
+- `goal`: Improve silhouette, connected anatomy, face readability, belt construction, hands, feet, pose asymmetry, materials, and presentation before final Godot validation.
+- `previous_checkpoint`: `examples/stylized_orc_bruiser/checkpoints/optimization_lods_001`
+- `source_baseline`: `examples/stylized_orc_bruiser/source/mcp_sessions/export-godot-validation-session-001/working/stylized_orc_bruiser.export-godot-validation-session-001.working.blend`
+- `authorized_collections`: `ORC_BLOCKOUT`, `ORC_HIGH_SOURCE_TMP`
+- `safe_change_types`: `absolute_transform`, `vertex_positions`, `visibility`, `collection_membership`
+- `max_targets_per_edit`: 6
+- `viewport_preview_policy`: one current-angle preview after every accepted batch; solid-black multi-angle checkpoint evidence
+- `checkpoint_triggers`: structural geometry completion, face/belt completion, material/presentation completion, drift, evidence failure, or scope expansion
+- `required_outputs`: revision journal, silhouette/anatomy checkpoint bundle, downstream rebuild handoff, updated GLB, Godot validation record
+- `requires_human_approval`: yes
+- `execution_authorized_by`: repository user
+- `execution_authorized_at`: 2026-07-22

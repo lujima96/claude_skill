@@ -1,0 +1,22 @@
+# Chest and Shoulder Consolidation Active Session Task Card
+
+- `schema_version`: 0.3
+- `workflow_mode`: active_session
+- `task_id`: stylized_orc_bruiser-chest-shoulder-consolidation-session-001
+- `asset_id`: stylized_orc_bruiser
+- `stage_id`: secondary_anatomy
+- `revision_of`: face_refinement
+- `status`: approved
+- `goal`: Consolidate the attached-piece chest and shoulder forms into a readable stylized pectoral/fat/neck-fold structure with integrated shoulders, trapezius, sternum, chest underside, and elbow landmarks.
+- `source_baseline`: `examples/stylized_orc_bruiser/source/mcp_sessions/face-refinement-session-001/working/stylized_orc_bruiser.face-refinement-session-001.working.blend`
+- `source_baseline_sha256`: `d348c74dd93f58bab603078669aede174687e761c9eb78893b9960eb02c25de0`
+- `manual_changes_preserved`: yes; live Blender state saved before protection
+- `authorized_collections`: `ORC_BLOCKOUT`, `ORC_HIGH_SOURCE_TMP`
+- `safe_change_types`: `absolute_transform`, `vertex_positions`, `visibility`, `collection_membership`
+- `max_targets_per_edit`: 6
+- `viewport_preview_policy`: one current-angle preview after each accepted batch; anatomy checkpoint views at completion
+- `checkpoint_triggers`: voxel-remesh/sculpt operation, topology change, drift, evidence failure, or completed chest consolidation
+- `required_outputs`: protected working file, session journal, anatomy checkpoint bundle, updated GLB
+- `requires_human_approval`: yes
+- `execution_authorized_by`: repository user
+- `execution_authorized_at`: 2026-07-22

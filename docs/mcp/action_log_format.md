@@ -4,6 +4,8 @@ MCP action logs record what was allowed, what happened, what changed, and how th
 
 Use `templates/mcp_action_log.md` for every Blender MCP loop.
 
+For an active-session checkpoint, create one aggregated action log and set `session_journal` to the validated JSONL journal. The journal supplies the iteration-by-iteration action trace; do not create a Markdown log for each edit. Legacy logs remain valid without this field.
+
 ## Required Evidence
 
 - The task card that bounded the work.
@@ -13,6 +15,7 @@ Use `templates/mcp_action_log.md` for every Blender MCP loop.
 - The working file changed by MCP.
 - The exact allowed tools or commands.
 - A chronological action table.
+- The active session journal when the log closes an active-session checkpoint.
 - Screenshot manifest after structural change.
 - Blender reports and document validator output.
 - Specialist review.
@@ -32,4 +35,4 @@ Use `templates/mcp_action_log.md` for every Blender MCP loop.
 - Destructive operation without explicit approval.
 - Final decision says approved while hard failures are present.
 - Example or dry-run evidence is presented as live approval.
-- Loop changes more than one microtask.
+- A legacy loop changes more than one microtask, or an active-session checkpoint contains edits outside its stage authorization envelope.

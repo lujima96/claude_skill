@@ -13,7 +13,8 @@ This example is the first manual vertical slice target for the framework.
 - Phase 10 UV/bake, material/texture, and optimization readiness reports are present and intentionally block until real production artifacts exist.
 - Phase 11 Godot validation report and review are present and intentionally block until real import/preview evidence exists.
 - Phase 12 workflow completion report and final blocked QA audit are present.
-- The example now includes the character brief, task cards, handoffs, specialist reviews, manual validation note, QA audits, and sample Blender report shapes.
+- Real protected Blender source, backup, working, screenshot, and report artifacts exist through the active tertiary-detail stage.
+- `pipeline_state.json` is the concise authoritative pointer; historical manifests and evidence remain unchanged.
 
 ## Phase 5 Artifact Trail
 
@@ -39,4 +40,4 @@ This example is the first manual vertical slice target for the framework.
 
 ## Next Work
 
-The remaining framework phases are present. The next practical work is a real Blender and Godot testing pass beginning at blockout.
+Continue the active tertiary-detail work, then complete clothing/gear, retopology, UVs, materials, rigging, deformation, optimization, export, and Godot validation. Live acceptance of the new session runner must use an isolated temporary copy.

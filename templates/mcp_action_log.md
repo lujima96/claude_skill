@@ -64,6 +64,7 @@
 
 ## Evidence
 
+- `session_journal`: none for legacy logs; required for active-session checkpoints
 - `screenshots`:
 - `iteration_receipt`: none for gate_review
 - `blender_reports`:

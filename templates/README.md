@@ -22,6 +22,7 @@ These templates are the Phase 1 data contracts for the character pipeline. They 
 | `validation_report.md` | Records deterministic validator results, warnings, and hard failures. |
 | `qa_audit_report.md` | Aggregates reviews and validation into score, diagnosis, and progression decision. |
 | `asset_manifest.md` | Tracks all source, export, Godot, report, and validation artifacts for one asset. |
+| `pipeline_state.json` | Points to the current stage, card, active session, working file, checkpoint, handoff, and hard-failure state. |
 
 ## Required Contract Docs
 

@@ -1,0 +1,178 @@
+{
+  "manifest_version": "0.2.0",
+  "asset_id": "stylized_orc_bruiser",
+  "stage_id": "rigging_skinning",
+  "source_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/mcp_sessions/rig-revision-session-002/working/stylized_orc_bruiser.rig-revision-session-002.working.blend",
+  "blender_version": "5.2.0 LTS",
+  "target_collection": "none",
+  "target_objects": [
+    "ORC_GROUND_PLANE",
+    "ORC_BODY_RETOPO_CORE",
+    "ORC_head_cranium",
+    "ORC_jaw",
+    "ORC_nose",
+    "ORC_tusk_L",
+    "ORC_tusk_R",
+    "ORC_ear_L",
+    "ORC_ear_R",
+    "ORC_ARM_RETOPO_L",
+    "ORC_bracer_L",
+    "ORC_ARM_RETOPO_R",
+    "ORC_bracer_R",
+    "ORC_LEG_RETOPO_L",
+    "ORC_LEG_RETOPO_R",
+    "ORC_loincloth_front",
+    "ORC_eye_L",
+    "ORC_eye_R",
+    "ORC_mouth_mass",
+    "ORC_cheek_L",
+    "ORC_cheek_R",
+    "ORC_glute_L",
+    "ORC_glute_R",
+    "ORC_EYELID_L",
+    "ORC_EYELID_R",
+    "ORC_BROW_RIDGE",
+    "ORC_NOSTRILS",
+    "ORC_CHEST_CONTINUOUS",
+    "ORC_ELBOW_L",
+    "ORC_ELBOW_R",
+    "ORC_PALM_L",
+    "ORC_PALM_R",
+    "ORC_FINGERS_SMOOTH_L",
+    "ORC_FINGERS_SMOOTH_R",
+    "ORC_THUMB_REBUILT_L",
+    "ORC_THUMB_REBUILT_R",
+    "ORC_BOOT_SHELL_L",
+    "ORC_BOOT_SHELL_R",
+    "ORC_BOOT_CUFF_L",
+    "ORC_BOOT_CUFF_R",
+    "ORC_BELT_CURVED",
+    "ORC_BELT_ROLLED_EDGES",
+    "ORC_BELT_OVERLAP",
+    "ORC_BUCKLE_FRAME",
+    "ORC_BUCKLE_PRONG",
+    "ORC_BELT_KEEPER",
+    "ORC_BELT_HOLES",
+    "ORC_PANEL_ATTACHMENT",
+    "ORC_PANEL_RIVETS",
+    "ORC_loincloth_front.001",
+    "ORC_EYE_PUPIL_L",
+    "ORC_EYE_CORNEA_L",
+    "ORC_EYE_PUPIL_R",
+    "ORC_EYE_CORNEA_R"
+  ],
+  "target_bounds": {
+    "minimum": [
+      -9.994924,
+      -9.994309,
+      -0.004937
+    ],
+    "maximum": [
+      10.005076,
+      10.005691,
+      2.246111
+    ],
+    "center": [
+      0.005076,
+      0.005691,
+      1.120587
+    ]
+  },
+  "screenshots": [
+    {
+      "view": "front",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/checkpoints/rig_revision_003/screenshots/stylized_orc_bruiser_rigging_skinning_front.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 768,
+      "height": 768,
+      "bytes": 335288,
+      "camera_location": [
+        0.005076,
+        -60.410976,
+        1.120587
+      ],
+      "camera_rotation_euler": [
+        1.570796,
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "view": "side",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/checkpoints/rig_revision_003/screenshots/stylized_orc_bruiser_rigging_skinning_side.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 768,
+      "height": 768,
+      "bytes": 333064,
+      "camera_location": [
+        60.421745,
+        0.005691,
+        1.120587
+      ],
+      "camera_rotation_euler": [
+        1.570796,
+        -0.0,
+        1.570796
+      ]
+    },
+    {
+      "view": "back",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/checkpoints/rig_revision_003/screenshots/stylized_orc_bruiser_rigging_skinning_back.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 768,
+      "height": 768,
+      "bytes": 335013,
+      "camera_location": [
+        0.005076,
+        60.422359,
+        1.120587
+      ],
+      "camera_rotation_euler": [
+        -1.570796,
+        3.141593,
+        -0.0
+      ]
+    },
+    {
+      "view": "three_quarter",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/checkpoints/rig_revision_003/screenshots/stylized_orc_bruiser_rigging_skinning_three_quarter.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 768,
+      "height": 768,
+      "bytes": 334980,
+      "camera_location": [
+        42.726112,
+        -42.715343,
+        1.300671
+      ],
+      "camera_rotation_euler": [
+        1.567816,
+        0.0,
+        0.785398
+      ]
+    },
+    {
+      "view": "gameplay_distance",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/checkpoints/rig_revision_003/screenshots/stylized_orc_bruiser_rigging_skinning_gameplay_distance.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 768,
+      "height": 768,
+      "bytes": 331166,
+      "camera_location": [
+        0.005076,
+        -108.744308,
+        1.390713
+      ],
+      "camera_rotation_euler": [
+        1.568312,
+        -0.0,
+        0.0
+      ]
+    }
+  ]
+}

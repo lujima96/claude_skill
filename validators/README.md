@@ -8,6 +8,7 @@ Validators are intentionally local and dependency-free where possible. They chec
 
 - `validate_stage_handoff.py`: required handoff fields, valid stage IDs, source/target stage consistency, hard-failure gate state, human-review warning.
 - `validate_stage_task_card.py`: required task-card fields, canonical stage consistency, and bounded Blender MCP scope/authorization.
+- `validate_mcp_session.py`: active-session JSONL sequencing, hash chain, exact targets, safe operations, timings, previews, and checkpoint bundles.
 - `validate_review_report.py`: required review fields, valid review type, valid decision, findings table shape, hard-failure decision consistency.
 - `validate_qa_audit.py`: required audit fields, valid stage IDs, hard-failure decision consistency, weighted score math, total score, score band.
 - `validate_manifest.py`: required manifest fields, Godot/GLB target sanity, latest stage validity, hard-failure gate state, referenced path existence.

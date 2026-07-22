@@ -1,0 +1,2934 @@
+{
+  "hard_failures": [],
+  "items": [
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "Camera",
+      "rotation_clear": false,
+      "rotation_euler": [
+        1.10932,
+        0.0,
+        0.81493
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "scale_applied": true,
+      "type": "CAMERA"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "HIGH_ORC_abdomen",
+      "rotation_clear": false,
+      "rotation_euler": [
+        0.03491,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.36,
+        0.29,
+        0.3
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "HIGH_ORC_ankle_L",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.11,
+        0.125,
+        0.11
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "HIGH_ORC_ankle_R",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.11,
+        0.125,
+        0.11
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_belt.001",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.50885,
+        0.3,
+        0.09334
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "HIGH_ORC_bicep_L",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.16,
+        0.15,
+        0.2
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "HIGH_ORC_bicep_R",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.16,
+        0.15,
+        0.2
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_bracer_L.001",
+      "rotation_clear": false,
+      "rotation_euler": [
+        0.0,
+        -0.06981,
+        0.24435
+      ],
+      "scale": [
+        0.22717,
+        0.19946,
+        0.12744
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_bracer_R.001",
+      "rotation_clear": false,
+      "rotation_euler": [
+        0.0,
+        0.06981,
+        -0.24435
+      ],
+      "scale": [
+        0.23035,
+        0.20226,
+        0.12922
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_brow_L.001",
+      "rotation_clear": false,
+      "rotation_euler": [
+        -0.17453,
+        0.0,
+        -0.20944
+      ],
+      "scale": [
+        0.112,
+        0.055,
+        0.045
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_brow_R.001",
+      "rotation_clear": false,
+      "rotation_euler": [
+        -0.17453,
+        0.0,
+        0.20944
+      ],
+      "scale": [
+        0.112,
+        0.055,
+        0.045
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "HIGH_ORC_calf_L",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.155,
+        0.15,
+        0.19
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "HIGH_ORC_calf_R",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.155,
+        0.15,
+        0.19
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_cheek_L.001",
+      "rotation_clear": false,
+      "rotation_euler": [
+        0.0,
+        -0.13963,
+        -0.10472
+      ],
+      "scale": [
+        0.135,
+        0.105,
+        0.12
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_cheek_R.001",
+      "rotation_clear": false,
+      "rotation_euler": [
+        0.0,
+        0.13963,
+        0.10472
+      ],
+      "scale": [
+        0.135,
+        0.105,
+        0.12
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_clavicle_L.001",
+      "rotation_clear": false,
+      "rotation_euler": [
+        0.0,
+        0.13963,
+        0.0
+      ],
+      "scale": [
+        0.245,
+        0.075,
+        0.055
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_clavicle_R.001",
+      "rotation_clear": false,
+      "rotation_euler": [
+        0.0,
+        -0.13963,
+        0.0
+      ],
+      "scale": [
+        0.245,
+        0.075,
+        0.055
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_ear_L.001",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "scale_applied": true,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_ear_R.001",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "scale_applied": true,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "HIGH_ORC_elbow_L",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.17,
+        0.16,
+        0.155
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "HIGH_ORC_elbow_R",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.17,
+        0.16,
+        0.155
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_eye_L.001",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.072,
+        0.052,
+        0.07
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_eye_R.001",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.072,
+        0.052,
+        0.07
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "HIGH_ORC_finger_mass_L",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.145,
+        0.115,
+        0.14
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "HIGH_ORC_finger_mass_R",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.145,
+        0.115,
+        0.14
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "HIGH_ORC_foot_L",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.18,
+        0.25,
+        0.075
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "HIGH_ORC_foot_R",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.18,
+        0.25,
+        0.075
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "HIGH_ORC_forearm_L",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.04,
+        0.92,
+        1.0
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "HIGH_ORC_forearm_R",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.04,
+        0.92,
+        1.0
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_glute_L.001",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.24,
+        0.17,
+        0.22
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_glute_R.001",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.24,
+        0.17,
+        0.22
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "HIGH_ORC_hand_L",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.17,
+        0.14,
+        0.17
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "HIGH_ORC_hand_R",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.17,
+        0.14,
+        0.17
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_head_cranium.001",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.31,
+        0.275,
+        0.32
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_heel_L.001",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.135,
+        0.16,
+        0.085
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_heel_R.001",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.135,
+        0.16,
+        0.085
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_hip_L.001",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.26,
+        0.28,
+        0.25
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_hip_R.001",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.26,
+        0.28,
+        0.25
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_instep_L.001",
+      "rotation_clear": false,
+      "rotation_euler": [
+        -0.20944,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.16,
+        0.18,
+        0.085
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_instep_R.001",
+      "rotation_clear": false,
+      "rotation_euler": [
+        -0.20944,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.16,
+        0.18,
+        0.085
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_jaw.001",
+      "rotation_clear": false,
+      "rotation_euler": [
+        -0.03491,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.35,
+        0.285,
+        0.205
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "HIGH_ORC_knee_L",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.175,
+        0.185,
+        0.15
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "HIGH_ORC_knee_R",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.175,
+        0.185,
+        0.15
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_lat_L.001",
+      "rotation_clear": false,
+      "rotation_euler": [
+        -0.12217,
+        0.0,
+        -0.12217
+      ],
+      "scale": [
+        0.1,
+        0.11,
+        0.18
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_lat_R.001",
+      "rotation_clear": false,
+      "rotation_euler": [
+        -0.12217,
+        0.0,
+        0.12217
+      ],
+      "scale": [
+        0.1,
+        0.11,
+        0.18
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_loincloth_front.001",
+      "rotation_clear": false,
+      "rotation_euler": [
+        -0.06981,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.25505,
+        0.055,
+        0.26
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_mouth_mass.001",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.225,
+        0.085,
+        0.06
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "HIGH_ORC_neck",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.08,
+        1.22,
+        1.08
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_nose.001",
+      "rotation_clear": false,
+      "rotation_euler": [
+        -0.08727,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.11,
+        0.13,
+        0.105
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "HIGH_ORC_pectoral_L",
+      "rotation_clear": false,
+      "rotation_euler": [
+        -0.05236,
+        0.08727,
+        0.0
+      ],
+      "scale": [
+        0.26,
+        0.06,
+        0.09
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "HIGH_ORC_pectoral_R",
+      "rotation_clear": false,
+      "rotation_euler": [
+        -0.05236,
+        -0.08727,
+        0.0
+      ],
+      "scale": [
+        0.26,
+        0.06,
+        0.09
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "HIGH_ORC_pelvis",
+      "rotation_clear": false,
+      "rotation_euler": [
+        0.05236,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.44,
+        0.35,
+        0.29
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "HIGH_ORC_ribcage",
+      "rotation_clear": false,
+      "rotation_euler": [
+        -0.05236,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.6,
+        0.36,
+        0.42
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_shin_L.001",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.08,
+        1.0
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_shin_R.001",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.08,
+        1.0
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "HIGH_ORC_shoulder_L",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.285,
+        0.32,
+        0.27
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_shoulder_pad_L.001",
+      "rotation_clear": false,
+      "rotation_euler": [
+        0.0,
+        -0.20944,
+        -0.17453
+      ],
+      "scale": [
+        0.34,
+        0.34,
+        0.11
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "HIGH_ORC_shoulder_R",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.285,
+        0.32,
+        0.27
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "HIGH_ORC_thigh_L",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.05,
+        0.95,
+        1.02
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "HIGH_ORC_thigh_R",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.05,
+        0.95,
+        1.02
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_thumb_L.001",
+      "rotation_clear": false,
+      "rotation_euler": [
+        0.20944,
+        0.0,
+        -0.31416
+      ],
+      "scale": [
+        0.075,
+        0.085,
+        0.11
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_thumb_R.001",
+      "rotation_clear": false,
+      "rotation_euler": [
+        0.20944,
+        0.0,
+        0.31416
+      ],
+      "scale": [
+        0.075,
+        0.085,
+        0.11
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "HIGH_ORC_toe_block_L",
+      "rotation_clear": false,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        -0.03491
+      ],
+      "scale": [
+        0.18,
+        0.13,
+        0.055
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "HIGH_ORC_toe_block_R",
+      "rotation_clear": false,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.03491
+      ],
+      "scale": [
+        0.18,
+        0.13,
+        0.055
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_trapezius_L.001",
+      "rotation_clear": false,
+      "rotation_euler": [
+        0.0,
+        -0.13963,
+        -0.27925
+      ],
+      "scale": [
+        0.31,
+        0.25,
+        0.13
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_trapezius_R.001",
+      "rotation_clear": false,
+      "rotation_euler": [
+        0.0,
+        0.13963,
+        0.27925
+      ],
+      "scale": [
+        0.31,
+        0.25,
+        0.13
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_tusk_L.001",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.18,
+        1.18,
+        1.18
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_tusk_R.001",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.18,
+        1.18,
+        1.18
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_upperarm_L.001",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        0.9,
+        1.02
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": false,
+      "negative_scale": false,
+      "object": "HIGH_ORC_upperarm_R.001",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        0.9,
+        1.02
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "Light",
+      "rotation_clear": false,
+      "rotation_euler": [
+        0.65033,
+        0.05522,
+        1.86639
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "scale_applied": true,
+      "type": "LIGHT"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_ARM_RETOPO_L",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.18,
+        0.15,
+        0.18
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_ARM_RETOPO_R",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.18,
+        0.15,
+        0.18
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_belt",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.52,
+        0.31962,
+        0.095
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_BODY_RETOPO_CORE",
+      "rotation_clear": false,
+      "rotation_euler": [
+        -0.05236,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.62,
+        0.37,
+        0.43
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_bracer_L",
+      "rotation_clear": false,
+      "rotation_euler": [
+        0.0,
+        -0.06981,
+        0.24435
+      ],
+      "scale": [
+        0.21,
+        0.18,
+        0.115
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_bracer_R",
+      "rotation_clear": false,
+      "rotation_euler": [
+        0.0,
+        0.06981,
+        -0.24435
+      ],
+      "scale": [
+        0.21,
+        0.18,
+        0.115
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_brow_L",
+      "rotation_clear": false,
+      "rotation_euler": [
+        -0.17453,
+        0.0,
+        -0.20944
+      ],
+      "scale": [
+        0.112,
+        0.055,
+        0.045
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_brow_R",
+      "rotation_clear": false,
+      "rotation_euler": [
+        -0.17453,
+        0.0,
+        0.20944
+      ],
+      "scale": [
+        0.112,
+        0.055,
+        0.045
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_cheek_L",
+      "rotation_clear": false,
+      "rotation_euler": [
+        0.0,
+        -0.13963,
+        -0.10472
+      ],
+      "scale": [
+        0.135,
+        0.105,
+        0.12
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_cheek_R",
+      "rotation_clear": false,
+      "rotation_euler": [
+        0.0,
+        0.13963,
+        0.10472
+      ],
+      "scale": [
+        0.135,
+        0.105,
+        0.12
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_clavicle_L",
+      "rotation_clear": false,
+      "rotation_euler": [
+        0.0,
+        0.13963,
+        0.0
+      ],
+      "scale": [
+        0.245,
+        0.075,
+        0.055
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_clavicle_R",
+      "rotation_clear": false,
+      "rotation_euler": [
+        0.0,
+        -0.13963,
+        0.0
+      ],
+      "scale": [
+        0.245,
+        0.075,
+        0.055
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_ear_L",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "scale_applied": true,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_ear_R",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "scale_applied": true,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_eye_L",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.072,
+        0.052,
+        0.07
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_eye_R",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.072,
+        0.052,
+        0.07
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_glute_L",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.24,
+        0.17,
+        0.22
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_glute_R",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.24,
+        0.17,
+        0.22
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_head_cranium",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.32,
+        0.285,
+        0.33
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_heel_L",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.135,
+        0.16,
+        0.085
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_heel_R",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.135,
+        0.16,
+        0.085
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_hip_L",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.26,
+        0.28,
+        0.25
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_hip_R",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.26,
+        0.28,
+        0.25
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_instep_L",
+      "rotation_clear": false,
+      "rotation_euler": [
+        -0.20944,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.16,
+        0.18,
+        0.085
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_instep_R",
+      "rotation_clear": false,
+      "rotation_euler": [
+        -0.20944,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.16,
+        0.18,
+        0.085
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_jaw",
+      "rotation_clear": false,
+      "rotation_euler": [
+        -0.03491,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.35,
+        0.285,
+        0.205
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_lat_L",
+      "rotation_clear": false,
+      "rotation_euler": [
+        -0.12217,
+        0.0,
+        -0.12217
+      ],
+      "scale": [
+        0.1,
+        0.11,
+        0.18
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_lat_R",
+      "rotation_clear": false,
+      "rotation_euler": [
+        -0.12217,
+        0.0,
+        0.12217
+      ],
+      "scale": [
+        0.1,
+        0.11,
+        0.18
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_LEG_RETOPO_L",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.06,
+        0.97,
+        1.03
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_LEG_RETOPO_R",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.06,
+        0.97,
+        1.03
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_loincloth_front",
+      "rotation_clear": false,
+      "rotation_euler": [
+        -0.06981,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.31,
+        0.065,
+        0.3
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_mouth_mass",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.225,
+        0.085,
+        0.06
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_nose",
+      "rotation_clear": false,
+      "rotation_euler": [
+        -0.08727,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.11,
+        0.13,
+        0.105
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_REVIEW_camera",
+      "rotation_clear": false,
+      "rotation_euler": [
+        1.39267,
+        0.0,
+        0.53644
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "scale_applied": true,
+      "type": "CAMERA"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_REVIEW_fill",
+      "rotation_clear": false,
+      "rotation_euler": [
+        1.14098,
+        -0.0,
+        1.10715
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "scale_applied": true,
+      "type": "LIGHT"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_REVIEW_key",
+      "rotation_clear": false,
+      "rotation_euler": [
+        0.96842,
+        0.0,
+        -0.70126
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "scale_applied": true,
+      "type": "LIGHT"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_REVIEW_rim",
+      "rotation_clear": false,
+      "rotation_euler": [
+        0.89445,
+        0.0,
+        3.14159
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "scale_applied": true,
+      "type": "LIGHT"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_RIG",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "scale_applied": true,
+      "type": "ARMATURE"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_shin_L",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.08,
+        1.16,
+        1.08
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_shin_R",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.08,
+        1.16,
+        1.08
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_shoulder_pad_L",
+      "rotation_clear": false,
+      "rotation_euler": [
+        0.0,
+        -0.20944,
+        -0.17453
+      ],
+      "scale": [
+        0.31,
+        0.31,
+        0.1
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_thumb_L",
+      "rotation_clear": false,
+      "rotation_euler": [
+        0.20944,
+        0.0,
+        -0.31416
+      ],
+      "scale": [
+        0.075,
+        0.085,
+        0.11
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_thumb_R",
+      "rotation_clear": false,
+      "rotation_euler": [
+        0.20944,
+        0.0,
+        0.31416
+      ],
+      "scale": [
+        0.075,
+        0.085,
+        0.11
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_trapezius_L",
+      "rotation_clear": false,
+      "rotation_euler": [
+        0.0,
+        -0.13963,
+        -0.27925
+      ],
+      "scale": [
+        0.31,
+        0.25,
+        0.13
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_trapezius_R",
+      "rotation_clear": false,
+      "rotation_euler": [
+        0.0,
+        0.13963,
+        0.27925
+      ],
+      "scale": [
+        0.31,
+        0.25,
+        0.13
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_tusk_L",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.18,
+        1.18,
+        1.18
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_tusk_R",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.18,
+        1.18,
+        1.18
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_upperarm_L",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        0.9,
+        1.02
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    },
+    {
+      "name_valid": true,
+      "negative_scale": false,
+      "object": "ORC_upperarm_R",
+      "rotation_clear": true,
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        0.9,
+        1.02
+      ],
+      "scale_applied": false,
+      "type": "MESH"
+    }
+  ],
+  "measurements": {
+    "invalid_name_count": 39,
+    "negative_scale_count": 0,
+    "non_applied_scale_count": 109,
+    "object_count": 120
+  },
+  "metadata": {
+    "asset_id": "stylized_orc_bruiser",
+    "blender_version": "5.2.0 LTS",
+    "created_at": "2026-07-22T19:32:56.550629+00:00",
+    "read_only": true,
+    "report_type": "naming",
+    "script_version": "0.2.0",
+    "source_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/mcp_sessions/deformation-testing-session-001/working/stylized_orc_bruiser.deformation-testing-session-001.working.blend",
+    "source_read_only": true,
+    "stage_id": "deformation_testing",
+    "writes_artifacts": true
+  },
+  "summary": {
+    "hard_failure_count": 0,
+    "invalid_name_count": 39,
+    "negative_scale_count": 0,
+    "non_applied_scale_count": 109,
+    "object_count": 120,
+    "status": "warning",
+    "warning_count": 148
+  },
+  "warnings": [
+    {
+      "evidence": "HIGH_ORC_abdomen",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_ankle_L",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_ankle_R",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_belt.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_belt.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_bicep_L",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_bicep_R",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_bracer_L.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_bracer_L.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_bracer_R.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_bracer_R.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_brow_L.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_brow_L.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_brow_R.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_brow_R.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_calf_L",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_calf_R",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_cheek_L.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_cheek_L.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_cheek_R.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_cheek_R.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_clavicle_L.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_clavicle_L.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_clavicle_R.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_clavicle_R.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_ear_L.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_ear_R.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_elbow_L",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_elbow_R",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_eye_L.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_eye_L.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_eye_R.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_eye_R.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_finger_mass_L",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_finger_mass_R",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_foot_L",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_foot_R",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_forearm_L",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_forearm_R",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_glute_L.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_glute_L.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_glute_R.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_glute_R.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_hand_L",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_hand_R",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_head_cranium.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_head_cranium.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_heel_L.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_heel_L.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_heel_R.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_heel_R.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_hip_L.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_hip_L.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_hip_R.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_hip_R.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_instep_L.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_instep_L.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_instep_R.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_instep_R.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_jaw.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_jaw.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_knee_L",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_knee_R",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_lat_L.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_lat_L.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_lat_R.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_lat_R.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_loincloth_front.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_loincloth_front.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_mouth_mass.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_mouth_mass.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_neck",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_nose.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_nose.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_pectoral_L",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_pectoral_R",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_pelvis",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_ribcage",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_shin_L.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_shin_L.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_shin_R.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_shin_R.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_shoulder_L",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_shoulder_pad_L.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_shoulder_pad_L.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_shoulder_R",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_thigh_L",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_thigh_R",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_thumb_L.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_thumb_L.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_thumb_R.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_thumb_R.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_toe_block_L",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_toe_block_R",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_trapezius_L.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_trapezius_L.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_trapezius_R.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_trapezius_R.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_tusk_L.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_tusk_L.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_tusk_R.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_tusk_R.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_upperarm_L.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_upperarm_L.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "HIGH_ORC_upperarm_R.001",
+      "message": "Object name is not pipeline-friendly.",
+      "rule_id": "object_name_invalid"
+    },
+    {
+      "evidence": "HIGH_ORC_upperarm_R.001",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_ARM_RETOPO_L",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_ARM_RETOPO_R",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_belt",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_BODY_RETOPO_CORE",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_bracer_L",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_bracer_R",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_brow_L",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_brow_R",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_cheek_L",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_cheek_R",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_clavicle_L",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_clavicle_R",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_eye_L",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_eye_R",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_glute_L",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_glute_R",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_head_cranium",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_heel_L",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_heel_R",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_hip_L",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_hip_R",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_instep_L",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_instep_R",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_jaw",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_lat_L",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_lat_R",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_LEG_RETOPO_L",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_LEG_RETOPO_R",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_loincloth_front",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_mouth_mass",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_nose",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_shin_L",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_shin_R",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_shoulder_pad_L",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_thumb_L",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_thumb_R",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_trapezius_L",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_trapezius_R",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_tusk_L",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_tusk_R",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_upperarm_L",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    },
+    {
+      "evidence": "ORC_upperarm_R",
+      "message": "Object scale is not 1,1,1.",
+      "rule_id": "scale_not_applied"
+    }
+  ]
+}

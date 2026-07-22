@@ -1,0 +1,62 @@
+{
+  "manifest_version": "0.2.0",
+  "asset_id": "stylized_orc_bruiser",
+  "stage_id": "tertiary_detail",
+  "source_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/mcp_sessions/tertiary-detail-session-001/working/stylized_orc_bruiser.tertiary-detail-session-001.working.blend",
+  "blender_version": "5.2.0 LTS",
+  "target_collection": "none",
+  "target_objects": [
+    "ORC_brow_L",
+    "ORC_brow_R",
+    "ORC_cheek_L",
+    "ORC_cheek_R",
+    "ORC_ear_L",
+    "ORC_ear_R",
+    "ORC_eye_L",
+    "ORC_eye_R",
+    "ORC_head_cranium",
+    "ORC_jaw",
+    "ORC_mouth_mass",
+    "ORC_nose",
+    "ORC_tusk_L",
+    "ORC_tusk_R"
+  ],
+  "target_bounds": {
+    "minimum": [
+      -0.473953,
+      -0.482579,
+      1.520179
+    ],
+    "maximum": [
+      0.473953,
+      0.29,
+      2.2
+    ],
+    "center": [
+      0.0,
+      -0.096289,
+      1.860089
+    ]
+  },
+  "screenshots": [
+    {
+      "view": "face_closeup",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/mcp_sessions/tertiary-detail-session-001/previews/iteration_001/stylized_orc_bruiser_tertiary_detail_face_closeup.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 512,
+      "height": 512,
+      "bytes": 167136,
+      "camera_location": [
+        0.0,
+        -1.671196,
+        2.030045
+      ],
+      "camera_rotation_euler": [
+        1.592376,
+        -0.0,
+        0.0
+      ]
+    }
+  ]
+}

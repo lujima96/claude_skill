@@ -1,0 +1,11 @@
+{
+  "schema_version": "0.1.0",
+  "updated_at": "",
+  "current_stage": "",
+  "task_card": "",
+  "active_session": null,
+  "working_file": "",
+  "last_approved_checkpoint": "",
+  "handoff": "",
+  "hard_failure_state": "clear"
+}

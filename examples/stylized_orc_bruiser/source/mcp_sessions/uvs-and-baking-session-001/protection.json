@@ -1,0 +1,15 @@
+{
+  "receipt_version": "0.1.0",
+  "created_at": "2026-07-22T18:51:23.716232+00:00",
+  "asset_id": "stylized_orc_bruiser",
+  "microtask_id": "uvs-and-baking-session-001",
+  "source_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/mcp_sessions/retopology-session-001/working/stylized_orc_bruiser.retopology-session-001.working.blend",
+  "backup_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/mcp_sessions/uvs-and-baking-session-001/backups/stylized_orc_bruiser.uvs-and-baking-session-001.before.blend",
+  "working_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/mcp_sessions/uvs-and-baking-session-001/working/stylized_orc_bruiser.uvs-and-baking-session-001.working.blend",
+  "source_sha256_before": "00a2138a029cf75d5d9306aed9e1252e8dc1bdfff29299f834c1617f9d70e427",
+  "backup_sha256": "00a2138a029cf75d5d9306aed9e1252e8dc1bdfff29299f834c1617f9d70e427",
+  "working_sha256_before": "00a2138a029cf75d5d9306aed9e1252e8dc1bdfff29299f834c1617f9d70e427",
+  "source_size_bytes": 190596,
+  "backup_verified": true,
+  "working_copy_verified": true
+}

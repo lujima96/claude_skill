@@ -1,0 +1,11 @@
+{
+  "active_session": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/mcp_sessions/rig-revision-session-002.jsonl",
+  "current_stage": "rigging_skinning",
+  "handoff": "handoffs/rig_revision_to_deformation_testing.md",
+  "hard_failure_state": "godot_validator_unavailable",
+  "last_approved_checkpoint": "checkpoints/optimization_lods_001",
+  "schema_version": "0.1.0",
+  "task_card": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/task_cards/rigging_skinning_active_session.md",
+  "updated_at": "2026-07-22T21:13:38.716832+00:00",
+  "working_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/mcp_sessions/rig-revision-session-002/working/stylized_orc_bruiser.rig-revision-session-002.working.blend"
+}

@@ -20,7 +20,7 @@ from rules.markdown_fields import (
     render_validation_report,
 )
 
-VERSION = "0.2.0"
+VERSION = "0.3.0"
 
 REQUIRED_FIELDS = [
     "log_id",
@@ -153,6 +153,7 @@ def validate(path: Path, repo_root: Path) -> tuple[list[CheckResult], list[Check
     fields = extract_fields(markdown)
     failures: list[CheckResult] = []
     warnings: list[CheckResult] = []
+    session_trace: dict[str, object] = {}
 
     add_required_field_checks(failures, fields, REQUIRED_FIELDS)
     add_stage_check(failures, fields, "stage_id")
@@ -379,6 +380,8 @@ def validate(path: Path, repo_root: Path) -> tuple[list[CheckResult], list[Check
             if evidence_tier == "quick_iteration"
             else ("task_card", "source_file", "backup_file", "working_file", "source_protection_receipt", "screenshots", "blender_reports", "validation_reports", "specialist_review", "qa_audit")
         )
+        if not value_is_none(fields.get("session_journal", "")):
+            artifact_fields = (*artifact_fields, "session_journal")
         resolved: dict[str, list[Path]] = {}
         for field in artifact_fields:
             values = list_values(fields.get(field, ""))
@@ -432,11 +435,25 @@ def validate(path: Path, repo_root: Path) -> tuple[list[CheckResult], list[Check
                         failures.append(CheckResult("task_log_match", f"Task-card `{field}` must match the action log", f"task {task_fields.get(field)!r}, log {fields.get(field)!r}", "Use the task card that authorized this loop."))
                 if task_fields.get("status") not in {"ready", "in_progress", "review", "approved"}:
                     failures.append(CheckResult("task_ready", "Real MCP execution requires an authorized non-draft task card", str(task_fields.get("status")), "Move the task card to ready only after execution authorization."))
-                if task_fields.get("mcp_microtask_id") != fields.get("microtask_id"):
-                    failures.append(CheckResult("microtask_match", "Task-card microtask ID must match the action log", f"task {task_fields.get('mcp_microtask_id')!r}, log {fields.get('microtask_id')!r}", "Use the task card that authorized this exact microtask."))
-                task_tier = task_fields.get("evidence_tier", "gate_review") or "gate_review"
-                if task_tier != evidence_tier:
-                    failures.append(CheckResult("evidence_tier_match", "Task and log evidence tiers must match", f"task {task_tier!r}, log {evidence_tier!r}", "Use the authorized task tier."))
+                if task_fields.get("workflow_mode") == "active_session":
+                    journal_paths = resolved.get("session_journal", [])
+                    if not journal_paths:
+                        failures.append(CheckResult("session_journal_required", "Active-session checkpoint logs require the session journal", fields.get("session_journal", ""), "Link the validated JSONL journal."))
+                    elif journal_paths[0].is_file():
+                        from validate_mcp_session import validate as validate_session
+                        journal_failures, _, records, journal_measurements = validate_session(journal_paths[0])
+                        if journal_failures:
+                            failures.append(CheckResult("valid_session_journal", "Session journal must pass validation", ", ".join(item.rule_id for item in journal_failures), "Repair or recover the session before checkpoint approval."))
+                        elif records and records[0].get("session_id") != task_fields.get("session_id"):
+                            failures.append(CheckResult("session_id_match", "Task card and journal session IDs must match", records[0].get("session_id", ""), "Use the journal authorized by this stage card."))
+                        else:
+                            session_trace = {f"session_{key}": value for key, value in journal_measurements.items()}
+                else:
+                    if task_fields.get("mcp_microtask_id") != fields.get("microtask_id"):
+                        failures.append(CheckResult("microtask_match", "Task-card microtask ID must match the action log", f"task {task_fields.get('mcp_microtask_id')!r}, log {fields.get('microtask_id')!r}", "Use the task card that authorized this exact microtask."))
+                    task_tier = task_fields.get("evidence_tier", "gate_review") or "gate_review"
+                    if task_tier != evidence_tier:
+                        failures.append(CheckResult("evidence_tier_match", "Task and log evidence tiers must match", f"task {task_tier!r}, log {evidence_tier!r}", "Use the authorized task tier."))
             except Exception as exc:
                 failures.append(CheckResult("task_card_runtime", "Task-card validation failed to run", str(exc), "Run validate_stage_task_card.py directly."))
 
@@ -500,7 +517,7 @@ def validate(path: Path, repo_root: Path) -> tuple[list[CheckResult], list[Check
             )
         )
 
-    return failures, warnings, fields, {"field_count": len(fields), "action_count": len(rows), "evidence_tier": evidence_tier}
+    return failures, warnings, fields, {"field_count": len(fields), "action_count": len(rows), "evidence_tier": evidence_tier, **session_trace}
 
 
 def main() -> int:

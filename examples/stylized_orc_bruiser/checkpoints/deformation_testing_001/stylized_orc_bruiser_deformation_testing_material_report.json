@@ -1,0 +1,126 @@
+{
+  "hard_failures": [],
+  "items": [
+    {
+      "image_node_count": 0,
+      "images": [],
+      "material": "MAT_ORC_brow_hair_blockout.001",
+      "use_nodes": true,
+      "users": 6
+    },
+    {
+      "image_node_count": 0,
+      "images": [],
+      "material": "MAT_ORC_cloth_blockout.001",
+      "use_nodes": true,
+      "users": 2
+    },
+    {
+      "image_node_count": 0,
+      "images": [],
+      "material": "MAT_ORC_eye_blockout.001",
+      "use_nodes": true,
+      "users": 2
+    },
+    {
+      "image_node_count": 0,
+      "images": [],
+      "material": "MAT_ORC_gear_blockout.001",
+      "use_nodes": true,
+      "users": 7
+    },
+    {
+      "image_node_count": 0,
+      "images": [],
+      "material": "MAT_ORC_skin_blockout.001",
+      "use_nodes": true,
+      "users": 50
+    },
+    {
+      "image_node_count": 0,
+      "images": [],
+      "material": "MAT_ORC_tusk_blockout.001",
+      "use_nodes": true,
+      "users": 2
+    },
+    {
+      "image_node_count": 0,
+      "images": [],
+      "material": "ORC_BOOT_LEATHER",
+      "use_nodes": true,
+      "users": 4
+    },
+    {
+      "image_node_count": 0,
+      "images": [],
+      "material": "ORC_BROW_DARK",
+      "use_nodes": true,
+      "users": 2
+    },
+    {
+      "image_node_count": 0,
+      "images": [],
+      "material": "ORC_EYE_AMBER",
+      "use_nodes": true,
+      "users": 2
+    },
+    {
+      "image_node_count": 0,
+      "images": [],
+      "material": "ORC_GEAR_LEATHER",
+      "use_nodes": true,
+      "users": 5
+    },
+    {
+      "image_node_count": 2,
+      "images": [
+        {
+          "filepath": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/mcp_sessions/uvs-and-baking-session-001/bakes/ORC_BODY_AO_1024.png",
+          "image": "ORC_BODY_AO_1024",
+          "node": "ORC_BODY_AO_MAP",
+          "status": "exists"
+        },
+        {
+          "filepath": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/mcp_sessions/uvs-and-baking-session-001/bakes/ORC_BODY_NORMAL_1024.png",
+          "image": "ORC_NORMAL_BAKE",
+          "node": "ORC_BODY_NORMAL_MAP",
+          "status": "exists"
+        }
+      ],
+      "material": "ORC_SKIN_BASE",
+      "use_nodes": true,
+      "users": 29
+    },
+    {
+      "image_node_count": 0,
+      "images": [],
+      "material": "ORC_TUSK_IVORY",
+      "use_nodes": true,
+      "users": 2
+    }
+  ],
+  "measurements": {
+    "missing_images": "none"
+  },
+  "metadata": {
+    "asset_id": "stylized_orc_bruiser",
+    "blender_version": "5.2.0 LTS",
+    "created_at": "2026-07-22T19:32:56.549712+00:00",
+    "read_only": true,
+    "report_type": "material",
+    "script_version": "0.2.0",
+    "source_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/mcp_sessions/deformation-testing-session-001/working/stylized_orc_bruiser.deformation-testing-session-001.working.blend",
+    "source_read_only": true,
+    "stage_id": "deformation_testing",
+    "writes_artifacts": true
+  },
+  "summary": {
+    "hard_failure_count": 0,
+    "image_count": 4,
+    "material_count": 12,
+    "missing_image_count": 0,
+    "status": "pass",
+    "warning_count": 0
+  },
+  "warnings": []
+}

@@ -1,0 +1,15 @@
+{
+  "receipt_version": "0.1.0",
+  "created_at": "2026-07-22T20:24:43.290377+00:00",
+  "asset_id": "stylized_orc_bruiser",
+  "microtask_id": "hand-rebuild-session-001",
+  "source_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/mcp_sessions/chest-shoulder-consolidation-session-001/working/stylized_orc_bruiser.chest-shoulder-consolidation-session-001.working.blend",
+  "backup_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/mcp_sessions/hand-rebuild-session-001/backups/stylized_orc_bruiser.hand-rebuild-session-001.before.blend",
+  "working_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/mcp_sessions/hand-rebuild-session-001/working/stylized_orc_bruiser.hand-rebuild-session-001.working.blend",
+  "source_sha256_before": "fd6c38e8cf12624781ec96852f30f4655eb835ba5e879ea68ac8fa44f096dec5",
+  "backup_sha256": "fd6c38e8cf12624781ec96852f30f4655eb835ba5e879ea68ac8fa44f096dec5",
+  "working_sha256_before": "fd6c38e8cf12624781ec96852f30f4655eb835ba5e879ea68ac8fa44f096dec5",
+  "source_size_bytes": 532641,
+  "backup_verified": true,
+  "working_copy_verified": true
+}

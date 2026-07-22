@@ -1,0 +1,15 @@
+{
+  "receipt_version": "0.1.0",
+  "created_at": "2026-07-22T19:05:09.043160+00:00",
+  "asset_id": "stylized_orc_bruiser",
+  "microtask_id": "texturing-materials-session-001",
+  "source_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/mcp_sessions/uvs-and-baking-session-001/working/stylized_orc_bruiser.uvs-and-baking-session-001.working.blend",
+  "backup_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/mcp_sessions/texturing-materials-session-001/backups/stylized_orc_bruiser.texturing-materials-session-001.before.blend",
+  "working_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/mcp_sessions/texturing-materials-session-001/working/stylized_orc_bruiser.texturing-materials-session-001.working.blend",
+  "source_sha256_before": "63afdd2384ab9672d5a60cafabee723d34f5fd9dc05f55159906e57bc35dd841",
+  "backup_sha256": "63afdd2384ab9672d5a60cafabee723d34f5fd9dc05f55159906e57bc35dd841",
+  "working_sha256_before": "63afdd2384ab9672d5a60cafabee723d34f5fd9dc05f55159906e57bc35dd841",
+  "source_size_bytes": 269758,
+  "backup_verified": true,
+  "working_copy_verified": true
+}

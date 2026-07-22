@@ -1,0 +1,22 @@
+# Boot Rebuild Active Session Task Card
+
+- `schema_version`: 0.3
+- `workflow_mode`: active_session
+- `task_id`: stylized_orc_bruiser-boot-rebuild-session-001
+- `asset_id`: stylized_orc_bruiser
+- `stage_id`: clothing_hardsurface_hair
+- `revision_of`: hand_rebuild
+- `status`: approved
+- `goal`: Replace the conflicting foot, heel, instep, and toe presentation with one intentional leather boot shell per side using the belt leather language.
+- `source_baseline`: `examples/stylized_orc_bruiser/source/mcp_sessions/hand-rebuild-session-001/working/stylized_orc_bruiser.hand-rebuild-session-001.working.blend`
+- `source_baseline_sha256`: `5af7e234cdc9cf205029571434f32e4906e228455d9109b3c05efafb4ca70fb5`
+- `manual_changes_preserved`: yes; live Blender state saved before protection
+- `authorized_collections`: `ORC_BLOCKOUT`, `ORC_HIGH_SOURCE_TMP`
+- `safe_change_types`: `absolute_transform`, `vertex_positions`, `visibility`, `collection_membership`
+- `max_targets_per_edit`: 6
+- `viewport_preview_policy`: one boot-focused preview after each accepted structural batch; full-character preview at checkpoint
+- `checkpoint_triggers`: boot structural replacement, topology change, drift, evidence failure, or completed boot rebuild
+- `required_outputs`: protected working file, session journal, boot checkpoint bundle, updated GLB
+- `requires_human_approval`: yes
+- `execution_authorized_by`: repository user
+- `execution_authorized_at`: 2026-07-22

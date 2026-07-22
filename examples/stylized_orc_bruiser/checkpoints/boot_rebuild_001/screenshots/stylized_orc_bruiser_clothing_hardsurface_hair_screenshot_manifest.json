@@ -1,0 +1,190 @@
+{
+  "manifest_version": "0.2.0",
+  "asset_id": "stylized_orc_bruiser",
+  "stage_id": "clothing_hardsurface_hair",
+  "source_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/mcp_sessions/boot-rebuild-session-001/working/stylized_orc_bruiser.boot-rebuild-session-001.working.blend",
+  "blender_version": "5.2.0 LTS",
+  "target_collection": "ORC_BLOCKOUT",
+  "target_objects": [
+    "ORC_BODY_RETOPO_CORE",
+    "ORC_head_cranium",
+    "ORC_jaw",
+    "ORC_nose",
+    "ORC_brow_L",
+    "ORC_brow_R",
+    "ORC_tusk_L",
+    "ORC_tusk_R",
+    "ORC_ear_L",
+    "ORC_ear_R",
+    "ORC_ARM_RETOPO_L",
+    "ORC_bracer_L",
+    "ORC_ARM_RETOPO_R",
+    "ORC_bracer_R",
+    "ORC_LEG_RETOPO_L",
+    "ORC_LEG_RETOPO_R",
+    "ORC_belt",
+    "ORC_loincloth_front",
+    "ORC_shoulder_pad_L",
+    "ORC_eye_L",
+    "ORC_eye_R",
+    "ORC_mouth_mass",
+    "ORC_cheek_L",
+    "ORC_cheek_R",
+    "ORC_trapezius_L",
+    "ORC_trapezius_R",
+    "ORC_glute_L",
+    "ORC_heel_L",
+    "ORC_glute_R",
+    "ORC_heel_R",
+    "ORC_thumb_L",
+    "ORC_instep_L",
+    "ORC_thumb_R",
+    "ORC_instep_R",
+    "ORC_clavicle_L",
+    "ORC_clavicle_R",
+    "ORC_lat_L",
+    "ORC_lat_R",
+    "ORC_BELT_FASTENING",
+    "ORC_BELT_FASTENING_BAR",
+    "ORC_BELT_RIVETS",
+    "ORC_FINGER_GROUP_L",
+    "ORC_FINGER_GROUP_R",
+    "ORC_TOE_GROUP_L",
+    "ORC_TOE_GROUP_R",
+    "ORC_EYELID_L",
+    "ORC_EYELID_R",
+    "ORC_BROW_RIDGE",
+    "ORC_NOSTRILS",
+    "ORC_CHEST_CONTINUOUS",
+    "ORC_ELBOW_L",
+    "ORC_ELBOW_R",
+    "ORC_PALM_L",
+    "ORC_FINGERS_L",
+    "ORC_PALM_R",
+    "ORC_FINGERS_R",
+    "ORC_FINGERS_SMOOTH_L",
+    "ORC_FINGERS_SMOOTH_R",
+    "ORC_THUMB_REBUILT_L",
+    "ORC_THUMB_REBUILT_R",
+    "ORC_BOOT_SHELL_L",
+    "ORC_BOOT_SOLE_L",
+    "ORC_BOOT_SHELL_R",
+    "ORC_BOOT_SOLE_R",
+    "ORC_BOOT_CUFF_L",
+    "ORC_BOOT_CUFF_R"
+  ],
+  "target_bounds": {
+    "minimum": [
+      -1.202469,
+      -1.0,
+      -1.0
+    ],
+    "maximum": [
+      1.202532,
+      1.0,
+      2.246034
+    ],
+    "center": [
+      3.1e-05,
+      0.0,
+      0.623017
+    ]
+  },
+  "screenshots": [
+    {
+      "view": "front",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/checkpoints/boot_rebuild_001/screenshots/stylized_orc_bruiser_clothing_hardsurface_hair_front.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 768,
+      "height": 768,
+      "bytes": 398663,
+      "camera_location": [
+        3.1e-05,
+        -9.805728,
+        0.623017
+      ],
+      "camera_rotation_euler": [
+        1.570796,
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "view": "side",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/checkpoints/boot_rebuild_001/screenshots/stylized_orc_bruiser_clothing_hardsurface_hair_side.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 768,
+      "height": 768,
+      "bytes": 364638,
+      "camera_location": [
+        9.805759,
+        0.0,
+        0.623017
+      ],
+      "camera_rotation_euler": [
+        1.570796,
+        -0.0,
+        1.570796
+      ]
+    },
+    {
+      "view": "back",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/checkpoints/boot_rebuild_001/screenshots/stylized_orc_bruiser_clothing_hardsurface_hair_back.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 768,
+      "height": 768,
+      "bytes": 397657,
+      "camera_location": [
+        3.1e-05,
+        9.805728,
+        0.623017
+      ],
+      "camera_rotation_euler": [
+        -1.570796,
+        3.141593,
+        -0.0
+      ]
+    },
+    {
+      "view": "three_quarter",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/checkpoints/boot_rebuild_001/screenshots/stylized_orc_bruiser_clothing_hardsurface_hair_three_quarter.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 768,
+      "height": 768,
+      "bytes": 393330,
+      "camera_location": [
+        6.933728,
+        -6.933697,
+        0.8827
+      ],
+      "camera_rotation_euler": [
+        1.54432,
+        -0.0,
+        0.785398
+      ]
+    },
+    {
+      "view": "gameplay_distance",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/checkpoints/boot_rebuild_001/screenshots/stylized_orc_bruiser_clothing_hardsurface_hair_gameplay_distance.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 768,
+      "height": 768,
+      "bytes": 358182,
+      "camera_location": [
+        3.1e-05,
+        -17.650311,
+        1.012541
+      ],
+      "camera_rotation_euler": [
+        1.548731,
+        -0.0,
+        0.0
+      ]
+    }
+  ]
+}

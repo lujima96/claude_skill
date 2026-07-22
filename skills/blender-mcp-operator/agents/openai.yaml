@@ -1,4 +1,4 @@
 interface:
   display_name: "Blender MCP Operator"
-  short_description: "Run fast protected Blender edits and full gates"
-  default_prompt: "Use $blender-mcp-operator to run protected quick Blender iterations and a fully validated review gate."
+  short_description: "Run protected persistent Blender edit sessions"
+  default_prompt: "Use $blender-mcp-operator to run a protected active Blender edit session with deterministic validation and lightweight preview evidence."

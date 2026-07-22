@@ -1,0 +1,30 @@
+{
+  "acceptance_version": "0.1.0",
+  "accepted_at": "2026-07-22",
+  "mode": "isolated_headless_blender",
+  "blender_version": "5.2.0 LTS",
+  "fixture_file": "/tmp/codex_active_session_acceptance.blend",
+  "fixture_target_count": 4,
+  "fixture_targets": [
+    "ORC_brow_L",
+    "ORC_brow_R",
+    "ORC_tusk_L",
+    "ORC_tusk_R"
+  ],
+  "status": "accepted",
+  "drift_status": "pass",
+  "drift_issues": [],
+  "durations_ms": {
+    "fingerprint_before": 0.62,
+    "apply": 0.036,
+    "validate_delta": 0.542,
+    "save": 4.549,
+    "total": 6.114
+  },
+  "blender_process_count": 1,
+  "quick_edit_execution_count": 1,
+  "mcp_transport_used": false,
+  "actual_mcp_round_trip_count": 0,
+  "expected_mcp_round_trip_count_for_same_execution": 1,
+  "repository_blend_files_touched": false
+}

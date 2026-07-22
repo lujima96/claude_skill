@@ -7,7 +7,7 @@ The full hard-failure list lives in `docs/pipeline/hard_failures.md`. This refer
 Block progression when any of these are true:
 
 - Required character brief is missing.
-- Current stage task card is missing.
+- Current stage authorization envelope is missing. A validated schema-0.3 active-session task card plus exact runtime target receipt satisfies this requirement; legacy task cards remain valid.
 - Current stage handoff is missing.
 - Human approval is required and absent.
 - Required artifact path is missing or unresolved.

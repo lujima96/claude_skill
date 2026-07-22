@@ -1,6 +1,6 @@
 # MCP Operating Docs
 
-This folder defines the bounded Blender MCP operating loop introduced in Phase 9.
+This folder defines legacy bounded loops and persistent stage-scoped Blender MCP edit sessions.
 
 ## Documents
 
@@ -8,7 +8,8 @@ This folder defines the bounded Blender MCP operating loop introduced in Phase 9
 |---|---|
 | `blender_mcp_usage_policy.md` | Rules for safe, bounded Blender MCP editing. |
 | `action_log_format.md` | Field contract and review expectations for MCP action logs. |
+| `session_journal_format.md` | Versioned active-session JSONL records, hash chaining, previews, timings, rollback, and checkpoints. |
 
 ## Rule
 
-Blender MCP may make only one bounded microtask change per loop. Every loop must create or reference an action log, screenshots, validator output, specialist review, QA decision, and human approval state.
+Routine work stays within one validated stage envelope, uses at most six exact targets per edit, and writes one machine-readable journal record plus one preview. Full action logs, report bundles, specialist review, QA, and human approval occur at checkpoints. Legacy evidence-tier loops remain valid.

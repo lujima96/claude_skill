@@ -1,0 +1,162 @@
+{
+  "manifest_version": "0.2.0",
+  "asset_id": "stylized_orc_bruiser",
+  "stage_id": "uvs_and_baking",
+  "source_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/mcp_sessions/uvs-and-baking-session-001/working/stylized_orc_bruiser.uvs-and-baking-session-001.working.blend",
+  "blender_version": "5.2.0 LTS",
+  "target_collection": "ORC_BLOCKOUT",
+  "target_objects": [
+    "ORC_BODY_RETOPO_CORE",
+    "ORC_head_cranium",
+    "ORC_jaw",
+    "ORC_nose",
+    "ORC_brow_L",
+    "ORC_brow_R",
+    "ORC_tusk_L",
+    "ORC_tusk_R",
+    "ORC_ear_L",
+    "ORC_ear_R",
+    "ORC_ARM_RETOPO_L",
+    "ORC_bracer_L",
+    "ORC_ARM_RETOPO_R",
+    "ORC_bracer_R",
+    "ORC_LEG_RETOPO_L",
+    "ORC_LEG_RETOPO_R",
+    "ORC_belt",
+    "ORC_loincloth_front",
+    "ORC_shoulder_pad_L",
+    "ORC_eye_L",
+    "ORC_eye_R",
+    "ORC_mouth_mass",
+    "ORC_cheek_L",
+    "ORC_cheek_R",
+    "ORC_trapezius_L",
+    "ORC_trapezius_R",
+    "ORC_glute_L",
+    "ORC_heel_L",
+    "ORC_glute_R",
+    "ORC_heel_R",
+    "ORC_thumb_L",
+    "ORC_instep_L",
+    "ORC_thumb_R",
+    "ORC_instep_R",
+    "ORC_clavicle_L",
+    "ORC_clavicle_R",
+    "ORC_lat_L",
+    "ORC_lat_R"
+  ],
+  "target_bounds": {
+    "minimum": [
+      -1.182331,
+      -0.537429,
+      -0.133578
+    ],
+    "maximum": [
+      1.182331,
+      0.455799,
+      2.19
+    ],
+    "center": [
+      0.0,
+      -0.040815,
+      1.028211
+    ]
+  },
+  "screenshots": [
+    {
+      "view": "front",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/checkpoints/uvs_and_baking_001/screenshots/stylized_orc_bruiser_uvs_and_baking_front.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 768,
+      "height": 768,
+      "bytes": 354531,
+      "camera_location": [
+        0.0,
+        -7.184064,
+        1.028211
+      ],
+      "camera_rotation_euler": [
+        1.570796,
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "view": "side",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/checkpoints/uvs_and_baking_001/screenshots/stylized_orc_bruiser_uvs_and_baking_side.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 768,
+      "height": 768,
+      "bytes": 343599,
+      "camera_location": [
+        7.14325,
+        -0.040815,
+        1.028211
+      ],
+      "camera_rotation_euler": [
+        1.570796,
+        -0.0,
+        1.570796
+      ]
+    },
+    {
+      "view": "back",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/checkpoints/uvs_and_baking_001/screenshots/stylized_orc_bruiser_uvs_and_baking_back.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 768,
+      "height": 768,
+      "bytes": 355640,
+      "camera_location": [
+        0.0,
+        7.102435,
+        1.028211
+      ],
+      "camera_rotation_euler": [
+        -1.570796,
+        3.141593,
+        -0.0
+      ]
+    },
+    {
+      "view": "three_quarter",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/checkpoints/uvs_and_baking_001/screenshots/stylized_orc_bruiser_uvs_and_baking_three_quarter.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 768,
+      "height": 768,
+      "bytes": 353471,
+      "camera_location": [
+        5.05104,
+        -5.091855,
+        1.214097
+      ],
+      "camera_rotation_euler": [
+        1.54478,
+        -0.0,
+        0.785398
+      ]
+    },
+    {
+      "view": "gameplay_distance",
+      "path": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/checkpoints/uvs_and_baking_001/screenshots/stylized_orc_bruiser_uvs_and_baking_gameplay_distance.png",
+      "status": "captured",
+      "required_for_review": true,
+      "width": 768,
+      "height": 768,
+      "bytes": 341597,
+      "camera_location": [
+        0.0,
+        -12.898664,
+        1.30704
+      ],
+      "camera_rotation_euler": [
+        1.549114,
+        -0.0,
+        0.0
+      ]
+    }
+  ]
+}

@@ -17,7 +17,7 @@ from rules.markdown_fields import (
     render_validation_report,
 )
 
-VERSION = "0.2.0"
+VERSION = "0.3.0"
 REQUIRED_FIELDS = [
     "task_id", "asset_id", "stage_id", "stage_name", "created_by", "created_at", "status",
     "goal", "current_stage", "allowed_tools", "disallowed_tools", "known_constraints",
@@ -29,6 +29,7 @@ REQUIRED_FIELDS = [
 VALID_STATUSES = {"draft", "ready", "in_progress", "review", "approved", "blocked"}
 VALID_EVIDENCE_TIERS = {"gate_review", "quick_iteration"}
 QUICK_SAFE_CHANGE_TYPES = {"transform", "visibility", "collection_membership", "vertex_positions"}
+SESSION_SAFE_CHANGE_TYPES = {"absolute_transform", "visibility", "collection_membership", "vertex_positions"}
 
 
 def none_value(value: str) -> bool:
@@ -54,22 +55,54 @@ def validate(path: Path, repo_root: Path):
 
     is_mcp = "mcp" in fields.get("allowed_tools", "").lower()
     if is_mcp:
-        for field in ("mcp_microtask_id", "target_objects", "allowed_change_types"):
-            if none_value(fields.get(field, "")):
-                failures.append(CheckResult("mcp_scope_required", f"`{field}` is required for Blender MCP work", fields.get(field, ""), f"Define `{field}` before execution."))
-        microtasks = parse_list_value(fields.get("microtasks", ""))
-        if len(microtasks) != 1:
-            failures.append(CheckResult("single_microtask", "A Blender MCP task card must contain exactly one semicolon-delimited microtask", fields.get("microtasks", ""), "Keep one bounded microtask in the task card."))
+        active_session = fields.get("workflow_mode") == "active_session"
+        if active_session:
+            if fields.get("schema_version") != "0.3":
+                failures.append(CheckResult("active_session_schema", "Active sessions require task-card schema 0.3", fields.get("schema_version", ""), "Set `schema_version: 0.3`."))
+            for field in (
+                "session_id", "authorized_collections", "safe_change_types", "max_targets_per_edit",
+                "viewport_preview_policy", "checkpoint_triggers", "pipeline_state", "session_journal",
+                "source_file", "backup_file", "working_file", "source_protection_receipt",
+            ):
+                if none_value(fields.get(field, "")):
+                    failures.append(CheckResult("active_session_contract", f"`{field}` is required for active sessions", fields.get(field, ""), f"Define `{field}` when opening the session."))
+            collections = parse_list_value(fields.get("authorized_collections", ""))
+            if not collections:
+                failures.append(CheckResult("authorized_collections", "At least one collection must be authorized", fields.get("authorized_collections", ""), "Name the stage-scoped collections."))
+            safe_types = set(parse_list_value(fields.get("safe_change_types", "")))
+            unsafe = sorted(safe_types - SESSION_SAFE_CHANGE_TYPES)
+            if not safe_types or unsafe:
+                failures.append(CheckResult("session_safe_changes", "Active-session changes must use the safe declarative allowlist", ", ".join(unsafe) or "none", "Use absolute_transform, visibility, collection_membership, and/or vertex_positions."))
+            try:
+                maximum = int(fields.get("max_targets_per_edit", "0"))
+            except ValueError:
+                maximum = 0
+            if maximum != 6:
+                failures.append(CheckResult("session_target_limit", "Active sessions require a six-target per-edit limit", fields.get("max_targets_per_edit", ""), "Set `max_targets_per_edit: 6`."))
+            policy = fields.get("viewport_preview_policy", "").lower()
+            if "get_viewport_screenshot" not in policy or "512" not in policy or "eevee" not in policy:
+                failures.append(CheckResult("preview_policy", "Preview policy must use one viewport capture with one 512px Eevee fallback", fields.get("viewport_preview_policy", ""), "Record the active-session preview policy."))
+            triggers = fields.get("checkpoint_triggers", "").lower()
+            for trigger in ("stage transition", "scope expansion", "drift", "evidence failure"):
+                if trigger not in triggers:
+                    failures.append(CheckResult("checkpoint_triggers", "Required safety checkpoint trigger is missing", trigger, "List all automatic checkpoint triggers."))
+        else:
+            for field in ("mcp_microtask_id", "target_objects", "allowed_change_types"):
+                if none_value(fields.get(field, "")):
+                    failures.append(CheckResult("mcp_scope_required", f"`{field}` is required for Blender MCP work", fields.get(field, ""), f"Define `{field}` before execution."))
+            microtasks = parse_list_value(fields.get("microtasks", ""))
+            if len(microtasks) != 1:
+                failures.append(CheckResult("single_microtask", "A legacy Blender MCP task card must contain exactly one semicolon-delimited microtask", fields.get("microtasks", ""), "Keep one bounded microtask in the legacy card."))
         if fields.get("status") in {"ready", "in_progress", "review", "approved"}:
             for field in ("execution_authorized_by", "execution_authorized_at"):
                 if none_value(fields.get(field, "")):
                     failures.append(CheckResult("execution_authorization", f"`{field}` is required before MCP execution", fields.get(field, ""), f"Record `{field}` before changing Blender."))
-        evidence_tier = fields.get("evidence_tier", "gate_review") or "gate_review"
-        if evidence_tier not in VALID_EVIDENCE_TIERS:
+        evidence_tier = "active_session" if active_session else (fields.get("evidence_tier", "gate_review") or "gate_review")
+        if not active_session and evidence_tier not in VALID_EVIDENCE_TIERS:
             failures.append(CheckResult("valid_evidence_tier", "`evidence_tier` must be known", evidence_tier, "Use `gate_review` or `quick_iteration`."))
-        if "evidence_tier" not in fields:
+        if not active_session and "evidence_tier" not in fields:
             warnings.append(CheckResult("legacy_gate_tier", "MCP task omits `evidence_tier` and defaults to gate_review", fields.get("task_id", ""), "Add the explicit evidence tier when revising this task.", "warning"))
-        if evidence_tier == "quick_iteration":
+        if not active_session and evidence_tier == "quick_iteration":
             for field in ("iteration_budget", "iteration_views"):
                 if none_value(fields.get(field, "")):
                     failures.append(CheckResult("quick_iteration_contract", f"`{field}` is required for quick iteration", fields.get(field, ""), f"Define `{field}`."))
@@ -90,7 +123,8 @@ def validate(path: Path, repo_root: Path):
             if not {"front", "three_quarter"}.issubset(views):
                 failures.append(CheckResult("quick_views", "Quick iteration requires front and three_quarter views", fields.get("iteration_views", ""), "Add both quick preview views."))
 
-    return failures, warnings, fields, {"field_count": len(fields), "mcp_task": is_mcp, "evidence_tier": fields.get("evidence_tier", "gate_review") if is_mcp else "not_applicable"}
+    mode = "active_session" if fields.get("workflow_mode") == "active_session" else (fields.get("evidence_tier", "gate_review") if is_mcp else "not_applicable")
+    return failures, warnings, fields, {"field_count": len(fields), "mcp_task": is_mcp, "workflow_mode": mode}
 
 
 def main() -> int:

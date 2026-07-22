@@ -1,0 +1,15 @@
+{
+  "receipt_version": "0.1.0",
+  "created_at": "2026-07-22T15:40:05.194568+00:00",
+  "asset_id": "stylized_orc_bruiser",
+  "microtask_id": "tertiary-detail-session-001",
+  "source_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/tertiary_detail/ear_silhouette/working/stylized_orc_bruiser.tertiary-detail-ear-silhouette-refinement-001.working.blend",
+  "backup_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/mcp_sessions/tertiary-detail-session-001/backups/stylized_orc_bruiser.tertiary-detail-session-001.before.blend",
+  "working_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/mcp_sessions/tertiary-detail-session-001/working/stylized_orc_bruiser.tertiary-detail-session-001.working.blend",
+  "source_sha256_before": "e39a76de7e30a92edbcca86178dfbb482c05aeeb27a323372d4857acf42294b5",
+  "backup_sha256": "e39a76de7e30a92edbcca86178dfbb482c05aeeb27a323372d4857acf42294b5",
+  "working_sha256_before": "e39a76de7e30a92edbcca86178dfbb482c05aeeb27a323372d4857acf42294b5",
+  "source_size_bytes": 160136,
+  "backup_verified": true,
+  "working_copy_verified": true
+}

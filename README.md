@@ -18,7 +18,8 @@ The framework is intentionally not a one-shot character generator. It is built a
 - Phase 9: bounded Blender MCP loop policy, hash-verified working copies, capability preflight, action logs, and evidence validators implemented.
 - Phase 10: materials, UV/bake, optimization skills and readiness validators implemented.
 - Phase 11: Godot adapter contracts, import probe, review skill, and validator implemented.
-- Phase 12: full stylized biped workflow completion gate implemented; example remains blocked until real production artifacts exist.
+- Phase 12: full stylized biped workflow completion gate implemented; the example has real Blender artifacts through tertiary detail and remains blocked on downstream mesh, rig, texture, export, and Godot evidence.
+- Phase 14: persistent Blender MCP edit sessions, declarative safe edits, hash-chained JSONL evidence, and bundled checkpoints implemented.
 - Phase 13: second workflow profile added for low-poly mobile character.
 
 ## First Supported Workflow
@@ -36,6 +37,7 @@ The first workflow is a stylized biped character authored in Blender and validat
 - `docs/pipeline/`: stage list, hard failures, and QA scoring.
 - `docs/mcp/`: bounded Blender MCP operating policy and action-log rules.
 - `templates/`: artifact contracts.
+- `templates/pipeline_state.json`: concise current-stage and active-session pointer.
 - `skills/character-director/`: orchestration skill.
 - `skills/reference-librarian/`: reference coverage and metadata review.
 - `skills/style-keeper/`: style-family and readability review.

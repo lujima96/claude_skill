@@ -1,0 +1,21 @@
+# UVs and Baking Active Session Task Card
+
+- `schema_version`: 0.3
+- `task_id`: stylized_orc_bruiser-uvs-and-baking-session-001
+- `asset_id`: stylized_orc_bruiser
+- `stage_id`: uvs_and_baking
+- `stage_name`: UVs and baking
+- `status`: approved
+- `goal`: Create clean game UVs and bake utility maps from the approved retopology while preserving silhouette, material regions, and deferred gear notes.
+- `previous_stage`: retopology
+- `next_stage`: texturing_materials
+- `allowed_tools`: Blender MCP; deterministic UV and baking scripts; validators
+- `disallowed_tools`: rigging; export; unreviewed shape changes
+- `authorized_collections`: ORC_BLOCKOUT
+- `required_outputs`: protected UV working `.blend`; UV validation; baked utility maps; checkpoint bundle
+- `manual_review_required`: yes
+- `input_checkpoint`: `examples/stylized_orc_bruiser/checkpoints/retopology_001`
+- `deferred_notes`: bracers and belt may be resized in a later revision
+- `requires_human_approval`: yes
+- `execution_authorized_by`: repository user
+- `execution_authorized_at`: 2026-07-22

@@ -1,0 +1,15 @@
+{
+  "receipt_version": "0.1.0",
+  "created_at": "2026-07-22T21:02:18.960710+00:00",
+  "asset_id": "stylized_orc_bruiser",
+  "microtask_id": "rig-revision-session-001",
+  "source_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/mcp_sessions/material-variation-session-001/working/stylized_orc_bruiser.material-variation-session-001.working.blend",
+  "backup_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/mcp_sessions/rig-revision-session-001/backups/stylized_orc_bruiser.rig-revision-session-001.before.blend",
+  "working_file": "/home/paul/Desktop/claude_skill/examples/stylized_orc_bruiser/source/mcp_sessions/rig-revision-session-001/working/stylized_orc_bruiser.rig-revision-session-001.working.blend",
+  "source_sha256_before": "996217400b037da0811fa17a0941cb3b93e412eb51c21b36c8d10bd327d750be",
+  "backup_sha256": "996217400b037da0811fa17a0941cb3b93e412eb51c21b36c8d10bd327d750be",
+  "working_sha256_before": "996217400b037da0811fa17a0941cb3b93e412eb51c21b36c8d10bd327d750be",
+  "source_size_bytes": 1053866,
+  "backup_verified": true,
+  "working_copy_verified": true
+}

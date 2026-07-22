@@ -1,5 +1,7 @@
 # Stage Task Card
 
+- `schema_version`: 0.3 for active sessions; omit or retain the existing value for legacy cards
+
 ## Metadata
 
 - `task_id`:
@@ -70,6 +72,23 @@
 - `execution_authorized_at`: none until authorized
 - `risks`:
 - `questions_for_director`:
+
+## Active Edit Session (Schema 0.3)
+
+- `workflow_mode`: active_session | legacy_evidence_tier
+- `session_id`: none until a session is opened
+- `authorized_collections`: none unless `workflow_mode` is active_session
+- `safe_change_types`: absolute_transform; visibility; collection_membership; vertex_positions
+- `max_targets_per_edit`: 6
+- `viewport_preview_policy`: one relevant-angle get_viewport_screenshot; fallback one 512px Eevee render
+- `checkpoint_triggers`: explicit checkpoint; stage transition; scope expansion; structural or destructive work; uncertainty; drift; evidence failure
+- `pipeline_state`: <asset_root>/pipeline_state.json
+- `session_journal`: <asset_root>/mcp_sessions/<session_id>.jsonl
+- `source_file`:
+- `backup_file`:
+- `working_file`:
+- `source_protection_receipt`:
+- `preflight_cache_key`:
 
 ## Completion
 

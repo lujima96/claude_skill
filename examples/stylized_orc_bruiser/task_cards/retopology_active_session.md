@@ -1,0 +1,28 @@
+# Retopology Active Session Task Card
+
+- `schema_version`: 0.3
+- `task_id`: stylized_orc_bruiser-retopology-session-001
+- `asset_id`: stylized_orc_bruiser
+- `stage_id`: retopology
+- `stage_name`: Retopology
+- `status`: approved
+- `goal`: Build a deformation-ready game mesh from the approved clothing-stage character while preserving silhouette and costume placement.
+- `previous_stage`: clothing_hardsurface_hair
+- `next_stage`: uvs_and_baking
+- `allowed_tools`: Blender MCP; deterministic retopology scripts; validators
+- `disallowed_tools`: unreviewed destructive edits; material redesign; rigging; export
+- `authorized_collections`: ORC_BLOCKOUT
+- `safe_change_types`: explicitly approved structural mesh joins for the unified body prototype; topology-preserving transforms for subsequent bounded edits
+- `max_targets_per_edit`: 6
+- `required_outputs`: protected retopology working `.blend`; topology validation; checkpoint bundle
+- `manual_review_required`: yes
+- `hard_failure_checks`: wrong or dirty file; unexpected object drift; missing topology validation; silhouette regression
+- `requires_human_approval`: yes
+- `execution_authorized_by`: repository user
+- `execution_authorized_at`: 2026-07-22
+- `input_checkpoint`: `examples/stylized_orc_bruiser/checkpoints/clothing_hardsurface_hair_001`
+- `input_file`: `examples/stylized_orc_bruiser/source/mcp_sessions/clothing-hardsurface-hair-session-001/working/stylized_orc_bruiser.clothing-hardsurface-hair-session-001.working.blend`
+- `approved_structural_operation`: join `ORC_abdomen`, `ORC_neck`, `ORC_pelvis`, `ORC_pectoral_L`, `ORC_pectoral_R`, and `ORC_ribcage` into `ORC_BODY_RETOPO_CORE`; preserve all costume/accessory objects as separate meshes.
+- `next_approved_structural_operation`: join `ORC_shoulder_L`, `ORC_bicep_L`, `ORC_elbow_L`, `ORC_forearm_L`, `ORC_hand_L`, and `ORC_finger_mass_L` into `ORC_ARM_RETOPO_L`.
+- `following_approved_structural_operation`: join `ORC_shoulder_R`, `ORC_bicep_R`, `ORC_elbow_R`, `ORC_forearm_R`, `ORC_hand_R`, and `ORC_finger_mass_R` into `ORC_ARM_RETOPO_R`.
+- `next_approved_structural_operation`: join `ORC_thigh_L`, `ORC_knee_L`, `ORC_calf_L`, `ORC_ankle_L`, `ORC_foot_L`, and `ORC_toe_block_L` into `ORC_LEG_RETOPO_L`.
